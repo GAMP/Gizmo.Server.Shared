@@ -24,10 +24,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="Resources\package_icon.png">
-			<Pack>True</Pack>
-			<PackagePath></PackagePath>
-		</None>
+		<None Include="Resources\package_icon.png" />
 	</ItemGroup>
 
 </Project>
