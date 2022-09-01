@@ -30,4 +30,8 @@
 		</None>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Gizmo.Shared\Gizmo.Shared.csproj" />
+	</ItemGroup>
+
 </Project>
