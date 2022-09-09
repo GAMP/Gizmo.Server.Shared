@@ -1,6 +1,4 @@
-﻿using Localization;
-
-namespace ServerService.Exceptions
+﻿namespace Gizmo.Server.Exceptions.Errors
 {
     /// <summary>
     /// Fiscal printer error codes.
@@ -61,11 +59,11 @@ namespace ServerService.Exceptions
         /// Partially paid orders not allowed.
         /// </summary>
         [Localized("FISCAL_PRINTER_ERROR_PARTIAL_PAYMENT_NOT_ALLOWED")]
-        PartiallyPaidNotAllowed =10,
+        PartiallyPaidNotAllowed = 10,
         /// <summary>
         /// Mulitple payment methods not allowed.
         /// </summary>
         [Localized("FISCAL_PRINTER_ERROR_MULTIPLE_PAYMENT_METHODS_NOT_ALLOWED")]
-        MultiplePaymentMethodsNotAllowed =11,
+        MultiplePaymentMethodsNotAllowed = 11,
     }
 }

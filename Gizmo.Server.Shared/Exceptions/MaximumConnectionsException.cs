@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace ServerService.Exceptions
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// This exception is thrown when maximum client connections reached.

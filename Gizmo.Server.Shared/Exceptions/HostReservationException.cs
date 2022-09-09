@@ -1,4 +1,5 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Shared.Exceptions;
 using System;
 using System.Runtime.Serialization;
 

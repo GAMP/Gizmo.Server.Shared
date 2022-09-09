@@ -1,8 +1,9 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Shared.Exceptions;
 using System;
 using System.Runtime.Serialization;
 
-namespace ServerService.Exceptions
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Waiting line exception.

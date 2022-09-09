@@ -1,4 +1,4 @@
-﻿namespace ServerService
+﻿namespace Gizmo.Server.Exceptions.Errors
 {
     /// <summary>
     /// User group error codes.

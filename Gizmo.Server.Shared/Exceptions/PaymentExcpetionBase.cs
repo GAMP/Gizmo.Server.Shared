@@ -2,7 +2,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace ServerService.Exceptions
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Payment exception base class.

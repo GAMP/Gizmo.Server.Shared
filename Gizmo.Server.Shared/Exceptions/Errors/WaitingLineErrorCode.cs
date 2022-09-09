@@ -1,6 +1,4 @@
-﻿using Localization;
-
-namespace ServerService
+﻿namespace Gizmo.Server.Exceptions.Errors
 {
     /// <summary>
     /// Waiting line error codes.

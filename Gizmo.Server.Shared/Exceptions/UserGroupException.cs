@@ -1,6 +1,7 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Shared.Exceptions;
 
-namespace ServerService.Exceptions
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// User group exception.

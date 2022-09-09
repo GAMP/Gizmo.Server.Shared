@@ -1,4 +1,4 @@
-﻿namespace ServerService
+﻿namespace Gizmo.Server.Exceptions.Errors
 {
     /// <summary>
     /// Invoice error codes.

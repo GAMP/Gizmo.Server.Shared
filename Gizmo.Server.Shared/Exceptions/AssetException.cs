@@ -1,14 +1,18 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Server.Exceptions.Attributes;
+using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Server.Web.Api;
+using Gizmo.Shared.Exceptions;
 using System;
 using System.Runtime.Serialization;
 
-namespace ServerService.Exceptions
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Asset exception.
     /// </summary>
     [Serializable()]
     [DataContract()]
+    [ExceptionFilterCode(WebApiErrorCode.Asset)]
     public class AssetException : ErrorCodeExceptionBase<AssetErrorCode>
     {
         #region CONSTRUCTOR

@@ -1,4 +1,4 @@
-﻿using ServerService;
+﻿using Gizmo.Server.Exceptions.Errors;
 using System;
 using System.Collections.Generic;
 
