@@ -1,5 +1,6 @@
-﻿using Gizmo.Server.Exceptions.Errors;
-using System;
+﻿using Gizmo.Server.Exceptions.Attributes;
+using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Server.Web.Api;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -9,6 +10,7 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [DataContract()]
     [Serializable()]
+    [ExceptionFilterCode(WebApiErrorCode.Payment)]
     public class PaymentException : PaymentExcpetionBase<PaymentErrorCode>
     {
         #region CONSTRUCTOR

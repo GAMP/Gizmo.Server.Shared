@@ -1,6 +1,7 @@
-﻿using Gizmo.Server.Exceptions.Errors;
+﻿using Gizmo.Server.Exceptions.Attributes;
+using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Server.Web.Api;
 using Gizmo.Shared.Exceptions;
-using System;
 using System.Runtime.Serialization;
 
 namespace ServerService.Exceptions
@@ -10,6 +11,7 @@ namespace ServerService.Exceptions
     /// </summary>
     [DataContract()]
     [Serializable()]
+    [ExceptionFilterCode(WebApiErrorCode.Deposit)]
     public class DepositException : ErrorCodeExceptionBase<DepositErrorCode>
     {
         #region CONSTRUCTOR

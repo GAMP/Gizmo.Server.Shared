@@ -1,4 +1,6 @@
-﻿using Gizmo.Server.Exceptions.Errors;
+﻿using Gizmo.Server.Exceptions.Attributes;
+using Gizmo.Server.Exceptions.Errors;
+using Gizmo.Server.Web.Api;
 using Gizmo.Shared.Exceptions;
 
 namespace Gizmo.Server.Exceptions
@@ -6,6 +8,7 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// Product exception.
     /// </summary>
+    [ExceptionFilterCode(WebApiErrorCode.Product)]
     public class ProductException : ErrorCodeExceptionBase<ProductErrorCode>
     {
         #region CONSTRUCTOR
