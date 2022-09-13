@@ -16,7 +16,7 @@ namespace Gizmo.Server.Exceptions
         /// <param name="message">Exception message.</param>
         public InvalidPropertyException(string propertyName, string message) : base(message)
         {
-            this._propertyName = propertyName;
+            _propertyName = propertyName;
         } 
         #endregion
 
@@ -37,6 +37,6 @@ namespace Gizmo.Server.Exceptions
             }
         } 
 
-        #endregion
+        #endregion       
     }
 }

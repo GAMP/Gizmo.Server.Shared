@@ -5,7 +5,7 @@
     /// </summary>
     /// <typeparam name="TEntityType">Entity type.</typeparam>
     /// <typeparam name="TReferenceEntityType">Entity reference type.</typeparam>
-    public abstract class EntityReferenceExceptionBase<TEntityType, TReferenceEntityType> : EntityExceptionBase<TEntityType> 
+    public abstract class EntityReferenceExceptionBase<TEntityType, TReferenceEntityType> : EntityKeyExceptionBase<TEntityType> 
     {
         #region CONSTRUCTOR
         

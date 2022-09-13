@@ -4,7 +4,7 @@
     /// Entity exception base.
     /// </summary>
     /// <typeparam name="TEntityType">Entity type.</typeparam>
-    public abstract class EntityExceptionBase<TEntityType> : Exception
+    public abstract class EntityKeyExceptionBase<TEntityType> : EntityTypeExceptionBase<TEntityType>
     {
         #region CONSTRUCTOR
 
@@ -12,9 +12,8 @@
         /// Creates new instance.
         /// </summary>
         /// <param name="entityKey">Entity key.</param>
-        public EntityExceptionBase(int entityKey)
-        {
-            EntityType = typeof(TEntityType);
+        public EntityKeyExceptionBase(int entityKey):base()
+        {            
             EntityKey = entityKey;
         }
 
@@ -23,9 +22,8 @@
         /// </summary>
         /// <param name="entityKey">Entity key.</param>
         /// <param name="message">Exception message.</param>
-        public EntityExceptionBase(int entityKey,string message):base(message)
+        public EntityKeyExceptionBase(int entityKey,string message):base(message)
         {
-            EntityType = typeof(TEntityType);
             EntityKey = entityKey;
         }
 
@@ -33,23 +31,14 @@
         /// Creates new instance.
         /// </summary>
         /// <param name="keys">Entity keys.</param>
-        public EntityExceptionBase(object[] keys)
+        public EntityKeyExceptionBase(object[] keys):base()
         {
-            EntityType = typeof(TEntityType);
             EntityKeys = keys;
         } 
 
         #endregion
 
         #region PROPERTIES
-
-        /// <summary>
-        /// Gets entity type.
-        /// </summary>
-        public Type EntityType
-        {
-            get; protected set;
-        }
 
         /// <summary>
         /// Gets entity key.

@@ -6,7 +6,7 @@ namespace Gizmo.Server.Exceptions
     /// Entity in use exception.
     /// </summary>
     [ExceptionFilterCode(WebApiErrorCode.EntityInUse)]
-    public class EntityInUseException<TEntityType> : EntityExceptionBase<TEntityType>
+    public class EntityInUseException<TEntityType> : EntityKeyExceptionBase<TEntityType>
     {
         #region CONSTRUCTOR
 
