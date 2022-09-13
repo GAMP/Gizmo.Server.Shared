@@ -1,6 +1,6 @@
 ﻿namespace Gizmo.Server.Exceptions
 {
-    public class EntityReferenceException : EntityException
+    public abstract class EntityReferenceException : EntityException
     {
         public EntityReferenceException(int entityKey, Type entityType, int referenceEntityKey, Type referenceEntityType) : base(entityKey, entityType)
         {
@@ -45,7 +45,7 @@
         #endregion
     }
 
-    public class EntityReferenceException<TEntityType, TReferenceEntityType> : EntityReferenceException
+    public abstract class EntityReferenceException<TEntityType, TReferenceEntityType> : EntityReferenceException
     {
         public EntityReferenceException(int entityKey,int referenceEntityKey):base(entityKey,typeof(TEntityType), referenceEntityKey, typeof(TReferenceEntityType))
         {

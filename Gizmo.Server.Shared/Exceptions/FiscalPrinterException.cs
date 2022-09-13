@@ -8,6 +8,7 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [DataContract()]
+    [ExceptionFilterCode(Web.Api.WebApiErrorCode.FiscalPrinter)]
     public class FiscalPrinterException : ErrorCodeExceptionBase<FiscalPrinterErrorCodes>
     {
         #region CONSTRUCTOR
