@@ -1,19 +1,28 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using Gizmo.Server.Web.Api;
+
+namespace Gizmo.Server.Exceptions
 {
-    public class EntityNotReferencedException : EntityReferenceException
+    /// <summary>
+    /// Entity not referenced exception.
+    /// </summary>
+    /// <typeparam name="TEntityType">Entity type.</typeparam>
+    /// <typeparam name="TReferenceEntityType">Reference entity type.</typeparam>
+    [ExceptionFilterCode(WebApiErrorCode.EntityNotReferenced)]
+    public class EntityNotReferencedException<TEntityType,TReferenceEntityType> : EntityReferenceExceptionBase<TEntityType,TReferenceEntityType>
     {
-        public EntityNotReferencedException(int entityKey, Type entityType, int referenceEntityKey, Type referenceEntityType) : base(entityKey, entityType, referenceEntityKey, referenceEntityType) { }
-
-        public EntityNotReferencedException(int entityKey, Type entityType, int referenceEntityKey, Type referenceEntityType, string message) : base(entityKey, entityType, referenceEntityKey, referenceEntityType, message) { }
-    }
-
-    public class EntityNotReferencedException<TEntityType,TReferenceEntityType> : EntityNotReferencedException
-    {
-        public EntityNotReferencedException(int entityKey,int referenceKey):base(entityKey,typeof(TEntityType),referenceKey,typeof(TReferenceEntityType))
+        #region CONSTRUCTOR
+        /// <summary>
+        /// Creates new instance.
+        /// </summary>
+        /// <param name="entityKey">Entity key.</param>
+        /// <param name="referenceKey">Reference entity key.</param>
+        public EntityNotReferencedException(int entityKey, int referenceKey) : base(entityKey, referenceKey)
         {
-
         }
+        #endregion
+
+        #region OVERRIDES
+        public override string Message => $"Specified entity {EntityType} with id {EntityKey} is not referenced by entity {ReferenceEntityType} with id {ReferenceEntityKey}."; 
+        #endregion
     }
-
-
 }

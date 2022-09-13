@@ -1,17 +1,28 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using Gizmo.Server.Web.Api;
+
+namespace Gizmo.Server.Exceptions
 {
-    public class EntityAlreadyReferencedException : EntityReferenceException
+    /// <summary>
+    /// Entity already referenced exception.
+    /// </summary>
+    /// <typeparam name="TEntityType">Entity type.</typeparam>
+    /// <typeparam name="TEntityReferenceType">Reference entity type.</typeparam>
+    [ExceptionFilterCode(WebApiErrorCode.EntityAlreadyReferenced)]
+    public class EntityAlreadyReferencedException<TEntityType, TEntityReferenceType> : EntityReferenceExceptionBase<TEntityType, TEntityReferenceType>
     {
-        public EntityAlreadyReferencedException(int entityKey, Type entityType, int referenceEntityKey, Type referenceEntityType) : base(entityKey, entityType, referenceEntityKey, referenceEntityType) { }
-
-        public EntityAlreadyReferencedException(int entityKey, Type entityType, int referenceEntityKey, Type referenceEntityType, string message) : base(entityKey, entityType, referenceEntityKey, referenceEntityType, message) { }
-    }
-
-    public class EntityAlreadyReferencedException<TEntityType, TEntityReferenceType> : EntityReferenceException
-    {
-        public EntityAlreadyReferencedException(int entityKey, int referenceEntityKey) : base(entityKey, typeof(TEntityType), referenceEntityKey, typeof(TEntityReferenceType))
+        #region CONSTRUCTOR
+        /// <summary>
+        /// Creates new instance.
+        /// </summary>
+        /// <param name="entityKey">Entity key.</param>
+        /// <param name="referenceEntityKey">Reference entity key.</param>
+        public EntityAlreadyReferencedException(int entityKey, int referenceEntityKey) : base(entityKey, referenceEntityKey)
         {
-
         }
+        #endregion
+
+        #region OVERRIDES
+        public override string Message => $"Specified entity {EntityType} with id {EntityKey} is already referenced by entity {ReferenceEntityType} with id {ReferenceEntityKey}."; 
+        #endregion
     }
 }

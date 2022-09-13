@@ -1,4 +1,5 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Server.Web.Api;
+using Gizmo.Shared.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,7 +9,7 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [DataContract()]
-    [ExceptionFilterCode(Web.Api.WebApiErrorCode.FiscalPrinter)]
+    [ExceptionFilterCode(WebApiErrorCode.FiscalPrinter)]
     public class FiscalPrinterException : ErrorCodeExceptionBase<FiscalPrinterErrorCodes>
     {
         #region CONSTRUCTOR
