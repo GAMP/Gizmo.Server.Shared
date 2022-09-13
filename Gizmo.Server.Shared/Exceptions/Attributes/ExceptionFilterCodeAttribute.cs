@@ -1,6 +1,6 @@
 ﻿using Gizmo.Server.Web.Api;
 
-namespace Gizmo.Server.Exceptions.Attributes
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Attribute used to map exceptions to known web api error code.

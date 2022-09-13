@@ -1,4 +1,4 @@
-﻿namespace Gizmo.Server.Exceptions.Errors
+﻿namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Payment error codes.

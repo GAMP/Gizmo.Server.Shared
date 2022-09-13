@@ -1,6 +1,4 @@
-﻿using Gizmo.Server.Exceptions.Attributes;
-using Gizmo.Server.Exceptions.Errors;
-using Gizmo.Server.Web.Api;
+﻿using Gizmo.Server.Web.Api;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions

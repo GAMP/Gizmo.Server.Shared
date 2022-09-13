@@ -1,10 +1,8 @@
-﻿using Gizmo.Server.Exceptions.Attributes;
-using Gizmo.Server.Exceptions.Errors;
-using Gizmo.Server.Web.Api;
+﻿using Gizmo.Server.Web.Api;
 using Gizmo.Shared.Exceptions;
 using System.Runtime.Serialization;
 
-namespace ServerService.Exceptions
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Host reservation exception.
