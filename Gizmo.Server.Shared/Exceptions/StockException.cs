@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(WebApiErrorCode.Stock)]
-    public class StockException : ErrorCodeExceptionBase<StockErrorCodes>
+    public class StockException : ErrorCodeExceptionBase<StockExceptionErrorCodes>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public StockException(StockErrorCodes errorCode) : base(errorCode)
+        public StockException(StockExceptionErrorCodes errorCode) : base(errorCode)
         {
         }
 

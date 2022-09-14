@@ -1,12 +1,12 @@
 ﻿namespace Gizmo.Server.Exceptions
 {
     /// <summary>
-    /// Product error codes.
+    /// User group error codes.
     /// </summary>
-    public enum ProductErrorCode
+    public enum UserGroupExceptionErrorCode
     {
         /// <summary>
-        /// Set when we try to perform an action on the wrong type of product.
+        /// Set when we try to perform an action on the wrong type of user group.
         /// </summary>
         InvalidType = 0,
     }

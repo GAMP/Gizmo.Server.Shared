@@ -3,7 +3,7 @@
     /// <summary>
     /// Points transaction error codes.
     /// </summary>
-    public enum PointTransactionErrorCode
+    public enum PointTransactionExceptionErrorCode
     {
         /// <summary>
         /// Unspecified.

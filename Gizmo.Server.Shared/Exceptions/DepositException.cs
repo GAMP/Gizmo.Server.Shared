@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(WebApiErrorCode.Deposit)]
-    public class DepositException : ErrorCodeExceptionBase<DepositErrorCode>
+    public class DepositException : ErrorCodeExceptionBase<DepositExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public DepositException(DepositErrorCode errorCode) : base(errorCode)
+        public DepositException(DepositExceptionErrorCode errorCode) : base(errorCode)
         {
         }
 

@@ -7,7 +7,7 @@ namespace Gizmo.Server.Exceptions
     /// Product exception.
     /// </summary>
     [ExceptionFilterCode(WebApiErrorCode.Product)]
-    public class ProductException : ErrorCodeExceptionBase<ProductErrorCode>
+    public class ProductException : ErrorCodeExceptionBase<ProductExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -15,7 +15,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public ProductException(ProductErrorCode errorCode) : base(errorCode)
+        public ProductException(ProductExceptionErrorCode errorCode) : base(errorCode)
         {
         }
 

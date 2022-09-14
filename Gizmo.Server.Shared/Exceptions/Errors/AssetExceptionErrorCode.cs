@@ -3,7 +3,7 @@
     /// <summary>
     /// Asset error code.
     /// </summary>
-    public enum AssetErrorCode
+    public enum AssetExceptionErrorCode
     {
         /// <summary>
         /// Not checked in.

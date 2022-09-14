@@ -3,7 +3,7 @@
     /// <summary>
     /// Invoice payment error code.
     /// </summary>
-    public enum InvoicePaymentErrorCode
+    public enum InvoicePaymentExceptionErrorCode
     {
         /// <summary>
         /// Set on unspecified error.

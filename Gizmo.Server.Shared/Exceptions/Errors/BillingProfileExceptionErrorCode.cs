@@ -3,7 +3,7 @@
     /// <summary>
     /// Billing profile error codes.
     /// </summary>
-    public enum BillingProfileErrorCode
+    public enum BillingProfileExceptionErrorCode
     {
         /// <summary>
         /// Set when we try to create a rate step to an invalid minute.

@@ -3,7 +3,7 @@
     /// <summary>
     /// Stock error codes.
     /// </summary>
-    public enum StockErrorCodes
+    public enum StockExceptionErrorCodes
     {
         /// <summary>
         /// Unspecified.

@@ -3,7 +3,7 @@
     /// <summary>
     /// Reservation error codes.
     /// </summary>
-    public enum ReservationErrorCode
+    public enum ReservationExceptionErrorCode
     {
         /// <summary>
         /// Entry already added to reservation.

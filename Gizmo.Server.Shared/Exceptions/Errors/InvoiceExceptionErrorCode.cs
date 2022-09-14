@@ -3,7 +3,7 @@
     /// <summary>
     /// Invoice error codes.
     /// </summary>
-    public enum InvoiceErrorCode
+    public enum InvoiceExceptionErrorCode
     {
         /// <summary>
         /// Set when invoice status is already set to paid and we try to execute a payment on it.

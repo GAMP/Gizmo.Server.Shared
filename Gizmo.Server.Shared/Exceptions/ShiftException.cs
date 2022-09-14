@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [Serializable()]
     [DataContract()]
     [ExceptionFilterCode(WebApiErrorCode.Shift)]
-    public class ShiftException : ErrorCodeExceptionBase<ShiftErrorCode>
+    public class ShiftException : ErrorCodeExceptionBase<ShiftExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public ShiftException(ShiftErrorCode errorCode) : base(errorCode)
+        public ShiftException(ShiftExceptionErrorCode errorCode) : base(errorCode)
         { }
 
         /// <summary>

@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [Serializable()]
     [DataContract()]
     [ExceptionFilterCode(WebApiErrorCode.WaitingLine)]
-    public class WaitingLineException : ErrorCodeExceptionBase<WaitingLineErrorCode>
+    public class WaitingLineException : ErrorCodeExceptionBase<WaitingLineExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="code">Error code.</param>
-        public WaitingLineException(WaitingLineErrorCode code) : base(code)
+        public WaitingLineException(WaitingLineExceptionErrorCode code) : base(code)
         { }
 
         /// <summary>

@@ -9,7 +9,7 @@ namespace Gizmo.Server.Exceptions
     [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(WebApiErrorCode.InvoicePayment)]
-    public class InvoicePaymentExcpetion : PaymentExcpetionBase<InvoicePaymentErrorCode>
+    public class InvoicePaymentExcpetion : PaymentExcpetionBase<InvoicePaymentExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// </summary>
         /// <param name="errorCode">Error code.</param>
         /// <param name="paymentMethodId">Payment method id.</param>
-        public InvoicePaymentExcpetion(InvoicePaymentErrorCode errorCode, int paymentMethodId)
+        public InvoicePaymentExcpetion(InvoicePaymentExceptionErrorCode errorCode, int paymentMethodId)
             : base(errorCode, paymentMethodId)
         { }
 
@@ -26,7 +26,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public InvoicePaymentExcpetion(InvoicePaymentErrorCode errorCode) : base(errorCode)
+        public InvoicePaymentExcpetion(InvoicePaymentExceptionErrorCode errorCode) : base(errorCode)
         { }
 
         /// <summary>

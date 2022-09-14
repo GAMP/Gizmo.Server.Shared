@@ -3,7 +3,7 @@
     /// <summary>
     /// Payment error codes.
     /// </summary>
-    public enum PaymentErrorCode
+    public enum PaymentExceptionErrorCode
     {
         /// <summary>
         /// Set on unspecified error.

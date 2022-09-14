@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(WebApiErrorCode.Invoice)]
-    public class InvoiceException : ErrorCodeExceptionBase<InvoiceErrorCode>
+    public class InvoiceException : ErrorCodeExceptionBase<InvoiceExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public InvoiceException(InvoiceErrorCode errorCode) : base(errorCode)
+        public InvoiceException(InvoiceExceptionErrorCode errorCode) : base(errorCode)
         {
         }
 

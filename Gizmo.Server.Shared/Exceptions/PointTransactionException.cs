@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(WebApiErrorCode.Points)]
-    public class PointTransactionException : ErrorCodeExceptionBase<PointTransactionErrorCode>
+    public class PointTransactionException : ErrorCodeExceptionBase<PointTransactionExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public PointTransactionException(PointTransactionErrorCode errorCode) : base(errorCode)
+        public PointTransactionException(PointTransactionExceptionErrorCode errorCode) : base(errorCode)
         {
         }
 

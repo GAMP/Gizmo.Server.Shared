@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [Serializable()]
     [DataContract()]
     [ExceptionFilterCode(WebApiErrorCode.Asset)]
-    public class AssetException : ErrorCodeExceptionBase<AssetErrorCode>
+    public class AssetException : ErrorCodeExceptionBase<AssetExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public AssetException(AssetErrorCode errorCode) : base(errorCode)
+        public AssetException(AssetExceptionErrorCode errorCode) : base(errorCode)
         { }
 
         /// <summary>

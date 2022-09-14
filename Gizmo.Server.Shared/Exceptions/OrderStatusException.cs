@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(WebApiErrorCode.OrderStatus)]
-    public class OrderStatusException : ErrorCodeExceptionBase<OrderStatusErrorCode>
+    public class OrderStatusException : ErrorCodeExceptionBase<OrderStatusExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public OrderStatusException(OrderStatusErrorCode errorCode) : base(errorCode)
+        public OrderStatusException(OrderStatusExceptionErrorCode errorCode) : base(errorCode)
         { }
 
         /// <summary>

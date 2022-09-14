@@ -3,7 +3,7 @@
     /// <summary>
     /// Shift error codes.
     /// </summary>
-    public enum ShiftErrorCode
+    public enum ShiftExceptionErrorCode
     {
         /// <summary>
         /// No active shift.

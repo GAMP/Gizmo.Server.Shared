@@ -3,7 +3,7 @@
     /// <summary>
     /// Deposit transactions error codes.
     /// </summary>
-    public enum DepositErrorCode
+    public enum DepositExceptionErrorCode
     {
         /// <summary>
         /// Unspecified.

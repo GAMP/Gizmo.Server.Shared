@@ -3,7 +3,7 @@
     /// <summary>
     /// Waiting line error codes.
     /// </summary>
-    public enum WaitingLineErrorCode
+    public enum WaitingLineExceptionErrorCode
     {
         /// <summary>
         /// Already in waiting line.

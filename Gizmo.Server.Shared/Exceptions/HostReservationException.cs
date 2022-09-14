@@ -10,7 +10,7 @@ namespace Gizmo.Server.Exceptions
     [Serializable]
     [DataContract()]
     [ExceptionFilterCode(WebApiErrorCode.HostReservation)]
-    public class HostReservationException : ErrorCodeExceptionBase<ReservationErrorCode>
+    public class HostReservationException : ErrorCodeExceptionBase<ReservationExceptionErrorCode>
     {
         #region CONSTRUCTOR
      
@@ -18,7 +18,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Reservation error code.</param>
-        public HostReservationException(ReservationErrorCode errorCode) : base(errorCode)
+        public HostReservationException(ReservationExceptionErrorCode errorCode) : base(errorCode)
         { }
 
         /// <summary>

@@ -7,7 +7,7 @@ namespace Gizmo.Server.Exceptions
     /// User group exception.
     /// </summary>
     [ExceptionFilterCode(WebApiErrorCode.UserGroup)]
-    public class UserGroupException : ErrorCodeExceptionBase<UserGroupErrorCode>
+    public class UserGroupException : ErrorCodeExceptionBase<UserGroupExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
@@ -15,7 +15,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public UserGroupException(UserGroupErrorCode errorCode) : base(errorCode)
+        public UserGroupException(UserGroupExceptionErrorCode errorCode) : base(errorCode)
         {
         }
 

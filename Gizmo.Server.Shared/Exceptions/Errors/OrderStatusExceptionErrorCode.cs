@@ -3,7 +3,7 @@
     /// <summary>
     /// Order status error codes.
     /// </summary>
-    public enum OrderStatusErrorCode
+    public enum OrderStatusExceptionErrorCode
     {
         /// <summary>
         /// Unspecified.
