@@ -3,7 +3,7 @@
     /// <summary>
     /// Fiscal printer error codes.
     /// </summary>
-    public enum FiscalPrinterExceptionErrorCodes
+    public enum FiscalPrinterExceptionErrorCode
     {
         /// <summary>
         /// Fiscal printer is not connected.
