@@ -10,16 +10,16 @@ namespace Gizmo.Server.Exceptions
     [Serializable()]
     [DataContract()]
     [ExceptionFilterCode(WebApiErrorCode.FiscalPrinter)]
-    public class FiscalPrinterException : ErrorCodeExceptionBase<FiscalPrinterExceptionErrorCodes>
+    public class FiscalPrinterException : ErrorCodeExceptionBase<FiscalPrinterExceptionErrorCode>
     {
         #region CONSTRUCTOR
 
-        public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCodes errorCode, int? pritnerOrDrieverErrorCode) : base(message, errorCode)
+        public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCode errorCode, int? pritnerOrDrieverErrorCode) : base(message, errorCode)
         {
             PrinterOrDriverErrorCode = pritnerOrDrieverErrorCode;
         }
 
-        public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCodes errorCode) : base(message, errorCode)
+        public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCode errorCode) : base(message, errorCode)
         {
         }
 
@@ -27,7 +27,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public FiscalPrinterException(FiscalPrinterExceptionErrorCodes errorCode) : base(errorCode)
+        public FiscalPrinterException(FiscalPrinterExceptionErrorCode errorCode) : base(errorCode)
         { }
 
         /// <summary>
