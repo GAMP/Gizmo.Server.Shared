@@ -27,4 +27,8 @@
 		<None Include="Resources\package_icon.png" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Gizmo.Shared\Gizmo.Shared.csproj" />
+	</ItemGroup>
+
 </Project>
