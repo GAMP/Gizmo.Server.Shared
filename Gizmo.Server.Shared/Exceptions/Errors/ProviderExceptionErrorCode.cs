@@ -13,5 +13,9 @@
         /// Payment provider does not have an option type associated with it.
         /// </summary>
         NoOptions = 1,
+        /// <summary>
+        /// The type provided is invalid or cant be loaded.
+        /// </summary>
+        InvalidType=2,
     }
 }
