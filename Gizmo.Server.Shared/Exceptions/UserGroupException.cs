@@ -1,12 +1,11 @@
-﻿using Gizmo.Server.Web.Api;
-using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Shared.Exceptions;
 
 namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// User group exception.
     /// </summary>
-    [ExceptionFilterCode(WebApiErrorCode.UserGroup)]
+    [ExceptionFilterCode(ExceptionCode.UserGroup)]
     public class UserGroupException : ErrorCodeExceptionBase<UserGroupExceptionErrorCode>
     {
         #region CONSTRUCTOR

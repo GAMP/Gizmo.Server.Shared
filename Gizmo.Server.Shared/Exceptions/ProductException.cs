@@ -1,12 +1,11 @@
-﻿using Gizmo.Server.Web.Api;
-using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Shared.Exceptions;
 
 namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Product exception.
     /// </summary>
-    [ExceptionFilterCode(WebApiErrorCode.Product)]
+    [ExceptionFilterCode(ExceptionCode.Product)]
     public class ProductException : ErrorCodeExceptionBase<ProductExceptionErrorCode>
     {
         #region CONSTRUCTOR

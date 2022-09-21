@@ -5,7 +5,7 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// Payment provider exception.
     /// </summary>
-    [ExceptionFilterCode(Web.Api.WebApiErrorCode.PaymentProvider)]
+    [ExceptionFilterCode(ExceptionCode.PaymentProvider)]
     public sealed class ProviderException : ErrorCodeExceptionBase<ProviderExceptionErrorCode>
     {
         #region CONSTRUCTOR

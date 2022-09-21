@@ -1,13 +1,11 @@
-﻿using Gizmo.Server.Web.Api;
-
-namespace Gizmo.Server.Exceptions
+﻿namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Entity already referenced exception.
     /// </summary>
     /// <typeparam name="TEntityType">Entity type.</typeparam>
     /// <typeparam name="TEntityReferenceType">Reference entity type.</typeparam>
-    [ExceptionFilterCode(WebApiErrorCode.EntityAlreadyReferenced)]
+    [ExceptionFilterCode(ExceptionCode.EntityAlreadyReferenced)]
     public class EntityAlreadyReferencedException<TEntityType, TEntityReferenceType> : EntityReferenceExceptionBase<TEntityType, TEntityReferenceType>
     {
         #region CONSTRUCTOR

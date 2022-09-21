@@ -5,7 +5,7 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// Payment request creation exception.
     /// </summary>
-    [ExceptionFilterCode(Web.Api.WebApiErrorCode.PaymentRequest)]
+    [ExceptionFilterCode(ExceptionCode.PaymentRequest)]
     public sealed class PaymentRequestException : ErrorCodeExceptionBase<PaymentRequestExceptionErrorCode>
     {
         #region CONSTRUCTOR

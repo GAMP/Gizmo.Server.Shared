@@ -1,5 +1,4 @@
-﻿using Gizmo.Server.Web.Api;
-using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Shared.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -9,7 +8,7 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [DataContract()]
-    [ExceptionFilterCode(WebApiErrorCode.WaitingLine)]
+    [ExceptionFilterCode(ExceptionCode.WaitingLine)]
     public class WaitingLineException : ErrorCodeExceptionBase<WaitingLineExceptionErrorCode>
     {
         #region CONSTRUCTOR

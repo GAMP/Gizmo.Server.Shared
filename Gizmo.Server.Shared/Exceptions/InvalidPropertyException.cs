@@ -1,11 +1,9 @@
-﻿using Gizmo.Server.Web.Api;
-
-namespace Gizmo.Server.Exceptions
+﻿namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Invalid property excpeption.
     /// </summary>
-    [ExceptionFilterCode(WebApiErrorCode.InvalidProperty)]
+    [ExceptionFilterCode(ExceptionCode.InvalidProperty)]
     public class InvalidPropertyException : Exception
     {
         #region CONSTRUCTOR

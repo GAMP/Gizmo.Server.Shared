@@ -1,13 +1,11 @@
-﻿using Gizmo.Server.Web.Api;
-
-namespace Gizmo.Server.Exceptions
+﻿namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Entity not referenced exception.
     /// </summary>
     /// <typeparam name="TEntityType">Entity type.</typeparam>
     /// <typeparam name="TReferenceEntityType">Reference entity type.</typeparam>
-    [ExceptionFilterCode(WebApiErrorCode.EntityNotReferenced)]
+    [ExceptionFilterCode(ExceptionCode.EntityNotReferenced)]
     public class EntityNotReferencedException<TEntityType,TReferenceEntityType> : EntityReferenceExceptionBase<TEntityType,TReferenceEntityType>
     {
         #region CONSTRUCTOR

@@ -1,5 +1,4 @@
-﻿using Gizmo.Server.Web.Api;
-using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Shared.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -9,7 +8,7 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [DataContract()]
     [Serializable()]
-    [ExceptionFilterCode(WebApiErrorCode.Invoice)]
+    [ExceptionFilterCode(ExceptionCode.Invoice)]
     public class InvoiceException : ErrorCodeExceptionBase<InvoiceExceptionErrorCode>
     {
         #region CONSTRUCTOR
