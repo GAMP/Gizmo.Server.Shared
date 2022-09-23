@@ -3,9 +3,9 @@
 namespace Gizmo.Server.Exceptions
 {
     /// <summary>
-    /// Payment provider exception.
+    /// Provider exception.
     /// </summary>
-    [ExceptionFilterCode(ExceptionCode.PaymentProvider)]
+    [ExceptionFilterCode(ExceptionCode.Provider)]
     public sealed class ProviderException : ErrorCodeExceptionBase<ProviderExceptionErrorCode>
     {
         #region CONSTRUCTOR

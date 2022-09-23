@@ -6,11 +6,11 @@
     public enum ProviderExceptionErrorCode
     {
         /// <summary>
-        /// Payment provider not found.
+        /// Provider not found.
         /// </summary>
         NotFound = 0,
         /// <summary>
-        /// Payment provider does not have an option type associated with it.
+        /// Provider does not have an option type associated with it.
         /// </summary>
         NoOptions = 1,
         /// <summary>
