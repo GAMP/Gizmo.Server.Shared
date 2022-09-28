@@ -31,4 +31,10 @@
 	  <ProjectReference Include="..\..\Gizmo.Shared\Gizmo.Shared.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Services\Enumerations\" />
+	</ItemGroup>
+
+	
+
 </Project>
