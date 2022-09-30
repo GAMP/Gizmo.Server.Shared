@@ -32,7 +32,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\Enumerations\" />
+	  <Folder Include="Services\Repositories\Enumerations\" />
+	  <Folder Include="Services\Repositories\Models\" />
 	</ItemGroup>
 
 	
