@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace Gizmo.Server.Services
+﻿namespace Gizmo.Server.Services
 {
     /// <summary>
     /// Razor view renderer service.
