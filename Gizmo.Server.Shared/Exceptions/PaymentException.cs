@@ -5,7 +5,6 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// Payment exception.
     /// </summary>
-    [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.Payment)]
     public class PaymentException : PaymentExcpetionBase<PaymentExceptionErrorCode>

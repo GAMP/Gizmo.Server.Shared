@@ -1,4 +1,4 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -7,7 +7,6 @@ namespace Gizmo.Server.Exceptions
     /// Billing profile exception.
     /// </summary>
     [Serializable()]
-    [DataContract()]
     [ExceptionFilterCode(ExceptionCode.BillingProfile)]
     public class BillingProfileException : ErrorCodeExceptionBase<BillingProfileExceptionErrorCode>
     {

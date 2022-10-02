@@ -1,4 +1,4 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -6,7 +6,6 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// Points transaction exception.
     /// </summary>
-    [DataContract()]
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.Points)]
     public class PointTransactionException : ErrorCodeExceptionBase<PointTransactionExceptionErrorCode>

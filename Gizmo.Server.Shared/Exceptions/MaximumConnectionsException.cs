@@ -6,7 +6,6 @@ namespace Gizmo.Server.Exceptions
     /// This exception is thrown when maximum client connections reached.
     /// </summary>
     [Serializable]
-    [DataContract()]
     public class MaximumConnectionsException : Exception
     {
         #region CONSTRUCTOR

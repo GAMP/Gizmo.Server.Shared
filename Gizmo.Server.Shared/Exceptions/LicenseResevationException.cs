@@ -5,7 +5,6 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// License reservation exception.
     /// </summary>
-    [DataContract()]
     [Serializable()]
     public class LicenseResevationException : Exception
     {

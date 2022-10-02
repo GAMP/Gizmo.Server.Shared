@@ -1,4 +1,4 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Exceptions;
 
 namespace Gizmo.Server.Exceptions
 {

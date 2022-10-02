@@ -1,4 +1,4 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -7,7 +7,6 @@ namespace Gizmo.Server.Exceptions
     /// Host reservation exception.
     /// </summary>
     [Serializable]
-    [DataContract()]
     [ExceptionFilterCode(ExceptionCode.HostReservation)]
     public class HostReservationException : ErrorCodeExceptionBase<ReservationExceptionErrorCode>
     {

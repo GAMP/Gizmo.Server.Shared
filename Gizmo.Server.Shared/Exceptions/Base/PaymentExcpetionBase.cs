@@ -1,4 +1,4 @@
-﻿using Gizmo.Shared.Exceptions;
+﻿using Gizmo.Exceptions;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,7 +8,6 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     /// <typeparam name="TErrorCode">Payment error code tyepe.</typeparam>
     [Serializable()]
-    [DataContract()]
     public abstract class PaymentExcpetionBase<TErrorCode> : ErrorCodeExceptionBase<TErrorCode> where TErrorCode : Enum
     {
         #region CONSTRUCTOR
