@@ -1,8 +1,5 @@
 ﻿#nullable enable
 
-using System.Threading;
-using System.Threading.Tasks;
-
 namespace Gizmo.Server.Services
 {
     /// <summary>
@@ -17,7 +14,7 @@ namespace Gizmo.Server.Services
         /// </summary>
         /// <param name="titleTemplate">Title template type.</param>
         /// <returns>Title template.</returns>
-        string? GetTitleTemplate(TitleTemplate titleTemplate);
+        string GetTitleTemplate(TitleTemplate titleTemplate);
 
         /// <summary>
         /// Gets HTML rendered view template contents.
