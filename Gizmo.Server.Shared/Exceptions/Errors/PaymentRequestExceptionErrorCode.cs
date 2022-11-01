@@ -28,6 +28,6 @@
         /// <summary>
         /// External host is not valid.
         /// </summary>
-        InvalidExternalHost=5,
+        InvalidExternalHost = 5,
     }
 }
