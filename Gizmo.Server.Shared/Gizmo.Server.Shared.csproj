@@ -28,14 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\Repositories\Enumerations\" />
-	  <Folder Include="Services\Repositories\Models\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <ProjectReference Include="..\..\Gizmo.Shared\Gizmo.Shared.csproj" />
-	</ItemGroup>
-
-	
+	</ItemGroup>	
 
 </Project>
