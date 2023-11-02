@@ -7,10 +7,10 @@ namespace Gizmo.Server.Exceptions
     /// Custom exception used to communicate http errors to the exception filter.
     /// </summary>
     /// <remarks>
-    /// This will be used in order for us to be able to produce wrapped response from an exception called in one of the services api controllers might use.<br></br>
+    /// This will be used in order for us to be able to produce wrapped response for an exception raised in one of the services api controllers might use.<br></br>
     /// The only current use is unnauthorized access.
     /// </remarks>
-    [ExceptionFilterCode(ExceptionCode.HttpException)]
+    [ExceptionFilterCode(ExceptionCode.HttpResponseException)]
     public sealed class HttpResponseException : ErrorCodeExceptionBase<HttpStatusCode>
     {
         /// <summary>
