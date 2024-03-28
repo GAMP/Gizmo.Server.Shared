@@ -25,5 +25,9 @@
         /// Set when we try to create a stock transaction with invalid type.
         /// </summary>
         InvalidType = 4,
+        /// <summary>
+        /// Product is out of stock.
+        /// </summary>
+        OutOfStock =5,
     }
 }
