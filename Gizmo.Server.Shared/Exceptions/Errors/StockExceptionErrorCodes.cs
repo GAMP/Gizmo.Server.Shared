@@ -22,12 +22,8 @@
         /// </summary>
         TargetProductNotSet = 3,
         /// <summary>
-        /// Set when we try to create a stock transaction with invalid type.
-        /// </summary>
-        InvalidType = 4,
-        /// <summary>
         /// Product is out of stock.
         /// </summary>
-        OutOfStock =5,
+        OutOfStock = 4,
     }
 }
