@@ -1,0 +1,37 @@
+﻿using System.Runtime.Serialization;
+using Gizmo.Exceptions;
+using Gizmo.Server.Exceptions.Errors;
+
+namespace Gizmo.Server.Exceptions
+{
+    /// <summary>
+    /// Remote control exception.
+    /// </summary>
+    [ExceptionFilterCode(ExceptionCode.RemoteControlException)]
+    public class RemoteControlException : ErrorCodeExceptionBase<RemoteControlExceptionErrorCode>
+    {
+        /// <summary>
+        /// Creates new instance.
+        /// </summary>
+        /// <param name="errorCode">Error code.</param>
+        public RemoteControlException(RemoteControlExceptionErrorCode errorCode) : base(errorCode)
+        { }
+
+        /// <summary>
+        /// Creates new instance.
+        /// </summary>
+        /// <param name="message">Error message.</param>
+        public RemoteControlException(string message) : base(message, RemoteControlExceptionErrorCode.Error)
+        { }
+
+        /// <summary>
+        /// Serialization constructor.
+        /// </summary>
+        /// <param name="info">Serialization info.</param>
+        /// <param name="context">Serialization context.</param>
+        protected RemoteControlException(SerializationInfo info,
+           StreamingContext context)
+            : base(info, context)
+        { }
+    }
+}
