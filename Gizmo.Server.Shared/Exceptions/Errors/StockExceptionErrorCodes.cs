@@ -21,9 +21,10 @@
         /// Set when we have a TargetDifferentProduct flag on product stock option while not actually targeting specific product.
         /// </summary>
         TargetProductNotSet = 3,
+        InvalidType = 4,
         /// <summary>
         /// Product is out of stock.
         /// </summary>
-        OutOfStock = 4,
+        OutOfStock = 5,
     }
 }
