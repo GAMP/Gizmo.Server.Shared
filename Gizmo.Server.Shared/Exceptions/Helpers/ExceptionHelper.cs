@@ -17,7 +17,25 @@ namespace Gizmo.Server.Exceptions
         /// </remarks>
         public static Type? GetType(int exceptionCode)
         {
-            return null;
+            var exceptionTypes = AppDomain.CurrentDomain.GetAssemblies()
+               .SelectMany(assembly =>
+               {
+                   try
+                   {
+                       return assembly.GetTypes()
+                       .Where(t => t.IsAbstract == false && IsErrorCodeExceptionType(t));
+                   }
+                   catch (ReflectionTypeLoadException)
+                   {
+                       //catch type load exceptions
+                       //this will happen if one of the types in assembly cant be loaded
+
+                       return Enumerable.Empty<Type>();
+                   }
+               }).ToArray();
+
+            return exceptionTypes.Where(exceptionType => (int?)exceptionType.GetCustomAttribute<ExceptionFilterCodeAttribute>()?.ErrorCode == exceptionCode)
+                .FirstOrDefault();
         }
 
         /// <summary>
@@ -42,7 +60,7 @@ namespace Gizmo.Server.Exceptions
             if (!IsErrorCodeExceptionType(exceptionType))
                 return null;
 
-            return null;
+            return exceptionType.GetRuntimeProperty(nameof(ErrorCodeExceptionBase<Enum>.ErrorCode)).PropertyType;
         }
 
         /// <summary>

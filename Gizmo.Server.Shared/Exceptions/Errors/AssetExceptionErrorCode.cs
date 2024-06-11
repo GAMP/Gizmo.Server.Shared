@@ -1,4 +1,6 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Asset error code.
@@ -9,16 +11,22 @@
         /// Not checked in.
         /// </summary>
         [Localized("ASSET_ERROR_NOT_CHECKED_IN")]
+        [Name("Assets not checked in", "EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME")]
+        [ExtendedDescription("The asset is not checked in", "EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_DESCRIPTION")]
         NotCheckedIn = 0,
         /// <summary>
         /// Already checked in.
         /// </summary>
         [Localized("ASSET_ERROR_ALREADY_CHECKED_IN")]
+        [Name("Assets already checked in", "EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_NAME")]
+        [ExtendedDescription("The asset is already checked in", "EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION")]
         AlreadyCheckedIn = 1,
         /// <summary>
         /// Asset disabled.
         /// </summary>
         [Localized("ASSET_ERROR_DISABLED")]
+        [Name("Assets is disabled", "EXCEPTION_ERROR_ASSET_DISABLED_NAME")]
+        [ExtendedDescription("The asset is disabled", "EXCEPTION_ERROR_ASSET_DISABLED_DESCRIPTION")]
         AssetDisabled = 2,
     }
 }
