@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.Stock)]
+    [Name("Stock error", "EXCEPTION_TYPE_STOCK_NAME")]
+    [ExtendedDescription("Stock related error", "EXCEPTION_TYPE_STOCK_DESCRIPTION")]
     public class StockException : ErrorCodeExceptionBase<StockExceptionErrorCodes>
     {
         #region CONSTRUCTOR

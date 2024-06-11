@@ -1,9 +1,13 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Entity in use exception.
     /// </summary>
     [ExceptionFilterCode(ExceptionCode.EntityInUse)]
+    [Name("Entity in use error", "EXCEPTION_TYPE_ENTITY_IN_USE_NAME")]
+    [ExtendedDescription("Entity in use related error", "EXCEPTION_TYPE_ENTITY_IN_USE_DESCRIPTION")]
     public class EntityInUseException<TEntityType> : EntityKeyExceptionBase<TEntityType>
     {
         #region CONSTRUCTOR

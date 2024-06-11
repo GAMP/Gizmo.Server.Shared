@@ -1,9 +1,13 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
-    /// Invalid property excpeption.
+    /// Invalid property exception.
     /// </summary>
     [ExceptionFilterCode(ExceptionCode.InvalidProperty)]
+    [Name("Invalid property error", "EXCEPTION_TYPE_INVALID_PROPERTY_NAME")]
+    [ExtendedDescription("Invalid property related error", "EXCEPTION_TYPE_INVALID_PROPERTY_DESCRIPTION")]
     public class InvalidPropertyException : Exception
     {
         #region CONSTRUCTOR

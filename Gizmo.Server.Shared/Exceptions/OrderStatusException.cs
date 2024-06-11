@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.OrderStatus)]
+    [Name("Order status error", "EXCEPTION_TYPE_ORDER_STATUS_NAME")]
+    [ExtendedDescription("Order status related error", "EXCEPTION_TYPE_ORDER_STATUS_DESCRIPTION")]
     public class OrderStatusException : ErrorCodeExceptionBase<OrderStatusExceptionErrorCode>
     {
         #region CONSTRUCTOR

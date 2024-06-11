@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Net;
 using Gizmo.Exceptions;
 
 namespace Gizmo.Server.Exceptions
@@ -8,9 +9,11 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     /// <remarks>
     /// This will be used in order for us to be able to produce wrapped response for an exception raised in one of the services api controllers might use.<br></br>
-    /// The only current use is unnauthorized access.
+    /// The only current use is unauthorized access.
     /// </remarks>
     [ExceptionFilterCode(ExceptionCode.HttpResponseException)]
+    [Name("Http response error", "EXCEPTION_TYPE_HTTP_RESPONSE_NAME")]
+    [ExtendedDescription("Http response related error", "EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION")]
     public sealed class HttpResponseException : ErrorCodeExceptionBase<HttpStatusCode>
     {
         /// <summary>

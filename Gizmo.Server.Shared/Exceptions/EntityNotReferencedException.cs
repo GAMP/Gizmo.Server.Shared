@@ -1,4 +1,6 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Entity not referenced exception.
@@ -6,6 +8,8 @@
     /// <typeparam name="TEntityType">Entity type.</typeparam>
     /// <typeparam name="TReferenceEntityType">Reference entity type.</typeparam>
     [ExceptionFilterCode(ExceptionCode.EntityNotReferenced)]
+    [Name("Entity not referenced error", "EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_NAME")]
+    [ExtendedDescription("Entity not referenced related error", "EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_DESCRIPTION")]
     public class EntityNotReferencedException<TEntityType,TReferenceEntityType> : EntityReferenceExceptionBase<TEntityType,TReferenceEntityType>
     {
         #region CONSTRUCTOR

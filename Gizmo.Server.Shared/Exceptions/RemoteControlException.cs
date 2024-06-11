@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 using Gizmo.Exceptions;
 using Gizmo.Server.Exceptions.Errors;
 
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// Remote control exception.
     /// </summary>
     [ExceptionFilterCode(ExceptionCode.RemoteControlException)]
+    [Name("Remote control error", "EXCEPTION_TYPE_REMOTE_CONTROL_NAME")]
+    [ExtendedDescription("Remote control related error", "EXCEPTION_TYPE_REMOTE_CONTROL_DESCRIPTION")]
     public class RemoteControlException : ErrorCodeExceptionBase<RemoteControlExceptionErrorCode>
     {
         /// <summary>

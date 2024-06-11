@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable]
     [ExceptionFilterCode(ExceptionCode.HostReservation)]
+    [Name("Host reservation error", "EXCEPTION_TYPE_HOST_RESERVATION_NAME")]
+    [ExtendedDescription("Host reservation related error", "EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION")]
     public class HostReservationException : ErrorCodeExceptionBase<ReservationExceptionErrorCode>
     {
         #region CONSTRUCTOR

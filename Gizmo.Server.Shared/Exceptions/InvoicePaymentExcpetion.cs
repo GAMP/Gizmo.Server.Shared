@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
 {
@@ -7,6 +8,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.InvoicePayment)]
+    [Name("Invoice payment error", "EXCEPTION_TYPE_INVOICE_PAYMENT_NAME")]
+    [ExtendedDescription("Invoice payment related error", "EXCEPTION_TYPE_INVOICE_PAYMENT_DESCRIPTION")]
     public class InvoicePaymentExcpetion : PaymentExcpetionBase<InvoicePaymentExceptionErrorCode>
     {
         #region CONSTRUCTOR

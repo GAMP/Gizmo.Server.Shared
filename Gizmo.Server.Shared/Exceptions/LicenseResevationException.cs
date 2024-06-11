@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
 {
@@ -6,6 +7,8 @@ namespace Gizmo.Server.Exceptions
     /// License reservation exception.
     /// </summary>
     [Serializable()]
+    [Name("License reservation error", "EXCEPTION_TYPE_LICENSE_RESERVATION_NAME")]
+    [ExtendedDescription("License reservation related error", "EXCEPTION_TYPE_LICENSE_RESERVATION_DESCRIPTION")]
     public class LicenseResevationException : Exception
     {
         #region CONSTRUCTOR

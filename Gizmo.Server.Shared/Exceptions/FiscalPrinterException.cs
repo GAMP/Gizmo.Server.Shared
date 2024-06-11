@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.FiscalPrinter)]
+    [Name("Fiscal printer error", "EXCEPTION_TYPE_FISCAL_PRINTER_NAME")]
+    [ExtendedDescription("Fiscal printer related error", "EXCEPTION_TYPE_FISCAL_PRINTER_DESCRIPTION")]
     public class FiscalPrinterException : ErrorCodeExceptionBase<FiscalPrinterExceptionErrorCode>
     {
         #region CONSTRUCTOR

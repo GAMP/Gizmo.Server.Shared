@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.WaitingLine)]
+    [Name("Waiting line error", "EXCEPTION_TYPE_WAITING_LINE_NAME")]
+    [ExtendedDescription("Waiting line related error", "EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION")]
     public class WaitingLineException : ErrorCodeExceptionBase<WaitingLineExceptionErrorCode>
     {
         #region CONSTRUCTOR

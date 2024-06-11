@@ -1,4 +1,6 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Entity already referenced exception.
@@ -6,6 +8,8 @@
     /// <typeparam name="TEntityType">Entity type.</typeparam>
     /// <typeparam name="TEntityReferenceType">Reference entity type.</typeparam>
     [ExceptionFilterCode(ExceptionCode.EntityAlreadyReferenced)]
+    [Name("Entity reference error", "EXCEPTION_TYPE_ENTITY_REFERENCE_NAME")]
+    [ExtendedDescription("Entity reference related error", "EXCEPTION_TYPE_ENTITY_REFERENCE_DESCRIPTION")]
     public class EntityAlreadyReferencedException<TEntityType, TEntityReferenceType> : EntityReferenceExceptionBase<TEntityType, TEntityReferenceType>
     {
         #region CONSTRUCTOR

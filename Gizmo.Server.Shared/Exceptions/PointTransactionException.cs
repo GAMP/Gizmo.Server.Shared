@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.Points)]
+    [Name("Points transaction error", "EXCEPTION_TYPE_POINT_TRANSACTION_NAME")]
+    [ExtendedDescription("Points transaction related error", "EXCEPTION_TYPE_POINT_TRANSACTION_DESCRIPTION")]
     public class PointTransactionException : ErrorCodeExceptionBase<PointTransactionExceptionErrorCode>
     {
         #region CONSTRUCTOR

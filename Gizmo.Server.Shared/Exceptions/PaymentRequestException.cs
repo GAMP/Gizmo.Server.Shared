@@ -1,4 +1,5 @@
-﻿using Gizmo.Exceptions;
+﻿using System.ComponentModel.DataAnnotations;
+using Gizmo.Exceptions;
 
 namespace Gizmo.Server.Exceptions
 {
@@ -6,6 +7,8 @@ namespace Gizmo.Server.Exceptions
     /// Payment request creation exception.
     /// </summary>
     [ExceptionFilterCode(ExceptionCode.PaymentRequest)]
+    [Name("Payment request error", "EXCEPTION_TYPE_PAYMENT_REQUEST_NAME")]
+    [ExtendedDescription("Payment request related error", "EXCEPTION_TYPE_PAYMENT_REQUEST_DESCRIPTION")]
     public sealed class PaymentRequestException : ErrorCodeExceptionBase<PaymentRequestExceptionErrorCode>
     {
         #region CONSTRUCTOR

@@ -1,4 +1,5 @@
-﻿using Gizmo.Exceptions;
+﻿using System.ComponentModel.DataAnnotations;
+using Gizmo.Exceptions;
 
 namespace Gizmo.Server.Exceptions
 {
@@ -6,6 +7,8 @@ namespace Gizmo.Server.Exceptions
     /// User group exception.
     /// </summary>
     [ExceptionFilterCode(ExceptionCode.UserGroup)]
+    [Name("User group error", "EXCEPTION_TYPE_USER_GROUP_NAME")]
+    [ExtendedDescription("User group related error", "EXCEPTION_TYPE_USER_GROUP_DESCRIPTION")]
     public class UserGroupException : ErrorCodeExceptionBase<UserGroupExceptionErrorCode>
     {
         #region CONSTRUCTOR

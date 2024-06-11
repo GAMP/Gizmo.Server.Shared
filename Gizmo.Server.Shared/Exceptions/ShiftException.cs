@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.Shift)]
+    [Name("Shift error", "EXCEPTION_TYPE_SHIFT_NAME")]
+    [ExtendedDescription("Shift related error", "EXCEPTION_TYPE_SHIFT_DESCRIPTION")]
     public class ShiftException : ErrorCodeExceptionBase<ShiftExceptionErrorCode>
     {
         #region CONSTRUCTOR

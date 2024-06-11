@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.Deposit)]
+    [Name("Deposit error", "EXCEPTION_TYPE_DEPOSIT_NAME")]
+    [ExtendedDescription("Deposit related error", "EXCEPTION_TYPE_DEPOSIT_DESCRIPTION")]
     public class DepositException : ErrorCodeExceptionBase<DepositExceptionErrorCode>
     {
         #region CONSTRUCTOR

@@ -1,4 +1,5 @@
 ﻿using Gizmo.Exceptions;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Gizmo.Server.Exceptions
@@ -8,6 +9,8 @@ namespace Gizmo.Server.Exceptions
     /// </summary>
     [Serializable()]
     [ExceptionFilterCode(ExceptionCode.BillingProfile)]
+    [Name("Billing profile error", "EXCEPTION_TYPE_BILLING_PROFILE_NAME")]
+    [ExtendedDescription("Billing profile related error", "EXCEPTION_TYPE_BILLING_PROFILE_DESCRIPTION")]
     public class BillingProfileException : ErrorCodeExceptionBase<BillingProfileExceptionErrorCode>
     {
         #region CONSTRUCTOR
