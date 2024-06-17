@@ -18,7 +18,7 @@
         /// </summary>
         PaymentProviderNotFound = 2,
         /// <summary>
-        /// No paymen provider, for example if payment method dont have one associated with it.
+        /// No payment provider, for example if payment method don't have one associated with it.
         /// </summary>
         NoPaymentProvider = 3,
         /// <summary>
