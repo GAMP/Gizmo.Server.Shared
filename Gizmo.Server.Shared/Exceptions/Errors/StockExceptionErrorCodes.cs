@@ -21,6 +21,9 @@
         /// Set when we have a TargetDifferentProduct flag on product stock option while not actually targeting specific product.
         /// </summary>
         TargetProductNotSet = 3,
+        /// <summary>
+        /// The product configuration does not allow the specific transaction.
+        /// </summary>
         InvalidType = 4,
         /// <summary>
         /// Product is out of stock.
