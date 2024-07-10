@@ -1,4 +1,6 @@
-﻿namespace Gizmo.Server.Exceptions
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gizmo.Server.Exceptions
 {
     /// <summary>
     /// Payment error codes.
@@ -9,26 +11,40 @@
         /// Set on unspecified error.
         /// </summary>
         [Localized("UNSPECIFIED")]
+        [Name("Payment unspecified error", "EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_NAME")]
+        [ExtendedDescription("Unspecified error while executing payment", "EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION")]
         Unspecified = 0,
+
         /// <summary>
         /// Set when there are no funds avaliable to execute this payment.
         /// </summary>
         [Localized("PAYMENTERRORCODE_INSUFFICIENT_FUNDS")]
+        [Name("Payment insufficent funds", "EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME")]
+        [ExtendedDescription("The user has no funds to execute the payment", "EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION")]
         InsufficientFunds = 1,
+
         /// <summary>
         /// Set when payment amount equals zero or less. Zero payments not allowed.
         /// </summary>
         [Localized("PAYMENTERRORCODE_AMOUNT_ZERO_OR_LESS")]
+        [Name("Payment amount zero or less", "EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME")]
+        [ExtendedDescription("Cannot execute payment with amount zero or less", "EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION")]
         AmountZeroOrLess = 2,
+
         /// <summary>
-        /// Set when amount recieved is less than actual payment amount.
+        /// Set when amount received is less than actual payment amount.
         /// </summary>
         [Localized("PAYMENTERRORCODE_AMOUNT_RECEIVED_LESS")]
+        [Name("Payment received amount is less than payment amount", "EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_NAME")]
+        [ExtendedDescription("The amount received is less than actual payment amount", "EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_DESCRIPTION")]
         AmountReceivedLess = 3,
+
         /// <summary>
         /// Set when we try to execute a payment with an method that is invalid for payment transaction.
         /// </summary>
         [Localized("PAYMENTERRORCODE_INALID_PAYMENT_METHOD")]
+        [Name("Invalid payment method", "EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_NAME")]
+        [ExtendedDescription("Cannot execute payment because the payment method is invalid", "EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION")]
         InvalidPaymentMethod = 4,
     }
 }

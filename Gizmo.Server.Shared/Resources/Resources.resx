@@ -117,10 +117,172 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION" xml:space="preserve">
+    <value>The asset is already checked in</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_NAME" xml:space="preserve">
+    <value>Assets already checked in</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>The asset is disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_DISABLED_NAME" xml:space="preserve">
+    <value>Assets is disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_DESCRIPTION" xml:space="preserve">
+    <value>The asset is not checked in</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME" xml:space="preserve">
+    <value>Assets not checked in</value>
+  </data>
   <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve">
     <value>Assets related error</value>
   </data>
   <data name="EXCEPTION_TYPE_ASSET_NAME" xml:space="preserve">
     <value>Assets error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Assistance request related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_NAME" xml:space="preserve">
+    <value>Assistance request error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_DESCRIPTION" xml:space="preserve">
+    <value>Billing profile related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_NAME" xml:space="preserve">
+    <value>Billing profile error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_DEPOSIT_DESCRIPTION" xml:space="preserve">
+    <value>Deposit related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_DEPOSIT_NAME" xml:space="preserve">
+    <value>Deposit error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_DESCRIPTION" xml:space="preserve">
+    <value>Entity in use related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_NAME" xml:space="preserve">
+    <value>Entity in use error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_DESCRIPTION" xml:space="preserve">
+    <value>Entity not referenced related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_NAME" xml:space="preserve">
+    <value>Entity not referenced error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Entity reference related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_NAME" xml:space="preserve">
+    <value>Entity reference error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_FISCAL_PRINTER_DESCRIPTION" xml:space="preserve">
+    <value>Fiscal printer related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_FISCAL_PRINTER_NAME" xml:space="preserve">
+    <value>Fiscal printer error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION" xml:space="preserve">
+    <value>Host reservation related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_NAME" xml:space="preserve">
+    <value>Host reservation error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION" xml:space="preserve">
+    <value>Http response related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_NAME" xml:space="preserve">
+    <value>Http response error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_DESCRIPTION" xml:space="preserve">
+    <value>Invalid property related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_NAME" xml:space="preserve">
+    <value>Invalid property error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_DESCRIPTION" xml:space="preserve">
+    <value>Invoice related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_NAME" xml:space="preserve">
+    <value>Invoice error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Invoice payment related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_NAME" xml:space="preserve">
+    <value>Invoice payment error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_DESCRIPTION" xml:space="preserve">
+    <value>License reservation related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_NAME" xml:space="preserve">
+    <value>License reservation error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_DESCRIPTION" xml:space="preserve">
+    <value>Order status related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_NAME" xml:space="preserve">
+    <value>Order status error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Payment related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_NAME" xml:space="preserve">
+    <value>Payment error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Payment request related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_NAME" xml:space="preserve">
+    <value>Payment request error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_DESCRIPTION" xml:space="preserve">
+    <value>Points transaction related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_NAME" xml:space="preserve">
+    <value>Points transaction error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PRODUCT_DESCRIPTION" xml:space="preserve">
+    <value>Product related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PRODUCT_NAME" xml:space="preserve">
+    <value>Product error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PROVIDER_DESCRIPTION" xml:space="preserve">
+    <value>Provider related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PROVIDER_NAME" xml:space="preserve">
+    <value>Provider error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_DESCRIPTION" xml:space="preserve">
+    <value>Remote control related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_NAME" xml:space="preserve">
+    <value>Remote control error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Shift related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_SHIFT_NAME" xml:space="preserve">
+    <value>Shift error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Stock related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_STOCK_NAME" xml:space="preserve">
+    <value>Stock error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_USER_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>User group related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_USER_GROUP_NAME" xml:space="preserve">
+    <value>User group error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>Waiting line related error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Waiting line error</value>
   </data>
 </root>
