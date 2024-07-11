@@ -11,29 +11,29 @@ namespace Gizmo.Server.Exceptions
         /// Unspecified.
         /// </summary>
         [Localized("UNSPECIFIED")]
-        [Name("???", "EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION")]
+        [Name("Point transaction unspecified error", "EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME")]
+        [ExtendedDescription("Unspecified error while executing point transaction", "EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION")]
         Unspecified = 0,
 
         /// <summary>
         /// Set when we try to execute transaction with zero amount.
         /// </summary>
-        [Name("???", "EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION")]
+        [Name("Point transaction amount zero or less", "EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME")]
+        [ExtendedDescription("Cannot execute point transaction with amount zero or less", "EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION")]
         AmountZeroOrLess = 1,
 
         /// <summary>
         /// Set when user has no funds to execute the transaction.
         /// </summary>
-        [Name("???", "EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION")]
+        [Name("Point transaction insufficent funds", "EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME")]
+        [ExtendedDescription("The user has no funds to execute the point transaction", "EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION")]
         InsufficientFunds = 2,
 
         /// <summary>
         /// Transaction type not supporeted.
         /// </summary>
-        [Name("???", "EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION")]
+        [Name("Point transaction type not supported", "EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME")]
+        [ExtendedDescription("The specified point transaction type is not supported for the specified user", "EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION")]
         TransactionTypeNotSupported = 3,
     }
 }

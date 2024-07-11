@@ -25,7 +25,7 @@ namespace Gizmo.Server.Exceptions
         /// Set when we try to perform an action on a void invoice.
         /// </summary>
         [Name("Void invoice", "EXCEPTION_ERROR_INVOICE_VOID_NAME")]
-        [ExtendedDescription("Cannot perform action on a void invoice", "EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION")]
+        [ExtendedDescription("Cannot perform the action on a void invoice", "EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION")]
         Void,
 
         /// <summary>

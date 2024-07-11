@@ -11,29 +11,29 @@ namespace Gizmo.Server.Exceptions
         /// Set on unspecified error.
         /// </summary>
         [Localized("UNSPECIFIED")]
-        [Name("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION")]
+        [Name("Invoice payment unspecified error", "EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME")]
+        [ExtendedDescription("Unspecified error while executing invoice payment", "EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION")]
         Unspecified = 0,
 
         /// <summary>
         /// Set when invoice payment amount equals zero.
         /// </summary>
-        [Name("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION")]
+        [Name("Invoice payment amount zero or less", "EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME")]
+        [ExtendedDescription("Cannot execute invoice payment with amount zero or less", "EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION")]
         AmountZeroOrLess,
 
         /// <summary>
         /// Set when outstanding amount is zero.
         /// </summary>
-        [Name("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION")]
+        [Name("Invoice payment outstanding amount zero", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME")]
+        [ExtendedDescription("Cannot execute invoice payment when outstanding amount is zero", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION")]
         OutstandingAmountZero,
 
         /// <summary>
         /// Set when outstanding amount is less than the payment amount.
         /// </summary>
-        [Name("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME")]
-        [ExtendedDescription("???", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION")]
+        [Name("Invoice payment outstanding amount less", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME")]
+        [ExtendedDescription("Cannot execute invoice payment when outstanding amount is less than payment amount", "EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION")]
         OutstandingAmountLess,
     }
 }
