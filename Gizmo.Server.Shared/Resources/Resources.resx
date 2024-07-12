@@ -135,6 +135,564 @@
   <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME" xml:space="preserve">
     <value>Assets not checked in</value>
   </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Another assistance request is already pending or being processed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_NAME" xml:space="preserve">
+    <value>Assistance request already pending</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot change the assistance request state to the specified state</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_NAME" xml:space="preserve">
+    <value>Assistance request cannot change state</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create assistance request without host</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_NAME" xml:space="preserve">
+    <value>Assistance request no host</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>The user does not have any pending assistance requests</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_NAME" xml:space="preserve">
+    <value>No pending assistance request</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_DESCRIPTION" xml:space="preserve">
+    <value>The assistance request operation was timed out</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_NAME" xml:space="preserve">
+    <value>Assistance request timed out</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create rate step due to invalid minute</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_NAME" xml:space="preserve">
+    <value>Billing profile invalid minute</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create rate step due to multiple loops</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve">
+    <value>Billing profile multiple loops</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve">
+    <value>The deposit is already voided</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
+    <value>Deposit already voided</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute deposit transaction with amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Deposit transaction amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_DESCRIPTION" xml:space="preserve">
+    <value>User deposits are withheld for unpaid session time</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_NAME" xml:space="preserve">
+    <value>Deposits withheld for unpaid sessions</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>The user has no funds to execute the deposit transaction</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Deposit transaction insufficent funds</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>The deposit transaction would cause user into negative balance</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Deposit transaction negative balance not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing deposit transaction</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Deposit transaction unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DEPOSITS_MIXED_WITH_OTHER_PAYMENT_METHODS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because deposits are mixed with other payment methods</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DEPOSITS_MIXED_WITH_OTHER_PAYMENT_METHODS_NAME" xml:space="preserve">
+    <value>Fiscal printer deposits mixed with other payment methods</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DESPOSITS_DO_NOT_MATCH_SERVICES_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because deposits do not match services</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DESPOSITS_DO_NOT_MATCH_SERVICES_NAME" xml:space="preserve">
+    <value>Fiscal printer deposits do not match services</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DRIVER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action due to driver error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DRIVER_ERROR_NAME" xml:space="preserve">
+    <value>Fiscal printer driver error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_PAYMENT_METHODS_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because multiple payment methods are not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_PAYMENT_METHODS_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Fiscal printer multiple payment methods not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_TAX_SYSTEMS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action due to multiple tax systems</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_TAX_SYSTEMS_NAME" xml:space="preserve">
+    <value>Fiscal printer multiple tax systems</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the fiscal printer is not connected</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Fiscal printer not connected</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NO_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because no initial sale receipt was printed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NO_RECEIPT_NAME" xml:space="preserve">
+    <value>Fiscal printer no receipt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PARTIALLY_PAID_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because partially paid invoices are not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PARTIALLY_PAID_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Fiscal printer partially paid not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action due to printer error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PRINTER_ERROR_NAME" xml:space="preserve">
+    <value>Fiscal printer printer error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_RECEIPT_GENERATOR_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action due to receipt generator error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_RECEIPT_GENERATOR_ERROR_NAME" xml:space="preserve">
+    <value>Fiscal printer receipt generator error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the fiscal printer shift is closed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_CLOSED_NAME" xml:space="preserve">
+    <value>Fiscal printer shift closed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the fiscal printer shift is expired</value>
+  </data>
+  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_EXPIRED_NAME" xml:space="preserve">
+    <value>Fiscal printer shift expired</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment on invoice that is already paid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_NAME" xml:space="preserve">
+    <value>Invoice already paid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_DESCRIPTION" xml:space="preserve">
+    <value>Cannot repay an invoice with amount less than outstanding amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_NAME" xml:space="preserve">
+    <value>Amount is less than outstanding</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve">
+    <value>The invoice would cause user to exceed credit limit</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
+    <value>User credit limit reached</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create an invoice for a user with disabled credit</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_NAME" xml:space="preserve">
+    <value>User with no credit</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute invoice payment with amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Invoice payment amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute invoice payment when outstanding amount is less than payment amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME" xml:space="preserve">
+    <value>Invoice payment outstanding amount less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute invoice payment when outstanding amount is zero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME" xml:space="preserve">
+    <value>Invoice payment outstanding amount zero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing invoice payment</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Invoice payment unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action on a void invoice</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
+    <value>Void invoice</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because order is already accepted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_NAME" xml:space="preserve">
+    <value>Order already accepted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because order is already canceled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_NAME" xml:space="preserve">
+    <value>Order already canceled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because order is already completed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_NAME" xml:space="preserve">
+    <value>Order already completed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because order is already invoiced</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_NAME" xml:space="preserve">
+    <value>Order already invoiced</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because order is not accepted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_NAME" xml:space="preserve">
+    <value>Order not accepted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while performing the action</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Order status unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_DESCRIPTION" xml:space="preserve">
+    <value>The amount received is less than actual payment amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_NAME" xml:space="preserve">
+    <value>Payment received amount is less than payment amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment with amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME" xml:space="preserve">
+    <value>Payment amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>The user has no funds to execute the payment</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Payment insufficent funds</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment because the payment method is invalid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_NAME" xml:space="preserve">
+    <value>Invalid payment method</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing payment request</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_NAME" xml:space="preserve">
+    <value>Payment requeset unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>The external host is required</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_NAME" xml:space="preserve">
+    <value>External host is required</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_DESCRIPTION" xml:space="preserve">
+    <value>The specified external host is invalid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_NAME" xml:space="preserve">
+    <value>Invalid external host</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create payment request because the specified payment method does not have an associated payment provider</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_NAME" xml:space="preserve">
+    <value>Payment request no payment provider</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create payment request because the payment provider not found</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_NAME" xml:space="preserve">
+    <value>Payment provider not found</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create payment request due to provider error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
+    <value>Payment requeset provider error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing payment</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Payment unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute point transaction with amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Point transaction amount zero or less</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>The user has no funds to execute the point transaction</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Point transaction insufficent funds</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>The specified point transaction type is not supported for the specified user</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Point transaction type not supported</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing point transaction</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Point transaction unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action on the specified product type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Product invalid type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the type provided is invalid or cannot be loaded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Provider invalid type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the provider was not found</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_NAME" xml:space="preserve">
+    <value>Provider not found</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_DESCRIPTION" xml:space="preserve">
+    <value>Provider does not have an option type associated with it</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_NAME" xml:space="preserve">
+    <value>Provider without options</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing remote control</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_NAME" xml:space="preserve">
+    <value>Remote control unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>The specified host is not connected</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Remote control host is not connected</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_DESCRIPTION" xml:space="preserve">
+    <value>The specified host id is invalid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve">
+    <value>Remote control invalid host id</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>The specified host does not support remote control</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Remote control not supported</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot initiate remote control session</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_NAME" xml:space="preserve">
+    <value>Remote control session initiation error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the host or the user is already added</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_NAME" xml:space="preserve">
+    <value>Reservation entry already added</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the reservation has invalid date</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_NAME" xml:space="preserve">
+    <value>Invalid reservation date</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the reservation has invalid duration</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_NAME" xml:space="preserve">
+    <value>Invalid reservation duration</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the host or the user is not present</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_NAME" xml:space="preserve">
+    <value>Reservation entry not present</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the reservation overlaps another reservation</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_NAME" xml:space="preserve">
+    <value>Reservation overlaps</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the reservation is inactive</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_NAME" xml:space="preserve">
+    <value>Reservation is inactive</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift is already active</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_NAME" xml:space="preserve">
+    <value>Shift already active</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift is already ended</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_NAME" xml:space="preserve">
+    <value>Shift already ended</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because there is another shift</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve">
+    <value>Another shift</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the register is deleted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_NAME" xml:space="preserve">
+    <value>Deleted register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift id is invalid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_NAME" xml:space="preserve">
+    <value>Invalid shift id</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because there is no active shift</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_NAME" xml:space="preserve">
+    <value>No active shift</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because there is no operator</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_NAME" xml:space="preserve">
+    <value>No operator</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because there is no register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_NAME" xml:space="preserve">
+    <value>No register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift is disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_NAME" xml:space="preserve">
+    <value>Shift is disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift is ending</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_NAME" xml:space="preserve">
+    <value>Shift ending</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift is not ending</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_NAME" xml:space="preserve">
+    <value>Shift not ending</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>The product configuration does not allow the specific stock transaction</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Stock transaction invalid type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>The product is out of stock</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve">
+    <value>Out of stock</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot modify the stock level of a product that has stock disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_NAME" xml:space="preserve">
+    <value>Stock disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_DESCRIPTION" xml:space="preserve">
+    <value>Target different product option is set on the product but not the target product</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_NAME" xml:space="preserve">
+    <value>Stock target product not set</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Unspecified error while executing stock transaction</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Stock transaction unspecified error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot create a stock transaction with zero amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_NAME" xml:space="preserve">
+    <value>Stock transaction zero amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action on the specified user group type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>User group invalid type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>User is already in waiting line</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Already in waiting line</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the waiting line is already logged in</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_NAME" xml:space="preserve">
+    <value>User is already logged in</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>The specified host group is not allowed for the specified user</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_NAME" xml:space="preserve">
+    <value>Waiting line disallowed host group</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the waiting line is not active</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_NAME" xml:space="preserve">
+    <value>Waiting line is not active</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>User is not in waiting line</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Not in waiting line</value>
+  </data>
   <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve">
     <value>Assets related error</value>
   </data>
