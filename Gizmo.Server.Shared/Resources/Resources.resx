@@ -507,6 +507,12 @@
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve">
     <value>Remote control invalid host id</value>
   </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot initiate remote control session from loopback or localhost</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Remote control not supported for loopback or localhost</value>
+  </data>
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
     <value>The specified host does not support remote control</value>
   </data>
