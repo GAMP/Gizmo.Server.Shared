@@ -849,4 +849,16 @@
   <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve">
     <value>Waiting line error</value>
   </data>
+  <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve">
+    <value>No stock asssociated with the register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK" xml:space="preserve">
+    <value>No stock associated with register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_NAME" xml:space="preserve">
+    <value>No stock associated with register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because no stock associated with register</value>
+  </data>
 </root>
