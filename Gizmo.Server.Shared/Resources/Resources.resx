@@ -861,4 +861,10 @@
   <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action because no stock associated with register</value>
   </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Login age restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because of an age restriction</value>
+  </data>
 </root>
