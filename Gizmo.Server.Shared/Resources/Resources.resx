@@ -867,4 +867,16 @@
   <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action because of an age restriction</value>
   </data>
+  <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve">
+    <value>Inventory relatead error</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVENTORY_NAME" xml:space="preserve">
+    <value>Inventory error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_NAME" xml:space="preserve">
+    <value>Transfer already completed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot process already completed transfer</value>
+  </data>
 </root>
