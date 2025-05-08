@@ -879,4 +879,16 @@
   <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
     <value>Cannot process already completed transfer</value>
   </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the reservation is already finalized</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_NAME" xml:space="preserve">
+    <value>Reservation finalized</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_NAME" xml:space="preserve">
+    <value>Invalid parameters</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_DESCRIPTION" xml:space="preserve">
+    <value>Parameters are invalid</value>
+  </data>
 </root>

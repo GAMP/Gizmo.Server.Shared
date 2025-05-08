@@ -14,13 +14,20 @@ namespace Gizmo.Server.Exceptions
     public class HostReservationException : ErrorCodeExceptionBase<ReservationExceptionErrorCode>
     {
         #region CONSTRUCTOR
-     
+
         /// <summary>
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Reservation error code.</param>
         public HostReservationException(ReservationExceptionErrorCode errorCode) : base(errorCode)
         { }
+
+        /// <summary>
+        /// Creates new instance.
+        /// </summary>
+        /// <param name="message">Exception message.</param>
+        /// <param name="errorCode">Error code.</param>
+        public HostReservationException(string message, ReservationExceptionErrorCode errorCode) : base(message, errorCode) { }
 
         /// <summary>
         /// Serialization constructor.
