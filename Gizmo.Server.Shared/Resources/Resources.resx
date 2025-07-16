@@ -891,4 +891,10 @@
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_DESCRIPTION" xml:space="preserve">
     <value>Parameters are invalid</value>
   </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_NAME" xml:space="preserve">
+    <value>Same stock transfer not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve">
+    <value>Cannot make transfer to same stock</value>
+  </data>
 </root>
