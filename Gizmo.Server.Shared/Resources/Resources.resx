@@ -897,4 +897,16 @@
   <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve">
     <value>Cannot make transfer to same stock</value>
   </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_NAME" xml:space="preserve">
+    <value>Promotion inactive</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_DESCRIPTION" xml:space="preserve">
+    <value>The promotion is inactive</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Promotion code is invalid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>The promotion code specified is invalid</value>
+  </data>
 </root>
