@@ -909,4 +909,16 @@
   <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve">
     <value>The promotion code specified is invalid</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve">
+    <value>Invalid cart</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_DESCRIPTION" xml:space="preserve">
+    <value>The cart is invalid or expired</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Not supported</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Cart action is not supported</value>
+  </data>
 </root>
