@@ -921,10 +921,10 @@
   <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
     <value>Cart action is not supported</value>
   </data>
-  <data name="EXCEPTION_ERROR_CART_BRANCH_DESCRIPTION" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>The purchase is restricted by branch</value>
   </data>
-  <data name="EXCEPTION_ERROR_CART_BRANCH_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_NAME" xml:space="preserve">
     <value>Branch restricted</value>
   </data>
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_DESCRIPTION" xml:space="preserve">
@@ -944,5 +944,11 @@
   </data>
   <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_NAME" xml:space="preserve">
     <value>User group restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The purchase is restricted by age</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Age restricted</value>
   </data>
 </root>
