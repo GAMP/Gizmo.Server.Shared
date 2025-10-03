@@ -921,4 +921,28 @@
   <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
     <value>Cart action is not supported</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>The purchase is restricted by branch</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_BRANCH_NAME" xml:space="preserve">
+    <value>Branch restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_DESCRIPTION" xml:space="preserve">
+    <value>The cart entry id specified is invalid</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_NAME" xml:space="preserve">
+    <value>Invalid cart entry id</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The purchase is restricted by time or date</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_NAME" xml:space="preserve">
+    <value>Time restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The purchase is restricted by user group</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>User group restricted</value>
+  </data>
 </root>
