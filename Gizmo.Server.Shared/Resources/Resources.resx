@@ -951,4 +951,10 @@
   <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_NAME" xml:space="preserve">
     <value>Age restricted</value>
   </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Reservation is only allowed for single host</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Multi host not allowed</value>
+  </data>
 </root>
