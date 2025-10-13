@@ -957,4 +957,16 @@
   <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve">
     <value>Multi host not allowed</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>The product is out of stock</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_NAME" xml:space="preserve">
+    <value>Out of stock</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_DESCRIPTION" xml:space="preserve">
+    <value>The payment amount exceeds the required total</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_NAME" xml:space="preserve">
+    <value>Payment exceed total</value>
+  </data>
 </root>
