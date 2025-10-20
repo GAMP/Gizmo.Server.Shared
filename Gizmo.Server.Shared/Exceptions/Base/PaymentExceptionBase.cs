@@ -6,9 +6,9 @@ namespace Gizmo.Server.Exceptions
     /// <summary>
     /// Payment exception base class.
     /// </summary>
-    /// <typeparam name="TErrorCode">Payment error code tyepe.</typeparam>
+    /// <typeparam name="TErrorCode">Payment error code type.</typeparam>
     [Serializable()]
-    public abstract class PaymentExcpetionBase<TErrorCode> : ErrorCodeExceptionBase<TErrorCode> where TErrorCode : Enum
+    public abstract class PaymentExceptionBase<TErrorCode> : ErrorCodeExceptionBase<TErrorCode> where TErrorCode : Enum
     {
         #region CONSTRUCTOR
 
@@ -17,7 +17,7 @@ namespace Gizmo.Server.Exceptions
         /// </summary>
         /// <param name="errorCode">Error code.</param>
         /// <param name="paymentMethodId">Payment method id.</param>
-        public PaymentExcpetionBase(TErrorCode errorCode, int paymentMethodId) : base(errorCode)
+        public PaymentExceptionBase(TErrorCode errorCode, int paymentMethodId) : base(errorCode)
         {
             PaymentMethodId = paymentMethodId;
         }
@@ -26,7 +26,7 @@ namespace Gizmo.Server.Exceptions
         /// Creates new instance.
         /// </summary>
         /// <param name="errorCode">Error code.</param>
-        public PaymentExcpetionBase(TErrorCode errorCode) : base(errorCode)
+        public PaymentExceptionBase(TErrorCode errorCode) : base(errorCode)
         {
         }
 
@@ -35,7 +35,7 @@ namespace Gizmo.Server.Exceptions
         /// </summary>
         /// <param name="info">Serialization info.</param>
         /// <param name="context">Serialization context.</param>
-        protected PaymentExcpetionBase(SerializationInfo info,
+        protected PaymentExceptionBase(SerializationInfo info,
           StreamingContext context)
             : base(info, context)
         {
