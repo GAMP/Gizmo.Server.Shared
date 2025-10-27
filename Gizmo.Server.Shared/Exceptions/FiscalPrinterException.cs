@@ -15,9 +15,9 @@ namespace Gizmo.Server.Exceptions
     {
         #region CONSTRUCTOR
 
-        public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCode errorCode, int? pritnerOrDrieverErrorCode) : base(message, errorCode)
+        public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCode errorCode, int? printerOrDriverErrorCode) : base(message, errorCode)
         {
-            PrinterOrDriverErrorCode = pritnerOrDrieverErrorCode;
+            PrinterOrDriverErrorCode = printerOrDriverErrorCode;
         }
 
         public FiscalPrinterException(string message, FiscalPrinterExceptionErrorCode errorCode) : base(message, errorCode)
