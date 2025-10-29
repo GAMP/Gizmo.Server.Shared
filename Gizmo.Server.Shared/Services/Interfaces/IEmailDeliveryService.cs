@@ -20,7 +20,21 @@
         /// <param name="recipientName">Name of the recipient.</param>
         /// <param name="subject">Subject of the mail.</param>
         /// <param name="attachments">List of MailAttachment to attach to mail.</param>
-        /// <param name="ct">CancellationToken</param>
-        Task SendMailAsync(string html, string mailSender, string senderName, string recipient, string recipientName, string subject, List<MailAttachement> attachments, CancellationToken ct = default);
+        /// <param name="cancellationToken">CancellationToken</param>
+        Task SendMailAsync(string html, string mailSender, string senderName, string recipient, string recipientName, string subject, List<MailAttachement> attachments, CancellationToken cancellationToken = default);
+
+        /// <summary>
+        /// Sends a mail.
+        /// </summary>
+        /// <param name="html">Html body to include in mail.</param>
+        /// <param name="recipient">Address of the recipient.</param>
+        /// <param name="recipientName">Name of the recipient.</param>
+        /// <param name="subject">Subject of the mail.</param>
+        /// <param name="attachments">List of MailAttachment to attach to mail.</param>
+        /// <param name="cancellationToken">CancellationToken</param>
+        /// <remarks>
+        /// The sender and reply-to address will be supplied automatically based on current business configuration.
+        /// </remarks>
+        Task SendMailAsync(string html, string recipient, string recipientName, string subject, List<MailAttachement> attachments, CancellationToken cancellationToken = default);
     }
 }
