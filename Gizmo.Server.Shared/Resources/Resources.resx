@@ -969,4 +969,10 @@
   <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_NAME" xml:space="preserve">
     <value>Payment exceed total</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve">
+    <value>The product purchase requires mark</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
+    <value>Requires mark</value>
+  </data>
 </root>
