@@ -213,77 +213,29 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve">
     <value>Deposit transaction unspecified error</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DEPOSITS_MIXED_WITH_OTHER_PAYMENT_METHODS_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because deposits are mixed with other payment methods</value>
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the companion is not connected</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DEPOSITS_MIXED_WITH_OTHER_PAYMENT_METHODS_NAME" xml:space="preserve">
-    <value>Fiscal printer deposits mixed with other payment methods</value>
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Companion not connected</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DESPOSITS_DO_NOT_MATCH_SERVICES_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because deposits do not match services</value>
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the due to fiscal printer error</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DESPOSITS_DO_NOT_MATCH_SERVICES_NAME" xml:space="preserve">
-    <value>Fiscal printer deposits do not match services</value>
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_NAME" xml:space="preserve">
+    <value>Fiscal printer error</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DRIVER_ERROR_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action due to driver error</value>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the fiscal device shift is closed</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_DRIVER_ERROR_NAME" xml:space="preserve">
-    <value>Fiscal printer driver error</value>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_NAME" xml:space="preserve">
+    <value>Device shift closed</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_PAYMENT_METHODS_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because multiple payment methods are not allowed</value>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the device shift is expired</value>
   </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_PAYMENT_METHODS_NOT_ALLOWED_NAME" xml:space="preserve">
-    <value>Fiscal printer multiple payment methods not allowed</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_TAX_SYSTEMS_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action due to multiple tax systems</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_MULTIPLE_TAX_SYSTEMS_NAME" xml:space="preserve">
-    <value>Fiscal printer multiple tax systems</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because the fiscal printer is not connected</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NOT_CONNECTED_NAME" xml:space="preserve">
-    <value>Fiscal printer not connected</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NO_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because no initial sale receipt was printed</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_NO_RECEIPT_NAME" xml:space="preserve">
-    <value>Fiscal printer no receipt</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PARTIALLY_PAID_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because partially paid invoices are not allowed</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PARTIALLY_PAID_NOT_ALLOWED_NAME" xml:space="preserve">
-    <value>Fiscal printer partially paid not allowed</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action due to printer error</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_PRINTER_ERROR_NAME" xml:space="preserve">
-    <value>Fiscal printer printer error</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_RECEIPT_GENERATOR_ERROR_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action due to receipt generator error</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_RECEIPT_GENERATOR_ERROR_NAME" xml:space="preserve">
-    <value>Fiscal printer receipt generator error</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because the fiscal printer shift is closed</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_CLOSED_NAME" xml:space="preserve">
-    <value>Fiscal printer shift closed</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action because the fiscal printer shift is expired</value>
-  </data>
-  <data name="EXCEPTION_ERROR_FISCAL_PRINTER_SHIFT_EXPIRED_NAME" xml:space="preserve">
-    <value>Fiscal printer shift expired</value>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
+    <value>Device shift expired</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve">
     <value>Cannot execute payment on invoice that is already paid</value>
@@ -741,11 +693,11 @@
   <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_NAME" xml:space="preserve">
     <value>Entity reference error</value>
   </data>
-  <data name="EXCEPTION_TYPE_FISCAL_PRINTER_DESCRIPTION" xml:space="preserve">
-    <value>Fiscal printer related error</value>
+  <data name="EXCEPTION_TYPE_COMPANION_DESCRIPTION" xml:space="preserve">
+    <value>Companion related error</value>
   </data>
-  <data name="EXCEPTION_TYPE_FISCAL_PRINTER_NAME" xml:space="preserve">
-    <value>Fiscal printer error</value>
+  <data name="EXCEPTION_TYPE_COMPANION_NAME" xml:space="preserve">
+    <value>Companion error</value>
   </data>
   <data name="EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION" xml:space="preserve">
     <value>Host reservation related error</value>
@@ -974,5 +926,17 @@
   </data>
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Requires mark</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action due to payment terminal error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_NAME" xml:space="preserve">
+    <value>Payment terminal error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the due to qr display error</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve">
+    <value>QR display error</value>
   </data>
 </root>
