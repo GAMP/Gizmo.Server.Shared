@@ -939,4 +939,10 @@
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve">
     <value>QR display error</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the due to missing companion configuration</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
+    <value>Companion required</value>
+  </data>
 </root>
