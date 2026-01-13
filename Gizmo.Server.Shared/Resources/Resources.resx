@@ -199,7 +199,7 @@
     <value>The user has no funds to execute the deposit transaction</value>
   </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
-    <value>Deposit transaction insufficent funds</value>
+    <value>Deposit transaction insufficient funds</value>
   </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>The deposit transaction would cause user into negative balance</value>
