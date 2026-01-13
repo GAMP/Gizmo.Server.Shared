@@ -945,4 +945,28 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Companion required</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_NAME" xml:space="preserve">
+    <value>Payments exceeds outstanding amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment because the payment exceeds outstanding</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_NAME" xml:space="preserve">
+    <value>No branch</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because there is no branch</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
+    <value>Already counted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because stock is already counted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_NAME" xml:space="preserve">
+    <value>No guest group</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>There is no guest user group</value>
+  </data>
 </root>
