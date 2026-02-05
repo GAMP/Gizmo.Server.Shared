@@ -3,7 +3,7 @@
   <!--
   Loco xml export: ResX - .NET resources
   Project: Gizmo.Server.Shared
-  Locale: el, Greek
+  Locale: tr, Turkish
   Exported by: Oleg Savelos
   Exported at: Wed, 04 Feb 2026 18:18:45 +0200 
   --> 
@@ -66,861 +66,861 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="locoLocaleCode">
-    <value>el</value>
+    <value>tr</value>
   </metadata>
   <metadata name="locoLocaleName" xml:space="preserve">
-    <value>Greek</value>
+    <value>Turkish</value>
   </metadata> 
   <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION" xml:space="preserve"> 
-    <value>Το περιουσιακό στοιχείο έχει ήδη παραδοθεί</value> 
+    <value>Varlık zaten kayıtlı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_NAME" xml:space="preserve"> 
-    <value>Περιουσιακά στοιχεία που έχουν ήδη παραδοθεί</value> 
+    <value>Varlık zaten kayıtlı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_DISABLED_DESCRIPTION" xml:space="preserve"> 
-    <value>Το στοιχείο είναι απενεργοποιημένο</value> 
+    <value>Varlık devre dışı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_DISABLED_NAME" xml:space="preserve"> 
-    <value>Τα στοιχεία είναι απενεργοποιημένα</value> 
+    <value>Varlık devre dışı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_DESCRIPTION" xml:space="preserve"> 
-    <value>Το περιουσιακό στοιχείο δεν επιστρέφεται</value> 
+    <value>Varlık kayıtlı değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME" xml:space="preserve"> 
-    <value>Στοιχεία ενεργητικού που δεν ελέγχθηκαν</value> 
+    <value>Varlık kayıtlı değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
-    <value>Ένα άλλο αίτημα βοήθειας εκκρεμεί ήδη ή βρίσκεται υπό επεξεργασία</value> 
+    <value>Başka bir yardım talebi zaten bekliyor veya işleniyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_NAME" xml:space="preserve"> 
-    <value>Το αίτημα συνδρομής εκκρεμεί ήδη</value> 
+    <value>Yardım talebi zaten bekliyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η αλλαγή της κατάστασης αίτησης βοήθειας στην καθορισμένη κατάσταση</value> 
+    <value>Yardım talebi durumu belirtilen duruma değiştirilemiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_NAME" xml:space="preserve"> 
-    <value>Το αίτημα βοήθειας δεν μπορεί να αλλάξει κατάσταση</value> 
+    <value>Yardım talebi durumu değiştirilemiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία αιτήματος βοήθειας χωρίς τον κεντρικό υπολογιστή</value> 
+    <value>Bilgisayar olmadan yardım talebi oluşturulamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_NAME" xml:space="preserve"> 
-    <value>Αίτημα βοήθειας χωρίς οικοδεσπότη</value> 
+    <value>Yardım talebinde bilgisayar yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο χρήστης δεν έχει εκκρεμή αιτήματα βοήθειας</value> 
+    <value>Kullanıcının bekleyen yardım talebi yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_NAME" xml:space="preserve"> 
-    <value>Δεν εκκρεμεί αίτημα βοήθειας</value> 
+    <value>Bekleyen yardım talebi yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_DESCRIPTION" xml:space="preserve"> 
-    <value>Το χρονικό όριο της λειτουργίας του αιτήματος συνδρομής έληξε</value> 
+    <value>Yardım talebi işlemi zaman aşımına uğradı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_NAME" xml:space="preserve"> 
-    <value>Το χρονικό όριο του αιτήματος βοήθειας έληξε</value> 
+    <value>Yardım talebi zaman aşımı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία βήματος τιμής λόγω μη έγκυρου λεπτού</value> 
+    <value>Geçersiz dakika nedeniyle ücret adımı oluşturulamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρο λεπτό προφίλ χρέωσης</value> 
+    <value>Faturalama profili geçersiz dakika</value> 
   </data> 
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία βήματος ρυθμού λόγω πολλαπλών βρόχων</value> 
+    <value>Birden fazla döngü nedeniyle ücret adımı oluşturulamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
-    <value>Πολλαπλοί βρόχοι προφίλ χρέωσης</value> 
+    <value>Faturalama profili birden fazla döngü</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η προκαταβολή έχει ήδη ακυρωθεί</value> 
+    <value>Depozito zaten iptal edilmiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve"> 
-    <value>Η κατάθεση έχει ήδη ακυρωθεί</value> 
+    <value>Depozito zaten iptal edilmiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση συναλλαγής κατάθεσης με ποσό μηδέν ή μικρότερο</value> 
+    <value>Sıfır veya daha düşük tutarla depozito işlemi yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
-    <value>Ποσό συναλλαγής κατάθεσης μηδέν ή μικρότερο</value> 
+    <value>Depozito tutarı sıfır veya daha az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_DESCRIPTION" xml:space="preserve"> 
-    <value>Οι καταθέσεις των χρηστών παρακρατούνται για απλήρωτο χρόνο συνεδρίας</value> 
+    <value>Kullanıcı depozitoları ödenmemiş oturum süresi için alıkonuluyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_NAME" xml:space="preserve"> 
-    <value>Παρακράτηση καταθέσεων για απλήρωτες συνεδρίες</value> 
+    <value>Ödenmemiş oturumlar için depozitolar alıkonuldu</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο χρήστης δεν έχει χρήματα για να εκτελέσει τη συναλλαγή κατάθεσης</value> 
+    <value>Kullanıcının depozito işlemini gerçekleştirmek için yeterli bakiyesi yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
-    <value>Ανεπαρκή κεφάλαια συναλλαγής κατάθεσης</value> 
+    <value>Depozito işlemi yetersiz bakiye</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η συναλλαγή κατάθεσης θα προκαλούσε αρνητικό υπόλοιπο στον χρήστη</value> 
+    <value>Depozito işlemi kullanıcının bakiyesini negatife düşürür</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_NAME" xml:space="preserve"> 
-    <value>Δεν επιτρέπεται αρνητικό υπόλοιπο συναλλαγής κατάθεσης</value> 
+    <value>Depozito işlemi negatif bakiyeye izin verilmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση της συναλλαγής κατάθεσης</value> 
+    <value>Depozito işlemi sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα συναλλαγής κατάθεσης</value> 
+    <value>Depozito işlemi belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή ο σύντροφος δεν είναι συνδεδεμένος</value> 
+    <value>Yardımcı cihaz bağlı olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_NAME" xml:space="preserve"> 
-    <value>Ο σύντροφος δεν είναι συνδεδεμένος</value> 
+    <value>Yardımcı cihaz bağlı değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση του σφάλματος εκτυπωτή λόγω φορολογικού</value> 
+    <value>Yazar kasa hatası nedeniyle işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_NAME" xml:space="preserve"> 
-    <value>Σφάλμα φορολογικού εκτυπωτή</value> 
+    <value>Yazar kasa hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η μετατόπιση της φορολογικής συσκευής είναι κλειστή</value> 
+    <value>Cihaz vardiyası kapalı olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_NAME" xml:space="preserve"> 
-    <value>Η μετατόπιση συσκευής έκλεισε</value> 
+    <value>Cihaz vardiyası kapalı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η αλλαγή συσκευής έχει λήξει</value> 
+    <value>Cihaz vardiyası süresi dolduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve"> 
-    <value>Η αλλαγή συσκευής έληξε</value> 
+    <value>Cihaz vardiyası süresi dolmuş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση πληρωμής σε τιμολόγιο που έχει ήδη πληρωθεί</value> 
+    <value>Zaten ödenmiş fatura için ödeme yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_NAME" xml:space="preserve"> 
-    <value>Το τιμολόγιο έχει ήδη πληρωθεί</value> 
+    <value>Fatura zaten ödenmiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εξόφληση τιμολογίου με ποσό μικρότερο από το οφειλόμενο ποσό</value> 
+    <value>Kalan borçtan daha az tutarla fatura ödenemez</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_NAME" xml:space="preserve"> 
-    <value>Το ποσό είναι μικρότερο από το ανεξόφλητο</value> 
+    <value>Tutar kalan borçtan az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve"> 
-    <value>Το τιμολόγιο θα είχε ως αποτέλεσμα ο χρήστης να υπερβεί το πιστωτικό όριο</value> 
+    <value>Fatura kullanıcının kredi limitini aşmasına neden olur</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve"> 
-    <value>Συμπληρώθηκε το πιστωτικό όριο χρήστη</value> 
+    <value>Kullanıcı kredi limiti aşıldı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία τιμολογίου για χρήστη με απενεργοποιημένη πίστωση</value> 
+    <value>Kredisi devre dışı olan kullanıcı için fatura oluşturulamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_NAME" xml:space="preserve"> 
-    <value>Χρήστης χωρίς πίστωση</value> 
+    <value>Kredisi olmayan kullanıcı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση πληρωμής τιμολογίου με ποσό μηδέν ή μικρότερο</value> 
+    <value>Sıfır veya daha düşük tutarla fatura ödemesi yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
-    <value>Ποσό πληρωμής τιμολογίου μηδέν ή μικρότερο</value> 
+    <value>Fatura ödeme tutarı sıfır veya daha az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση πληρωμής τιμολογίου όταν το οφειλόμενο ποσό είναι μικρότερο από το ποσό πληρωμής</value> 
+    <value>Kalan borç ödeme tutarından az olduğunda fatura ödemesi yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME" xml:space="preserve"> 
-    <value>Οφειλόμενο ποσό πληρωμής τιμολογίου μείον</value> 
+    <value>Fatura ödemesi kalan borç daha az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση πληρωμής τιμολογίου όταν το οφειλόμενο ποσό είναι μηδενικό</value> 
+    <value>Kalan borç sıfır olduğunda fatura ödemesi yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME" xml:space="preserve"> 
-    <value>Ανεξόφλητο ποσό πληρωμής τιμολογίου μηδέν</value> 
+    <value>Fatura ödemesi kalan borç sıfır</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση πληρωμής τιμολογίου</value> 
+    <value>Fatura ödemesi sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα πληρωμής τιμολογίου</value> 
+    <value>Fatura ödemesi belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας σε ένα άκυρο τιμολόγιο</value> 
+    <value>İptal edilmiş fatura üzerinde işlem yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve"> 
-    <value>Άκυρο τιμολόγιο</value> 
+    <value>İptal edilmiş fatura</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η παραγγελία έχει ήδη γίνει αποδεκτή</value> 
+    <value>Sipariş zaten kabul edildiği için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_NAME" xml:space="preserve"> 
-    <value>Η παραγγελία έχει ήδη γίνει αποδεκτή</value> 
+    <value>Sipariş zaten kabul edilmiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η παραγγελία έχει ήδη ακυρωθεί</value> 
+    <value>Sipariş zaten iptal edildiği için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_NAME" xml:space="preserve"> 
-    <value>Η παραγγελία έχει ήδη ακυρωθεί</value> 
+    <value>Sipariş zaten iptal edilmiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η παραγγελία έχει ήδη ολοκληρωθεί</value> 
+    <value>Sipariş zaten tamamlandığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_NAME" xml:space="preserve"> 
-    <value>Η παραγγελία έχει ήδη ολοκληρωθεί</value> 
+    <value>Sipariş zaten tamamlanmış</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η παραγγελία έχει ήδη τιμολογηθεί</value> 
+    <value>Sipariş zaten faturalandığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_NAME" xml:space="preserve"> 
-    <value>Η παραγγελία έχει ήδη τιμολογηθεί</value> 
+    <value>Sipariş zaten faturalanmış</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η παραγγελία δεν γίνεται αποδεκτή</value> 
+    <value>Sipariş kabul edilmediği için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_NAME" xml:space="preserve"> 
-    <value>Η παραγγελία δεν έγινε αποδεκτή</value> 
+    <value>Sipariş kabul edilmemiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση της ενέργειας</value> 
+    <value>İşlem sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατάστασης παραγγελίας</value> 
+    <value>Sipariş durumu belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Το ποσό που εισπράχθηκε είναι μικρότερο από το πραγματικό ποσό πληρωμής</value> 
+    <value>Alınan tutar gerçek ödeme tutarından az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_NAME" xml:space="preserve"> 
-    <value>Το ποσό πληρωμής που ελήφθη είναι μικρότερο από το ποσό πληρωμής</value> 
+    <value>Alınan ödeme tutarı yetersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση πληρωμής με ποσό μηδέν ή μικρότερο</value> 
+    <value>Sıfır veya daha düşük tutarla ödeme yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME" xml:space="preserve"> 
-    <value>Ποσό πληρωμής μηδενικό ή μικρότερο</value> 
+    <value>Ödeme tutarı sıfır veya daha az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο χρήστης δεν έχει χρήματα για να εκτελέσει την πληρωμή</value> 
+    <value>Kullanıcının ödeme yapmak için yeterli bakiyesi yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
-    <value>Ανεπαρκή κεφάλαια πληρωμής</value> 
+    <value>Ödeme yetersiz bakiye</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της πληρωμής επειδή ο τρόπος πληρωμής δεν είναι έγκυρος</value> 
+    <value>Ödeme yöntemi geçersiz olduğu için ödeme yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρος τρόπος πληρωμής</value> 
+    <value>Geçersiz ödeme yöntemi</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση αιτήματος πληρωμής</value> 
+    <value>Ödeme talebi sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα επαναφοράς αιτήματος πληρωμής</value> 
+    <value>Ödeme talebi belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απαιτείται ο εξωτερικός κεντρικός υπολογιστής</value> 
+    <value>Harici bilgisayar gerekli</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_NAME" xml:space="preserve"> 
-    <value>Απαιτείται εξωτερικός κεντρικός υπολογιστής</value> 
+    <value>Harici bilgisayar gerekli</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο καθορισμένος εξωτερικός κεντρικός υπολογιστής δεν είναι έγκυρος</value> 
+    <value>Belirtilen harici bilgisayar geçersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρος εξωτερικός κεντρικός υπολογιστής</value> 
+    <value>Geçersiz harici bilgisayar</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία αιτήματος πληρωμής επειδή ο καθορισμένος τρόπος πληρωμής δεν έχει συσχετισμένο πάροχο πληρωμών</value> 
+    <value>Belirtilen ödeme yönteminin ilişkili ödeme sağlayıcısı olmadığı için ödeme talebi oluşturulamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_NAME" xml:space="preserve"> 
-    <value>Αίτημα πληρωμής χωρίς πάροχο πληρωμής</value> 
+    <value>Ödeme talebinde ödeme sağlayıcısı yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία αιτήματος πληρωμής επειδή δεν βρέθηκε ο πάροχος πληρωμών</value> 
+    <value>Ödeme sağlayıcısı bulunamadığı için ödeme talebi oluşturulamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_NAME" xml:space="preserve"> 
-    <value>Ο πάροχος πληρωμών δεν βρέθηκε</value> 
+    <value>Ödeme sağlayıcısı bulunamadı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία αιτήματος πληρωμής λόγω σφάλματος του παρόχου</value> 
+    <value>Sağlayıcı hatası nedeniyle ödeme talebi oluşturulamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve"> 
-    <value>Σφάλμα παρόχου αιτήματος πληρωμής</value> 
+    <value>Ödeme talebi sağlayıcı hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση της πληρωμής</value> 
+    <value>Ödeme sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα πληρωμής</value> 
+    <value>Ödeme belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση κίνησης πόντων με ποσό μηδέν ή μικρότερο</value> 
+    <value>Sıfır veya daha düşük tutarla puan işlemi yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
-    <value>Ποσό κίνησης σημείου μηδέν ή μικρότερο</value> 
+    <value>Puan işlemi tutarı sıfır veya daha az</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο χρήστης δεν έχει χρήματα για να εκτελέσει τη συναλλαγή πόντων</value> 
+    <value>Kullanıcının puan işlemini gerçekleştirmek için yeterli puanı yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
-    <value>Ανεπαρκή κεφάλαια συναλλαγής πόντων</value> 
+    <value>Puan işlemi yetersiz bakiye</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο καθορισμένος τύπος συναλλαγής σημείου δεν υποστηρίζεται για τον καθορισμένο χρήστη</value> 
+    <value>Belirtilen puan işlem türü bu kullanıcı için desteklenmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME" xml:space="preserve"> 
-    <value>Ο τύπος συναλλαγής σημείου δεν υποστηρίζεται</value> 
+    <value>Puan işlem türü desteklenmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση της συναλλαγής σημείου</value> 
+    <value>Puan işlemi sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα συναλλαγής σημείου</value> 
+    <value>Puan işlemi belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας στον καθορισμένο τύπο προϊόντος</value> 
+    <value>Belirtilen ürün türü üzerinde işlem yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρος τύπος προϊόντος</value> 
+    <value>Ürün geçersiz tür</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή ο τύπος που παρέχεται δεν είναι έγκυρος ή δεν μπορεί να φορτωθεί</value> 
+    <value>Sağlanan tür geçersiz veya yüklenemiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρος τύπος παρόχου</value> 
+    <value>Sağlayıcı geçersiz tür</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή δεν βρέθηκε ο πάροχος</value> 
+    <value>Sağlayıcı bulunamadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_NAME" xml:space="preserve"> 
-    <value>Ο πάροχος δεν βρέθηκε</value> 
+    <value>Sağlayıcı bulunamadı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_DESCRIPTION" xml:space="preserve"> 
-    <value>Η υπηρεσία παροχής δεν έχει συσχετισμένο τύπο επιλογής</value> 
+    <value>Sağlayıcının ilişkili seçenek türü yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_NAME" xml:space="preserve"> 
-    <value>Πάροχος χωρίς επιλογές</value> 
+    <value>Seçeneksiz sağlayıcı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση του τηλεχειριστηρίου</value> 
+    <value>Uzaktan kontrol sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα τηλεχειριστηρίου</value> 
+    <value>Uzaktan kontrol belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο καθορισμένος κεντρικός υπολογιστής δεν είναι συνδεδεμένος</value> 
+    <value>Belirtilen bilgisayar bağlı değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_NAME" xml:space="preserve"> 
-    <value>Ο κεντρικός υπολογιστής του τηλεχειριστηρίου δεν είναι συνδεδεμένος</value> 
+    <value>Uzaktan kontrol bilgisayarı bağlı değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_DESCRIPTION" xml:space="preserve"> 
-    <value>Το καθορισμένο αναγνωριστικό κεντρικού υπολογιστή δεν είναι έγκυρο</value> 
+    <value>Belirtilen bilgisayar kimliği geçersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρο αναγνωριστικό κεντρικού υπολογιστή τηλεχειριστηρίου</value> 
+    <value>Uzaktan kontrol geçersiz bilgisayar kimliği</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η έναρξη της συνεδρίας απομακρυσμένου ελέγχου από το loopback ή το localhost</value> 
+    <value>Loopback veya localhost'tan uzaktan kontrol oturumu başlatılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_NAME" xml:space="preserve"> 
-    <value>Το τηλεχειριστήριο δεν υποστηρίζεται για loopback ή localhost</value> 
+    <value>Loopback veya localhost için uzaktan kontrol desteklenmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο καθορισμένος κεντρικός υπολογιστής δεν υποστηρίζει τηλεχειριστήριο</value> 
+    <value>Belirtilen bilgisayar uzaktan kontrolü desteklemiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_NAME" xml:space="preserve"> 
-    <value>Το τηλεχειριστήριο δεν υποστηρίζεται</value> 
+    <value>Uzaktan kontrol desteklenmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η έναρξη συνεδρίας τηλεχειριστηρίου</value> 
+    <value>Uzaktan kontrol oturumu başlatılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_NAME" xml:space="preserve"> 
-    <value>Σφάλμα έναρξης συνεδρίας τηλεχειριστηρίου</value> 
+    <value>Uzaktan kontrol oturumu başlatma hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή ο κεντρικός υπολογιστής ή ο χρήστης έχει ήδη προστεθεί</value> 
+    <value>Bilgisayar veya kullanıcı zaten eklendiği için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_NAME" xml:space="preserve"> 
-    <value>Η καταχώριση κράτησης έχει ήδη προστεθεί</value> 
+    <value>Rezervasyon kaydı zaten eklenmiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η κράτηση έχει μη έγκυρη ημερομηνία</value> 
+    <value>Rezervasyon tarihi geçersiz olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρη ημερομηνία κράτησης</value> 
+    <value>Geçersiz rezervasyon tarihi</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η δέσμευση δεν έχει έγκυρη διάρκεια</value> 
+    <value>Rezervasyon süresi geçersiz olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρη διάρκεια κράτησης</value> 
+    <value>Geçersiz rezervasyon süresi</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή ο κεντρικός υπολογιστής ή ο χρήστης δεν είναι παρών</value> 
+    <value>Bilgisayar veya kullanıcı mevcut olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_NAME" xml:space="preserve"> 
-    <value>Η είσοδος κράτησης δεν υπάρχει</value> 
+    <value>Rezervasyon kaydı mevcut değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η δέσμευση επικαλύπτει μια άλλη δέσμευση</value> 
+    <value>Rezervasyon başka bir rezervasyonla çakıştığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_NAME" xml:space="preserve"> 
-    <value>Επικαλύψεις κρατήσεων</value> 
+    <value>Rezervasyon çakışması</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η δέσμευση είναι ανενεργή</value> 
+    <value>Rezervasyon aktif olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_NAME" xml:space="preserve"> 
-    <value>Η κράτηση είναι ανενεργή</value> 
+    <value>Rezervasyon aktif değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η αλλαγή είναι ήδη ενεργή</value> 
+    <value>Vardiya zaten aktif olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_NAME" xml:space="preserve"> 
-    <value>Η βάρδια είναι ήδη ενεργή</value> 
+    <value>Vardiya zaten aktif</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η αλλαγή έχει ήδη τελειώσει</value> 
+    <value>Vardiya zaten sona erdiği için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_NAME" xml:space="preserve"> 
-    <value>Η βάρδια έχει ήδη τελειώσει</value> 
+    <value>Vardiya zaten sona ermiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή υπάρχει άλλη μετατόπιση</value> 
+    <value>Başka bir vardiya olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve"> 
-    <value>Άλλη μια αλλαγή</value> 
+    <value>Başka bir vardiya</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή ο καταχωρητής έχει διαγραφεί</value> 
+    <value>Kasa silindiği için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_NAME" xml:space="preserve"> 
-    <value>Διαγραμμένο μητρώο</value> 
+    <value>Silinmiş kasa</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή το αναγνωριστικό μετατόπισης δεν είναι έγκυρο</value> 
+    <value>Vardiya kimliği geçersiz olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρο αναγνωριστικό βάρδιας</value> 
+    <value>Geçersiz vardiya kimliği</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή δεν υπάρχει ενεργή αλλαγή</value> 
+    <value>Aktif vardiya olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_NAME" xml:space="preserve"> 
-    <value>Χωρίς ενεργή βάρδια</value> 
+    <value>Aktif vardiya yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή δεν υπάρχει χειριστής</value> 
+    <value>Operatör olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_NAME" xml:space="preserve"> 
-    <value>Χωρίς χειριστή</value> 
+    <value>Operatör yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή δεν υπάρχει καταχωρητής</value> 
+    <value>Kasa olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_NAME" xml:space="preserve"> 
-    <value>Χωρίς μητρώο</value> 
+    <value>Kasa yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η μετατόπιση είναι απενεργοποιημένη</value> 
+    <value>Vardiya devre dışı olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_NAME" xml:space="preserve"> 
-    <value>Η βάρδια είναι απενεργοποιημένη</value> 
+    <value>Vardiya devre dışı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η αλλαγή τελειώνει</value> 
+    <value>Vardiya sonlanıyor olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_NAME" xml:space="preserve"> 
-    <value>Τέλος βάρδιας</value> 
+    <value>Vardiya sonlanıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η αλλαγή δεν τελειώνει</value> 
+    <value>Vardiya sonlanmıyor olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_NAME" xml:space="preserve"> 
-    <value>Η αλλαγή δεν τελειώνει</value> 
+    <value>Vardiya sonlanmıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
-    <value>Η διαμόρφωση του προϊόντος δεν επιτρέπει τη συγκεκριμένη συναλλαγή αποθέματος</value> 
+    <value>Ürün yapılandırması belirtilen stok işlemine izin vermiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρος τύπος συναλλαγής μετοχών</value> 
+    <value>Stok işlemi geçersiz tür</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve"> 
-    <value>Το προϊόν έχει εξαντληθεί</value> 
+    <value>Ürün stokta yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve"> 
-    <value>Εξαντλημένο</value> 
+    <value>Stokta yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η τροποποίηση του επιπέδου αποθέματος ενός προϊόντος που έχει απενεργοποιημένο το απόθεμα</value> 
+    <value>Stok takibi devre dışı olan ürünün stok seviyesi değiştirilemez</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_NAME" xml:space="preserve"> 
-    <value>Το απόθεμα είναι απενεργοποιημένο</value> 
+    <value>Stok devre dışı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_DESCRIPTION" xml:space="preserve"> 
-    <value>Η επιλογή Στόχευση διαφορετικού προϊόντος έχει οριστεί στο προϊόν αλλά όχι στο προϊόν προορισμού</value> 
+    <value>Üründe farklı ürün hedefleme seçeneği ayarlanmış ancak hedef ürün belirlenmemiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_NAME" xml:space="preserve"> 
-    <value>Το προϊόν-στόχος αποθέματος δεν έχει οριστεί</value> 
+    <value>Stok hedef ürünü belirlenmemiş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα κατά την εκτέλεση της συναλλαγής αποθέματος</value> 
+    <value>Stok işlemi sırasında belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Απροσδιόριστο σφάλμα συναλλαγής μετοχών</value> 
+    <value>Stok işlemi belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η δημιουργία συναλλαγής μετοχών με μηδενικό ποσό</value> 
+    <value>Sıfır miktarla stok işlemi oluşturulamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_NAME" xml:space="preserve"> 
-    <value>Μηδενικό ποσό συναλλαγής μετοχών</value> 
+    <value>Stok işlemi sıfır miktar</value> 
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας στον καθορισμένο τύπο ομάδας χρηστών</value> 
+    <value>Belirtilen kullanıcı grubu türü üzerinde işlem yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρος τύπος ομάδας χρηστών</value> 
+    <value>Kullanıcı grubu geçersiz tür</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο χρήστης βρίσκεται ήδη στην ουρά αναμονής</value> 
+    <value>Kullanıcı zaten bekleme listesinde</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve"> 
-    <value>Ήδη στην ουρά αναμονής</value> 
+    <value>Zaten bekleme listesinde</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η γραμμή αναμονής είναι ήδη συνδεδεμένη</value> 
+    <value>Kullanıcı zaten giriş yapmış olduğu için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_NAME" xml:space="preserve"> 
-    <value>Ο χρήστης είναι ήδη συνδεδεμένος</value> 
+    <value>Kullanıcı zaten giriş yapmış</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_DESCRIPTION" xml:space="preserve"> 
-    <value>Η καθορισμένη ομάδα υποδοχής δεν επιτρέπεται για τον καθορισμένο χρήστη</value> 
+    <value>Belirtilen bilgisayar grubu bu kullanıcı için izin verilmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_NAME" xml:space="preserve"> 
-    <value>Η γραμμή αναμονής δεν επιτρέπεται για την ομάδα υποδοχής</value> 
+    <value>Bekleme listesi izin verilmeyen bilgisayar grubu</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η γραμμή αναμονής δεν είναι ενεργή</value> 
+    <value>Bekleme listesi aktif olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_NAME" xml:space="preserve"> 
-    <value>Η ουρά αναμονής δεν είναι ενεργή</value> 
+    <value>Bekleme listesi aktif değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο χρήστης δεν βρίσκεται στην ουρά αναμονής</value> 
+    <value>Kullanıcı bekleme listesinde değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_NAME" xml:space="preserve"> 
-    <value>Όχι στην ουρά αναμονής</value> 
+    <value>Bekleme listesinde değil</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με τα στοιχεία</value> 
+    <value>Varlıkla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ASSET_NAME" xml:space="preserve"> 
-    <value>Σφάλμα στοιχείων</value> 
+    <value>Varlık hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το αίτημα βοήθειας</value> 
+    <value>Yardım talebiyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_NAME" xml:space="preserve"> 
-    <value>Σφάλμα αιτήματος βοήθειας</value> 
+    <value>Yardım talebi hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_BILLING_PROFILE_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το προφίλ χρέωσης</value> 
+    <value>Faturalama profiliyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_BILLING_PROFILE_NAME" xml:space="preserve"> 
-    <value>Σφάλμα προφίλ χρέωσης</value> 
+    <value>Faturalama profili hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_DEPOSIT_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με την κατάθεση</value> 
+    <value>Depozitoyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_DEPOSIT_NAME" xml:space="preserve"> 
-    <value>Σφάλμα κατάθεσης</value> 
+    <value>Depozito hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ENTITY_IN_USE_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με την οντότητα σε χρήση</value> 
+    <value>Kullanımdaki varlıkla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ENTITY_IN_USE_NAME" xml:space="preserve"> 
-    <value>Σφάλμα οντότητας σε χρήση</value> 
+    <value>Kullanımdaki varlık hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_DESCRIPTION" xml:space="preserve"> 
-    <value>Σχετικό σφάλμα οντότητας που δεν αναφέρεται</value> 
+    <value>Referans verilmeyen varlıkla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_NAME" xml:space="preserve"> 
-    <value>Σφάλμα μη αναφερόμενης οντότητας</value> 
+    <value>Referans verilmeyen varlık hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με την αναφορά οντότητας</value> 
+    <value>Varlık referansıyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_NAME" xml:space="preserve"> 
-    <value>Σφάλμα αναφοράς οντότητας</value> 
+    <value>Varlık referansı hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_COMPANION_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το Companion</value> 
+    <value>Yardımcı cihazla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_COMPANION_NAME" xml:space="preserve"> 
-    <value>Συνοδευτικό σφάλμα</value> 
+    <value>Yardımcı cihaz hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με την κράτηση οικοδεσπότη</value> 
+    <value>Bilgisayar rezervasyonuyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_HOST_RESERVATION_NAME" xml:space="preserve"> 
-    <value>Σφάλμα κράτησης οικοδεσπότη</value> 
+    <value>Bilgisayar rezervasyonu hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με την απόκριση Http</value> 
+    <value>HTTP yanıtıyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_HTTP_RESPONSE_NAME" xml:space="preserve"> 
-    <value>Σφάλμα απόκρισης Http</value> 
+    <value>HTTP yanıt hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVALID_PROPERTY_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με μη έγκυρη ιδιοκτησία</value> 
+    <value>Geçersiz özellikle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVALID_PROPERTY_NAME" xml:space="preserve"> 
-    <value>Σφάλμα μη έγκυρης ιδιότητας</value> 
+    <value>Geçersiz özellik hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVOICE_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το τιμολόγιο</value> 
+    <value>Faturayla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVOICE_NAME" xml:space="preserve"> 
-    <value>Σφάλμα τιμολογίου</value> 
+    <value>Fatura hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με την πληρωμή τιμολογίου</value> 
+    <value>Fatura ödemesiyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_NAME" xml:space="preserve"> 
-    <value>Σφάλμα πληρωμής τιμολογίου</value> 
+    <value>Fatura ödemesi hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με την κράτηση άδειας χρήσης</value> 
+    <value>Lisans rezervasyonuyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_NAME" xml:space="preserve"> 
-    <value>Σφάλμα κράτησης άδειας χρήσης</value> 
+    <value>Lisans rezervasyonu hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ORDER_STATUS_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με την κατάσταση παραγγελίας</value> 
+    <value>Sipariş durumuyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ORDER_STATUS_NAME" xml:space="preserve"> 
-    <value>Σφάλμα κατάστασης παραγγελίας</value> 
+    <value>Sipariş durumu hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PAYMENT_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με την πληρωμή</value> 
+    <value>Ödemeyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PAYMENT_NAME" xml:space="preserve"> 
-    <value>Σφάλμα πληρωμής</value> 
+    <value>Ödeme hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με το αίτημα πληρωμής</value> 
+    <value>Ödeme talebiyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_NAME" xml:space="preserve"> 
-    <value>Σφάλμα αιτήματος πληρωμής</value> 
+    <value>Ödeme talebi hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_POINT_TRANSACTION_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με τη συναλλαγή πόντων</value> 
+    <value>Puan işlemiyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_POINT_TRANSACTION_NAME" xml:space="preserve"> 
-    <value>Σφάλμα συναλλαγής πόντων</value> 
+    <value>Puan işlemi hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PRODUCT_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το προϊόν</value> 
+    <value>Ürünle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PRODUCT_NAME" xml:space="preserve"> 
-    <value>Σφάλμα προϊόντος</value> 
+    <value>Ürün hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PROVIDER_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με τον πάροχο</value> 
+    <value>Sağlayıcıyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_PROVIDER_NAME" xml:space="preserve"> 
-    <value>Σφάλμα παρόχου</value> 
+    <value>Sağlayıcı hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_REMOTE_CONTROL_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το τηλεχειριστήριο</value> 
+    <value>Uzaktan kontrolle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_REMOTE_CONTROL_NAME" xml:space="preserve"> 
-    <value>Σφάλμα τηλεχειριστηρίου</value> 
+    <value>Uzaktan kontrol hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_SHIFT_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με τη μετατόπιση</value> 
+    <value>Vardiyayla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_SHIFT_NAME" xml:space="preserve"> 
-    <value>Σφάλμα μετατόπισης</value> 
+    <value>Vardiya hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_STOCK_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με το απόθεμα</value> 
+    <value>Stokla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_STOCK_NAME" xml:space="preserve"> 
-    <value>Σφάλμα αποθέματος</value> 
+    <value>Stok hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_USER_GROUP_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με την ομάδα χρηστών</value> 
+    <value>Kullanıcı grubuyla ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_USER_GROUP_NAME" xml:space="preserve"> 
-    <value>Σφάλμα ομάδας χρηστών</value> 
+    <value>Kullanıcı grubu hatası</value> 
   </data> 
   <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα που σχετίζεται με τη γραμμή αναμονής</value> 
+    <value>Bekleme listesiyle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve"> 
-    <value>Σφάλμα γραμμής αναμονής</value> 
+    <value>Bekleme listesi hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve"> 
-    <value>Δεν υπάρχει απόθεμα συνδεδεμένο με το μητρώο</value> 
+    <value>Kasayla ilişkili stok yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK" xml:space="preserve"> 
-    <value>Καμία μετοχή που να σχετίζεται με το register</value> 
+    <value>Kasayla ilişkili stok yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_NAME" xml:space="preserve"> 
-    <value>Καμία μετοχή που να σχετίζεται με το register</value> 
+    <value>Kasayla ilişkili stok yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή δεν υπάρχει μέσο εκτύπωσης που να σχετίζεται με το μητρώο</value> 
+    <value>Kasayla ilişkili stok olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_NAME" xml:space="preserve"> 
-    <value>Περιορισμένη ηλικία σύνδεσης</value> 
+    <value>Giriş yaş kısıtlaması</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας λόγω ηλικιακού περιορισμού</value> 
+    <value>Yaş kısıtlaması nedeniyle işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve"> 
-    <value>Σφάλμα σχετικά με το απόθεμα</value> 
+    <value>Envanterle ilgili hata</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVENTORY_NAME" xml:space="preserve"> 
-    <value>Σφάλμα αποθέματος</value> 
+    <value>Envanter hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_NAME" xml:space="preserve"> 
-    <value>Η μεταφορά έχει ήδη ολοκληρωθεί</value> 
+    <value>Transfer zaten tamamlanmış</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η επεξεργασία της ήδη ολοκληρωμένης μεταφοράς</value> 
+    <value>Zaten tamamlanmış transfer işlenemez</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η κράτηση έχει ήδη οριστικοποιηθεί</value> 
+    <value>Rezervasyon zaten sonuçlandırıldığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_NAME" xml:space="preserve"> 
-    <value>Η κράτηση οριστικοποιήθηκε</value> 
+    <value>Rezervasyon sonuçlandırılmış</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρες παράμετροι</value> 
+    <value>Geçersiz parametreler</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_DESCRIPTION" xml:space="preserve"> 
-    <value>Οι παράμετροι δεν είναι έγκυρες</value> 
+    <value>Parametreler geçersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_NAME" xml:space="preserve"> 
-    <value>Δεν επιτρέπεται η ίδια μεταφορά αποθεμάτων</value> 
+    <value>Aynı stoğa transfer yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η μεταφορά στο ίδιο απόθεμα</value> 
+    <value>Aynı stoğa transfer yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_NAME" xml:space="preserve"> 
-    <value>Ανενεργή προώθηση</value> 
+    <value>Promosyon aktif değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Η προσφορά είναι ανενεργή</value> 
+    <value>Promosyon aktif değil</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve"> 
-    <value>Ο κωδικός προσφοράς δεν είναι έγκυρος</value> 
+    <value>Promosyon kodu geçersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve"> 
-    <value>Ο κωδικός προσφοράς που καθορίστηκε δεν είναι έγκυρος</value> 
+    <value>Belirtilen promosyon kodu geçersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρο καλάθι</value> 
+    <value>Geçersiz sepet</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_DESCRIPTION" xml:space="preserve"> 
-    <value>Το καλάθι δεν είναι έγκυρο ή έχει λήξει</value> 
+    <value>Sepet geçersiz veya süresi dolmuş</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_NAME" xml:space="preserve"> 
-    <value>Δεν υποστηρίζεται</value> 
+    <value>Desteklenmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η ενέργεια καλαθιού δεν υποστηρίζεται</value> 
+    <value>Sepet işlemi desteklenmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η αγορά περιορίζεται ανά υποκατάστημα</value> 
+    <value>Satın alma şubeye göre kısıtlı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
-    <value>Υποκατάστημα περιορισμένο</value> 
+    <value>Şube kısıtlaması</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_DESCRIPTION" xml:space="preserve"> 
-    <value>Το αναγνωριστικό καταχώρισης καλαθιού που καθορίστηκε δεν είναι έγκυρο</value> 
+    <value>Belirtilen sepet öğesi kimliği geçersiz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_NAME" xml:space="preserve"> 
-    <value>Μη έγκυρο αναγνωριστικό καταχώρισης καλαθιού</value> 
+    <value>Geçersiz sepet öğesi kimliği</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η αγορά περιορίζεται από την ώρα ή την ημερομηνία</value> 
+    <value>Satın alma zaman veya tarihe göre kısıtlı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_NAME" xml:space="preserve"> 
-    <value>Περιορισμένος χρόνος</value> 
+    <value>Zaman kısıtlaması</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η αγορά περιορίζεται ανά ομάδα χρηστών</value> 
+    <value>Satın alma kullanıcı grubuna göre kısıtlı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_NAME" xml:space="preserve"> 
-    <value>Περιορισμένη ομάδα χρηστών</value> 
+    <value>Kullanıcı grubu kısıtlaması</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η αγορά περιορίζεται ανάλογα με την ηλικία</value> 
+    <value>Satın alma yaşa göre kısıtlı</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_NAME" xml:space="preserve"> 
-    <value>Περιορισμός ηλικίας</value> 
+    <value>Yaş kısıtlaması</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
-    <value>Η κράτηση επιτρέπεται μόνο για έναν οικοδεσπότη</value> 
+    <value>Rezervasyon yalnızca tek bilgisayar için izin veriliyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve"> 
-    <value>Δεν επιτρέπονται πολλαπλοί οικοδεσπότες</value> 
+    <value>Çoklu bilgisayar izin verilmiyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve"> 
-    <value>Το προϊόν έχει εξαντληθεί</value> 
+    <value>Ürün stokta yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_NAME" xml:space="preserve"> 
-    <value>Εξαντλημένο</value> 
+    <value>Stokta yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_DESCRIPTION" xml:space="preserve"> 
-    <value>Το ποσό πληρωμής υπερβαίνει το απαιτούμενο σύνολο</value> 
+    <value>Ödeme tutarı gerekli toplamı aşıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_NAME" xml:space="preserve"> 
-    <value>Η πληρωμή υπερβαίνει το σύνολο</value> 
+    <value>Ödeme toplamı aşıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve"> 
-    <value>Για την αγορά του προϊόντος απαιτείται σήμανση</value> 
+    <value>Ürün satın alımı işaretleme gerektiriyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve"> 
-    <value>Απαιτεί σήμα</value> 
+    <value>İşaretleme gerekli</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας λόγω σφάλματος τερματικού πληρωμής</value> 
+    <value>Ödeme terminali hatası nedeniyle işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_NAME" xml:space="preserve"> 
-    <value>Σφάλμα τερματικού πληρωμής</value> 
+    <value>Ödeme terminali hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση του σφάλματος εμφάνισης λόγω qr</value> 
+    <value>QR ekranı hatası nedeniyle işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve"> 
-    <value>Σφάλμα εμφάνισης QR</value> 
+    <value>QR ekranı hatası</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της συνοδευτικής διαμόρφωσης λόγω έλλειψης</value> 
+    <value>Eksik yardımcı cihaz yapılandırması nedeniyle işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve"> 
-    <value>Απαιτείται συνοδός</value> 
+    <value>Yardımcı cihaz gerekli</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_NAME" xml:space="preserve"> 
-    <value>Οι πληρωμές υπερβαίνουν το οφειλόμενο ποσό</value> 
+    <value>Ödemeler kalan borcu aşıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της πληρωμής επειδή η πληρωμή υπερβαίνει το ανεξόφλητο ποσό</value> 
+    <value>Ödeme kalan borcu aştığı için yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_NAME" xml:space="preserve"> 
-    <value>Χωρίς υποκατάστημα</value> 
+    <value>Şube yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας, επειδή δεν υπάρχει υποκατάστημα.</value> 
+    <value>Şube olmadığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve"> 
-    <value>Έχει ήδη καταμετρηθεί</value> 
+    <value>Zaten sayılmış</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή το απόθεμα έχει ήδη καταμετρηθεί</value> 
+    <value>Stok zaten sayıldığı için işlem yapılamıyor</value> 
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_NAME" xml:space="preserve"> 
-    <value>Δεν υπάρχει ομάδα επισκεπτών</value> 
+    <value>Misafir grubu yok</value> 
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
-    <value>Δεν υπάρχει ομάδα χρηστών επισκεπτών</value> 
+    <value>Misafir kullanıcı grubu mevcut değil</value> 
   </data> 
 </root>
