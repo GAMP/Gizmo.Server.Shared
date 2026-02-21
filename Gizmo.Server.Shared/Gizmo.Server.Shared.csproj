@@ -20,15 +20,22 @@
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<PackageIcon>package_icon.png</PackageIcon>
-		<Version>1.0.0.0</Version>
+		<Version>1.0.2.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="Resources\package_icon.png" />
+		<None Include="Resources\package_icon.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
 	</ItemGroup>
 
-	<ItemGroup>
+	<ItemGroup Condition="Exists('..\..\Gizmo.Shared\Gizmo.Shared.csproj')">
 	  <ProjectReference Include="..\..\Gizmo.Shared\Gizmo.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="!Exists('..\..\Gizmo.Shared\Gizmo.Shared.csproj')">
+	  <PackageReference Include="Gizmo.Shared" Version="1.0.7" />
 	</ItemGroup>
 
 	<ItemGroup>
