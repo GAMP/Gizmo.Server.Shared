@@ -1,4 +1,6 @@
 using System;
+using Gizmo.Extensibility;
+using Gizmo.Extensibility.Abstractions;
 
 namespace Gizmo.Server.Extensibility
 {
@@ -49,6 +51,7 @@ namespace Gizmo.Server.Extensibility
     /// passed credential validation.
     /// </para>
     /// </remarks>
+    [IntegrationCapability("A1B2C3D4-1001-4000-8000-000000000001")]
     public interface IUserAuthenticationHandler
     {
         /// <summary>

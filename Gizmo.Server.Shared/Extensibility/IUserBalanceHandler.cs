@@ -1,3 +1,6 @@
+using Gizmo.Extensibility;
+using Gizmo.Extensibility.Abstractions;
+
 namespace Gizmo.Server.Extensibility
 {
     /// <summary>
@@ -39,6 +42,7 @@ namespace Gizmo.Server.Extensibility
     /// is responsible for returning balances for all applicable users.
     /// </para>
     /// </remarks>
+    [IntegrationCapability("A1B2C3D4-1001-4000-8000-000000000002")]
     public interface IUserBalanceHandler
     {
         /// <summary>

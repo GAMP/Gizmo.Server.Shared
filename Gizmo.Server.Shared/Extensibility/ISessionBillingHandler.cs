@@ -1,3 +1,6 @@
+using Gizmo.Extensibility;
+using Gizmo.Extensibility.Abstractions;
+
 namespace Gizmo.Server.Extensibility
 {
     /// <summary>
@@ -18,6 +21,7 @@ namespace Gizmo.Server.Extensibility
     /// user session should be terminated after billing (e.g. when balance is exhausted).
     /// </para>
     /// </remarks>
+    [IntegrationCapability("A1B2C3D4-1001-4000-8000-000000000003")]
     public interface ISessionBillingHandler
     {
         /// <summary>
