@@ -71,7 +71,7 @@ namespace Gizmo.Server.Extensibility
         /// <summary>
         /// Gets the available balance (deposits minus all outstanding amounts).
         /// </summary>
-        public decimal Balance => Deposits - OnInvoices - OnActiveUsage;
+        public decimal Balance => Deposits - OnInvoicedUsage - OnActiveUsage - OnInvoices;
 
         /// <summary>
         /// Gets the total time product balance (time product + fixed time).
