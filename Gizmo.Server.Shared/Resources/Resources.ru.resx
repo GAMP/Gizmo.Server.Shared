@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: ru-RU, Russian (Russia)
   Exported by: Oleg Savelos
-  Exported at: Mon, 02 Mar 2026 16:58:39 +0200 
+  Exported at: Tue, 17 Mar 2026 17:55:10 +0200 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -468,13 +468,13 @@
     <value>Резервация неактивна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что сдвиг уже активен</value> 
+    <value>Невозможно выполнить действие, потому что смена уже активна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_NAME" xml:space="preserve"> 
-    <value>Сдвиг уже активен</value> 
+    <value>Смена уже активна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что сдвиг уже завершился</value> 
+    <value>Невозможно выполнить действие, так как смена уже завершена</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_NAME" xml:space="preserve"> 
     <value>Смена уже закончилась</value> 
@@ -483,7 +483,7 @@
     <value>Не могу выполнить действие из-за другого смещения</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve"> 
-    <value>Ещё один сдвиг</value> 
+    <value>Еще одна смена</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_DESCRIPTION" xml:space="preserve"> 
     <value>Нельзя выполнить действие, потому что регистр удаляется</value> 
@@ -492,13 +492,13 @@
     <value>Удалённый регистр</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что идентификатор сдвига неверен</value> 
+    <value>Невозможно выполнить действие, так как идентификатор смены недействителен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_NAME" xml:space="preserve"> 
-    <value>Неправильный идентификатор сдвига</value> 
+    <value>Недействительный идентификатор смены</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что нет активного сдвига</value> 
+    <value>Невозможно выполнить действие, так как нет активной смены</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_NAME" xml:space="preserve"> 
     <value>Активного смещения нет.</value> 
@@ -516,19 +516,19 @@
     <value>Нет регистра</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что сдвиг отключён</value> 
+    <value>Невозможно выполнить действие, поскольку смена отключена.</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_NAME" xml:space="preserve"> 
     <value>Смена отключена</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что сдвиг заканчивается</value> 
+    <value>Невозможно выполнить действие, так как смена заканчена</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_NAME" xml:space="preserve"> 
-    <value>Завершение сдвига</value> 
+    <value>Окончание смены</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что сдвиг не заканчивается</value> 
+    <value>Невозможно выполнить действие, поскольку смена не закончена.</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_NAME" xml:space="preserve"> 
     <value>Смена не заканчивается</value> 
@@ -732,10 +732,10 @@
     <value>Ошибка дистанционного управления</value> 
   </data> 
   <data name="EXCEPTION_TYPE_SHIFT_DESCRIPTION" xml:space="preserve"> 
-    <value>Ошибка, связанная со сдвигом</value> 
+    <value>Ошибка, связанная со сменой</value> 
   </data> 
   <data name="EXCEPTION_TYPE_SHIFT_NAME" xml:space="preserve"> 
-    <value>Ошибка сдвига</value> 
+    <value>Ошибка смены</value> 
   </data> 
   <data name="EXCEPTION_TYPE_STOCK_DESCRIPTION" xml:space="preserve"> 
     <value>Ошибка, связанная с акцией</value> 
@@ -762,10 +762,10 @@
     <value>Нет запасов, связанных с регистром</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_NAME" xml:space="preserve"> 
-    <value>Нет запасов, связанных с регистром</value> 
+    <value>Нет запасов, связанных с кассой</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, так как нет запаса, связанного с регистром</value> 
+    <value>Невозможно выполнить действие, так как с кассой не связан ни один склад</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_NAME" xml:space="preserve"> 
     <value>Возраст входа ограничен</value> 
@@ -774,16 +774,16 @@
     <value>Не может выполнить действие из-за возрастного ограничения</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve"> 
-    <value>Ошибка релятеда инвентаря</value> 
+    <value>Ошибка, связанная со складскими запасами</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVENTORY_NAME" xml:space="preserve"> 
     <value>Ошибка в инвентаризации</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_NAME" xml:space="preserve"> 
-    <value>Передача уже завершена</value> 
+    <value>Перемещение уже завершено</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу оформить уже завершённый перевод</value> 
+    <value>Невозможно обработать уже завершенный перевод</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve"> 
     <value>Не могу выполнить действие, потому что бронирование уже завершено</value> 
@@ -837,7 +837,7 @@
     <value>Указанный идентификатор записи в картридж неверен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_NAME" xml:space="preserve"> 
-    <value>Некорректный идентификатор записи в картридж</value> 
+    <value>Недопустимый идентификатор элемента корзины</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
     <value>Покупка ограничена временем или датой</value> 
@@ -894,7 +894,7 @@
     <value>Ошибка отображения QR</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Невозможно выполнить действие из‑за отсутствующей конфигурации компаньона</value> 
+    <value>Невозможно выполнить из-за отсутствия настроек компаньона</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve"> 
     <value>Требуется компаньон</value> 
