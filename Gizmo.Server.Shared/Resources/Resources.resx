@@ -861,6 +861,42 @@
   <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve">
     <value>The promotion code specified is invalid</value>
   </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve">
+    <value>Promotion branch restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The promotion is not available for this branch</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_NAME" xml:space="preserve">
+    <value>Promotion period restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The promotion is not available at this time</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promotion total limit exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>The promotion total usage limit has been exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promotion per-user limit exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>The promotion per-user usage limit has been exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promotion daily limit exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>The promotion daily usage limit has been exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promotion weekly limit exceeded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>The promotion weekly usage limit has been exceeded</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve">
     <value>Invalid cart</value>
   </data>
