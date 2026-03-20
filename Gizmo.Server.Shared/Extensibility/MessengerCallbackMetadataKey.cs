@@ -19,5 +19,10 @@ namespace Gizmo.Server.Extensibility
         /// User's last name.
         /// </summary>
         LastName,
+
+        /// <summary>
+        /// Communication channel type GUID.
+        /// </summary>
+        ChannelType,
     }
 }
