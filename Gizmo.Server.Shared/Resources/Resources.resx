@@ -963,6 +963,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Requires mark</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>The user account is disabled</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
+    <value>User disabled</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action due to payment terminal error</value>
   </data>
