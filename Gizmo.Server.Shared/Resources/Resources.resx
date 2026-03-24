@@ -964,7 +964,7 @@
     <value>Requires mark</value>
   </data>
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
-    <value>The user account is disabled</value>
+    <value>The user account is banned</value>
   </data>
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
     <value>User disabled</value>
