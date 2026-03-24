@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: pt-BR, Brazilian Portuguese
   Exported by: Oleg Savelos
-  Exported at: Tue, 17 Mar 2026 17:55:11 +0200 
+  Exported at: Tue, 24 Mar 2026 17:48:47 +0200 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -92,21 +92,51 @@
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
     <value>Outra solicitação de assistência já está pendente ou em processamento</value> 
   </data> 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_NAME" xml:space="preserve"> 
+    <value>Solicitação de assistência já pendente</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possível alterar o estado da solicitação de assistência para o estado especificado</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_NAME" xml:space="preserve"> 
+    <value>Solicitação de assistência não pode mudar de estado</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possível criar solicitação de assistência sem terminal</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_NAME" xml:space="preserve"> 
+    <value>Solicitação de assistência sem terminal</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
+    <value>O usuário não possui nenhuma solicitação de assistência pendente</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_NAME" xml:space="preserve"> 
+    <value>Nenhuma solicitação de assistência pendente</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_DESCRIPTION" xml:space="preserve"> 
+    <value>A solicitação de assistência excedeu o tempo limite</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_NAME" xml:space="preserve"> 
+    <value>Solicitação de assistência expirou</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possível criar tarifa baseada em etapas devido a minuto inválido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_NAME" xml:space="preserve"> 
+    <value>Perfil de faturamento com minuto inválido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possível criar a tarifa em etapas devido a múltiplos ciclos</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
+    <value>Perfil de tarifa com múltiplos ciclos</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
+    <value>O depósito já foi cancelado</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve"> 
+    <value>Depósito já cancelado</value> 
+  </data> 
    
    
    
