@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: el, Greek
   Exported by: Oleg Savelos
-  Exported at: Tue, 24 Mar 2026 17:48:47 +0200 
+  Exported at: Tue, 31 Mar 2026 14:32:50 +0300 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -922,5 +922,35 @@
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>Δεν υπάρχει ομάδα χρηστών επισκεπτών</value> 
+  </data> 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>Ο λογαριασμός χρήστη είναι αποκλεισμένος</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve"> 
+    <value>Ο χρήστης είναι απενεργοποιημένος</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve"> 
+    <value>Το απόθεμα έχει προϊόντα</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve"> 
+    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή το απόθεμα έχει προϊόντα</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve"> 
+    <value>Η βάρδια είναι ενεργή</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η βάρδια είναι ενεργή</value> 
   </data> 
 </root>

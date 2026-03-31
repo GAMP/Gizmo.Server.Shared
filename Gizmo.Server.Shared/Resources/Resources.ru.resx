@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: ru-RU, Russian (Russia)
   Exported by: Oleg Savelos
-  Exported at: Tue, 24 Mar 2026 17:48:47 +0200 
+  Exported at: Tue, 31 Mar 2026 14:32:50 +0300 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -922,5 +922,59 @@
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>Группы гостей не существует</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>Акция для филиала ограничена</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>Эта акция недоступна для данного филиала</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>Период действия акции ограничен</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>Акция недоступна в данный момент</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Превышен общий лимит промоакции</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>Общий лимит использования акции исчерпан</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Превышен лимит акций для пользователя</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>Превышен лимит использования акции для одного пользователя</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Дневной лимит акций исчерпан</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>Превышен дневной лимит использования акции</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Превышен недельный лимит акции</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>Превышен недельный лимит использования акции</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>Учетная запись пользователя заблокирована </value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve"> 
+    <value>Пользователь отключен</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve"> 
+    <value>На складе есть товары</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve"> 
+    <value>Невозможно выполнить действие, так как на складе есть товары</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve"> 
+    <value>Смена активна</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>Невозможно выполнить действие, так как смена активна</value> 
   </data> 
 </root>
