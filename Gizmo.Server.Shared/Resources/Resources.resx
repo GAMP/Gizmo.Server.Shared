@@ -591,6 +591,12 @@
   <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve">
     <value>Out of stock</value>
   </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
+    <value>Stock has products</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the stock has products</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve">
     <value>Cannot modify the stock level of a product that has stock disabled</value>
   </data>
@@ -998,6 +1004,12 @@
   </data>
   <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action because there is no branch</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve">
+    <value>Shift is active</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Cannot perform the action because the shift is active</value>
   </data>
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
     <value>Already counted</value>
