@@ -1,9 +1,9 @@
 namespace Gizmo.Server.Extensibility
 {
     /// <summary>
-    /// Keys for metadata provided by messenger platforms in callback results.
+    /// Keys for metadata provided by verification providers in callback results.
     /// </summary>
-    public enum MessengerCallbackMetadataKey
+    public enum VerificationCallbackMetadataKey
     {
         /// <summary>
         /// User's phone number.
@@ -24,5 +24,10 @@ namespace Gizmo.Server.Extensibility
         /// Communication channel type GUID.
         /// </summary>
         ChannelType,
+
+        /// <summary>
+        /// User's email address.
+        /// </summary>
+        Email,
     }
 }

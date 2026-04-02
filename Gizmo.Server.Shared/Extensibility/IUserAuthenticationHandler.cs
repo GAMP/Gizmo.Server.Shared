@@ -51,7 +51,7 @@ namespace Gizmo.Server.Extensibility
     /// passed credential validation.
     /// </para>
     /// </remarks>
-    [IntegrationCapability("A1B2C3D4-1001-4000-8000-000000000001")]
+    [IntegrationCapability("0ABC95C6-6441-4A64-ABCA-4BED0BEE2914")]
     public interface IUserAuthenticationHandler
     {
         /// <summary>
