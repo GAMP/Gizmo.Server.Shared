@@ -72,22 +72,22 @@
     <value>Russian (Russia)</value>
   </metadata> 
   <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION" xml:space="preserve"> 
-    <value>Инвентарь уже зарегистрирован</value> 
+    <value>Оборудование уже зарегистрировано</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_NAME" xml:space="preserve"> 
-    <value>Инвентарь уже зарегистрирован</value> 
+    <value>Оборудование уже зарегистрировано</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_DISABLED_DESCRIPTION" xml:space="preserve"> 
-    <value>Инвентарь отключён</value> 
+    <value>Оборудование отключено</value>
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_DISABLED_NAME" xml:space="preserve"> 
-    <value>Инвентарь отключен</value> 
+    <value>Оборудование отключено</value>
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_DESCRIPTION" xml:space="preserve"> 
-    <value>Инвентарь не зарегистрирован</value> 
+    <value>Оборудование не зарегистрировано</value>
   </data> 
   <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME" xml:space="preserve"> 
-    <value>Инвентарь, не зарегистрирован</value> 
+    <value>Оборудование не зарегистрировано</value>
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
     <value>Другой запрос на помощь уже ожидает или обрабатывается</value> 
@@ -102,10 +102,10 @@
     <value>Запрос на помощь не может изменить состояние</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_DESCRIPTION" xml:space="preserve"> 
-    <value>Нельзя создать запрос на помощь без устройства</value> 
+    <value>Нельзя создать запрос на помощь без хоста</value>
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_NAME" xml:space="preserve"> 
-    <value>Запрос о помощи без устройства</value> 
+    <value>Запрос на помощь без хоста</value>
   </data> 
   <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
     <value>У пользователя нет активных запросов на помощь</value> 
@@ -141,7 +141,7 @@
     <value>Невозможно выполнить операцию пополнения с нулевой или отрицательной суммой</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
-    <value>Сумма операции по депозитам равна нулю или меньше</value> 
+    <value>Сумма операции с депозитом равна нулю или меньше</value>
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_DESCRIPTION" xml:space="preserve"> 
     <value>Пользовательские депозиты удерживаются за неоплаченное время сессии</value> 
@@ -153,25 +153,25 @@
     <value>У пользователя нет средств для выполнения депозитной транзакции</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
-    <value>Депозитные операции недостаточно средств</value> 
+    <value>Недостаточно средств для операции с депозитом</value>
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
     <value>Транзакция с депозитом приведёт к отрицательному балансу у пользователя</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_NAME" xml:space="preserve"> 
-    <value>Отрицательный баланс депозитной транзакции не допускается</value> 
+    <value>Отрицательный баланс по депозитной транзакции не допускается</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
     <value>Неопределённая ошибка при выполнении депозитной транзакции</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve"> 
-    <value>Ошибка транзакции депозита, не определённая</value> 
+    <value>Неопределённая ошибка транзакции депозита</value>
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что спутник не связан</value> 
+    <value>Невозможно выполнить действие, так как Companion не подключён</value>
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_NAME" xml:space="preserve"> 
-    <value>Компаньон не подключен</value> 
+    <value>Companion не подключён</value>
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить операцию из‑за ошибки фискального принтера</value> 
@@ -210,7 +210,7 @@
     <value>Достигнут лимит пользовательского кредита</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу создать счёт для пользователя с отключённой кредитной историей</value> 
+    <value>Невозможно создать счёт для пользователя с отключённым кредитом</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_NAME" xml:space="preserve"> 
     <value>Пользователь без кредита</value> 
@@ -222,13 +222,13 @@
     <value>Сумма оплаты по счету ноль или меньше</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION" xml:space="preserve"> 
-    <value>Нельзя выполнить оплату по счету, если сумма незадолженности меньше суммы платежа</value> 
+    <value>Нельзя выполнить оплату по счету, если сумма задолженности меньше суммы платежа</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME" xml:space="preserve"> 
     <value>Сумма оплаты счета меньше</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION" xml:space="preserve"> 
-    <value>Нельзя выполнить оплату по счету, если сумма незадолженности равна нулю</value> 
+    <value>Нельзя выполнить оплату по счету, если сумма задолженности равна нулю</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME" xml:space="preserve"> 
     <value>Сумма оплаты счета нулевая</value> 
@@ -243,34 +243,34 @@
     <value>Нельзя выполнить действие по аннулированному счету</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve"> 
-    <value>Счет-постановка о недействительности</value> 
+    <value>Аннулированный счёт</value>
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что приказ уже принят</value> 
+    <value>Невозможно выполнить действие, потому что приказ уже принят</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_NAME" xml:space="preserve"> 
     <value>Заказ уже принят</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что приказ уже отменён</value> 
+    <value>Невозможно выполнить действие, потому что приказ уже отменён</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_NAME" xml:space="preserve"> 
     <value>Заказ уже отменён</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что заказ уже выполнен</value> 
+    <value>Невозможно выполнить действие, потому что заказ уже выполнен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_NAME" xml:space="preserve"> 
     <value>Заказ уже выполнен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что заказ уже выставлен счётом</value> 
+    <value>Невозможно выполнить действие, потому что заказ уже выставлен счётом</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_NAME" xml:space="preserve"> 
     <value>Заказ уже выставлен счётом</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что приказ не принимается</value> 
+    <value>Невозможно выполнить действие, потому что приказ не принимается</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_NAME" xml:space="preserve"> 
     <value>Заказ не принимается</value> 
@@ -324,19 +324,19 @@
     <value>Недействительный внешний хост</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу создать запрос на оплату, потому что указанный способ оплаты не имеет связанного платёжного провайдера</value> 
+    <value>Невозможно создать запрос на оплату, потому что указанный способ оплаты не имеет связанного платёжного провайдера</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_NAME" xml:space="preserve"> 
     <value>Запрос на оплату нет провайдера оплаты</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу создать запрос на оплату, потому что платежный провайдер не найден</value> 
+    <value>Невозможно создать запрос на оплату, потому что платежный провайдер не найден</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_NAME" xml:space="preserve"> 
     <value>Платежный провайдер не найден</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу создать запрос на оплату из-за ошибки провайдера</value> 
+    <value>Невозможно создать запрос на оплату из-за ошибки провайдера</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve"> 
     <value>Ошибка поставщика платежного requeset</value> 
@@ -372,19 +372,19 @@
     <value>Ошибка по точечной транзакции неуточнённой</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие на указанном типе продукта</value> 
+    <value>Невозможно выполнить действие на указанном типе продукта</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_NAME" xml:space="preserve"> 
     <value>Тип произведения недопустим</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что указанный тип неверен или не может быть загружен</value> 
+    <value>Невозможно выполнить действие, потому что указанный тип неверен или не может быть загружен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_NAME" xml:space="preserve"> 
     <value>Тип провайдера недопустим</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что поставщик не был найден</value> 
+    <value>Невозможно выполнить действие, потому что поставщик не был найден</value> 
   </data> 
   <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_NAME" xml:space="preserve"> 
     <value>Поставщик не найден</value> 
@@ -405,13 +405,13 @@
     <value>Указанный хост не подключён</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_NAME" xml:space="preserve"> 
-    <value>Удалённый управляющий хост не подключён</value> 
+    <value>Хост удалённого управления не подключён</value>
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_DESCRIPTION" xml:space="preserve"> 
     <value>Указанный идентификатор хоста неверен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve"> 
-    <value>Удаленное управление недействительным идентификатором хоста</value> 
+    <value>Удалённое управление: неверный идентификатор хоста</value>
   </data> 
   <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
     <value>Нельзя инициировать удалённую сессию управления с loopback или localhost</value> 
@@ -432,13 +432,13 @@
     <value>Ошибка при инициации сессии удалённого управления</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что хост или пользователь уже добавлены</value> 
+    <value>Невозможно выполнить действие, потому что хост или пользователь уже добавлены</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_NAME" xml:space="preserve"> 
     <value>Запись для бронирования уже добавлена</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить это действие, потому что дата бронирования недействительна</value> 
+    <value>Невозможно выполнить это действие, потому что дата бронирования недействительна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_NAME" xml:space="preserve"> 
     <value>Дата бронирования недействительная</value> 
@@ -450,19 +450,19 @@
     <value>Недействительная продолжительность бронирования</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие из-за отсутствия хоста или пользователя</value> 
+    <value>Невозможно выполнить действие из-за отсутствия хоста или пользователя</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_NAME" xml:space="preserve"> 
     <value>Вход по бронированию отсутствует</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что бронирование пересекается с другим бронированием</value> 
+    <value>Невозможно выполнить действие, потому что бронирование пересекается с другим бронированием</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_NAME" xml:space="preserve"> 
     <value>Пересечения резерваций</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что резервация неактивна</value> 
+    <value>Невозможно выполнить действие, потому что резервация неактивна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_NAME" xml:space="preserve"> 
     <value>Резервация неактивна</value> 
@@ -480,7 +480,7 @@
     <value>Смена уже закончилась</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие из-за другого смещения</value> 
+    <value>Невозможно выполнить действие из-за другого смещения</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve"> 
     <value>Еще одна смена</value> 
@@ -504,13 +504,13 @@
     <value>Активного смещения нет.</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что оператора нет</value> 
+    <value>Невозможно выполнить действие, потому что оператора нет</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_NAME" xml:space="preserve"> 
     <value>Нет оператора</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что нет регистра</value> 
+    <value>Невозможно выполнить действие, потому что нет регистра</value> 
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_NAME" xml:space="preserve"> 
     <value>Нет регистра</value> 
@@ -543,7 +543,7 @@
     <value>Товар отсутствует в наличии</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve"> 
-    <value>Отсутствует в наличии</value> 
+    <value>Нет в наличии</value>
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve"> 
     <value>Нельзя изменить уровень запаса товара, у которого отключён запас</value> 
@@ -573,13 +573,13 @@
     <value>Нельзя выполнить действие с указанным типом группы пользователей</value> 
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_NAME" xml:space="preserve"> 
-    <value>Группа пользователей неверный тип</value> 
+    <value>Неверный тип группы пользователей</value>
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
     <value>Пользователь уже стоит в очереди</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve"> 
-    <value>Уже в очереди ожидания</value> 
+    <value>Уже в очереди</value>
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить действие, так как пользователь из очереди уже в системе</value> 
@@ -591,13 +591,13 @@
     <value>Указанная группа хостов не допускается для указанного пользователя</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_NAME" xml:space="preserve"> 
-    <value>Очередь на ожидание отклоняется в группу хозяев</value> 
+    <value>Группа хостов недоступна для очереди</value>
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие, потому что очередь в ожидании неактивна</value> 
+    <value>Невозможно выполнить действие, потому что очередь неактивна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_NAME" xml:space="preserve"> 
-    <value>Очередь в ожидании не активна</value> 
+    <value>Очередь не активна</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
     <value>Пользователь не стоит в очереди</value> 
@@ -606,10 +606,10 @@
     <value>Не в очереди</value> 
   </data> 
   <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve"> 
-    <value>Ошибка, связанная с активами</value> 
+    <value>Ошибка, связанная с оборудованием</value>
   </data> 
   <data name="EXCEPTION_TYPE_ASSET_NAME" xml:space="preserve"> 
-    <value>Ошибка с активами</value> 
+    <value>Ошибка оборудования</value>
   </data> 
   <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_DESCRIPTION" xml:space="preserve"> 
     <value>Ошибка, связанная с запросом на помощь</value> 
@@ -624,7 +624,7 @@
     <value>Ошибка в профиле биллинга</value> 
   </data> 
   <data name="EXCEPTION_TYPE_DEPOSIT_DESCRIPTION" xml:space="preserve"> 
-    <value>Ошибка, связанная с месторождениями</value> 
+    <value>Ошибка, связанная с депозитами</value>
   </data> 
   <data name="EXCEPTION_TYPE_DEPOSIT_NAME" xml:space="preserve"> 
     <value>Ошибка депозита</value> 
@@ -657,7 +657,7 @@
     <value>Ошибка, связанная с резервированием хоста</value> 
   </data> 
   <data name="EXCEPTION_TYPE_HOST_RESERVATION_NAME" xml:space="preserve"> 
-    <value>Ошибка резервирования хозяина</value> 
+    <value>Ошибка резервирования хоста</value>
   </data> 
   <data name="EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION" xml:space="preserve"> 
     <value>Ошибка, связанная с ответом HTTP</value> 
@@ -672,7 +672,7 @@
     <value>Ошибка недопустимого свойства</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVOICE_DESCRIPTION" xml:space="preserve"> 
-    <value>Ошибка, связанная с счетом</value> 
+    <value>Ошибка, связанная со счётом</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVOICE_NAME" xml:space="preserve"> 
     <value>Ошибка счета</value> 
@@ -750,10 +750,10 @@
     <value>Ошибка группы пользователей</value> 
   </data> 
   <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
-    <value>Ошибка, связанная с очередью в ожидании</value> 
+    <value>Ошибка, связанная с очередью</value> 
   </data> 
   <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve"> 
-    <value>Ошибка в очереди на ожидание</value> 
+    <value>Ошибка очереди</value> 
   </data> 
   <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve"> 
     <value>Нет акций, связанных с реестром</value> 
@@ -771,7 +771,7 @@
     <value>Возраст входа ограничен</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не может выполнить действие из-за возрастного ограничения</value> 
+    <value>Невозможно выполнить действие из-за возрастного ограничения</value> 
   </data> 
   <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve"> 
     <value>Ошибка, связанная со складскими запасами</value> 
@@ -786,7 +786,7 @@
     <value>Невозможно обработать уже завершенный перевод</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что бронирование уже завершено</value> 
+    <value>Невозможно выполнить действие, потому что бронирование уже завершено</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_NAME" xml:space="preserve"> 
     <value>Бронирование завершено</value> 
@@ -858,10 +858,10 @@
     <value>Возрастные ограничения</value> 
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
-    <value>Бронирование допускается только для одного устройства</value> 
+    <value>Бронирование допускается только для одного хоста</value>
   </data> 
   <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve"> 
-    <value>Мультихост не разрешен</value> 
+    <value>Бронирование нескольких хостов не разрешено</value>
   </data> 
   <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve"> 
     <value>Товар отсутствует на складе</value> 
@@ -882,13 +882,13 @@
     <value>Требуется отметка</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие из-за ошибки платежного терминала</value> 
+    <value>Невозможно выполнить действие из-за ошибки платежного терминала</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_NAME" xml:space="preserve"> 
     <value>Ошибка платежного терминала</value> 
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить ошибку из-за QR-отображения</value> 
+    <value>Невозможно выполнить операцию из-за ошибки отображения QR-кода</value>
   </data> 
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve"> 
     <value>Ошибка отображения QR</value> 
@@ -960,7 +960,7 @@
     <value>Превышен недельный лимит использования акции</value> 
   </data> 
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve"> 
-    <value>Учетная запись пользователя заблокирована </value> 
+    <value>Учётная запись пользователя заблокирована</value>
   </data> 
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve"> 
     <value>Пользователь отключен</value> 
