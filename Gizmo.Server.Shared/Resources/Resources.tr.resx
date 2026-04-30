@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: tr, Turkish
   Exported by: Oleg Savelos
-  Exported at: Tue, 31 Mar 2026 14:32:50 +0300 
+  Exported at: Wed, 29 Apr 2026 15:52:20 +0300 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -923,6 +923,10 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>Misafir kullanıcı grubu mevcut değil</value> 
   </data> 
+   
+   
+   
+   
    
    
    

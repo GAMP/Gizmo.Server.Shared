@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: pt-BR, Brazilian Portuguese
   Exported by: Oleg Savelos
-  Exported at: Tue, 31 Mar 2026 14:32:50 +0300 
+  Exported at: Wed, 29 Apr 2026 15:52:20 +0300 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -415,20 +415,60 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>Não existe um grupo de usuários convidados</value> 
   </data> 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>Promoção restrito para essa filial</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>Essa promoção não está disponivel para essa filial</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>Promoção com restrição de período</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>A promoção não está disponivel nesse horário</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Limite de uso da promoção excedido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>O limite de uso dessa promoção foi excecido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Limite de uso da promoção por usuário excedido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>O limite de uso por usuário dessa promoção foi excedido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Limite diário da promoção excedido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>O limite de uso diário da promoção foi excedido.</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>Limite de uso semanal da promoção execido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>O uso semanal dessa promoção foi excedido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>O usuário dessa conta foi banido</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve"> 
+    <value>Usuário desabilitado</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve"> 
+    <value>O estoque tem produtos</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possivel executar essa ação porque o estoque tem produtos</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve"> 
+    <value>Turno está ativo</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possivel executar essa ação porque o turno está ativo</value> 
+  </data> 
    
    
    

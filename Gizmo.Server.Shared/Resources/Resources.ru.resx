@@ -5,7 +5,7 @@
   Project: Gizmo.Server.Shared
   Locale: ru-RU, Russian (Russia)
   Exported by: Oleg Savelos
-  Exported at: Tue, 31 Mar 2026 14:32:50 +0300 
+  Exported at: Wed, 29 Apr 2026 15:52:20 +0300 
   --> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -567,7 +567,7 @@
     <value>Нельзя создать транзакцию с акцией с нулевой суммой</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_NAME" xml:space="preserve"> 
-    <value>Сумма сделки с акциями нулевая</value> 
+    <value>Операции по складу на нулевую сумму</value> 
   </data> 
   <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
     <value>Нельзя выполнить действие с указанным типом группы пользователей</value> 
@@ -579,13 +579,13 @@
     <value>Пользователь уже стоит в очереди</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve"> 
-    <value>Уже стою в очереди</value> 
+    <value>Уже в очереди ожидания</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve"> 
-    <value>Не могу выполнить действие, потому что очередь ожидания уже зарегистрирована</value> 
+    <value>Невозможно выполнить действие, так как пользователь из очереди уже в системе</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_NAME" xml:space="preserve"> 
-    <value>Пользователь уже вошёл в систему</value> 
+    <value>Пользователь уже выполнил вход</value> 
   </data> 
   <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>Указанная группа хостов не допускается для указанного пользователя</value> 
@@ -976,5 +976,17 @@
   </data> 
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить действие, так как смена активна</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve"> 
+    <value>Товар в наличии</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_DESCRIPTION" xml:space="preserve"> 
+    <value>Операция не может быть выполнена, поскольку товар в данный момент числится на складе.</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve"> 
+    <value>Товар является целевым для склада</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve"> 
+    <value>Действие не может быть выполнено, поскольку данный товар указан в качестве целевого запаса для другого товара</value> 
   </data> 
 </root>
