@@ -460,4 +460,778 @@
    
    
    
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>A compra é restrita por idade</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrição de idade</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>A compra é restrita pela sucursal</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrição de sucursal</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_DESCRIPTION" xml:space="preserve">
+    <value>O id do item do carrinho especificado é inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_NAME" xml:space="preserve">
+    <value>Id de item do carrinho inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_DESCRIPTION" xml:space="preserve">
+    <value>O carrinho é inválido ou expirou</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve">
+    <value>Carrinho inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Ação do carrinho não suportada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Não suportado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>O produto está sem estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_NAME" xml:space="preserve">
+    <value>Sem estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_DESCRIPTION" xml:space="preserve">
+    <value>O valor do pagamento excede o total necessário</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_NAME" xml:space="preserve">
+    <value>Pagamento excede o total</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve">
+    <value>A compra do produto requer marcação</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
+    <value>Requer marcação</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>A compra é restrita por horário ou data</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrição de horário</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>A compra é restrita pelo grupo de usuários</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrição de grupo de usuários</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação porque o turno do dispositivo fiscal está fechado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_NAME" xml:space="preserve">
+    <value>Turno do dispositivo fechado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação porque o turno do dispositivo expirou</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
+    <value>Turno do dispositivo expirado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação devido a erro na impressora fiscal</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_NAME" xml:space="preserve">
+    <value>Erro na impressora fiscal</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação porque o dispositivo auxiliar não está conectado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Dispositivo auxiliar não conectado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação devido a erro no terminal de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_NAME" xml:space="preserve">
+    <value>Erro no terminal de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação devido a erro no QR display</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve">
+    <value>Erro no QR display</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível realizar a ação devido a configuração de dispositivo auxiliar ausente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
+    <value>Dispositivo auxiliar obrigatório</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar transação de depósito com valor zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Valor do depósito zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_DESCRIPTION" xml:space="preserve">
+    <value>Depósitos do usuário retidos por tempo de sessão não pago</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_NAME" xml:space="preserve">
+    <value>Depósitos retidos por sessões não pagas</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>O usuário não tem saldo para executar a transação de depósito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Saldo insuficiente para depósito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>A transação de depósito causaria saldo negativo no usuário</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Saldo negativo não permitido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado ao executar transação de depósito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado no depósito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível fazer transferência para o mesmo estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_NAME" xml:space="preserve">
+    <value>Transferência para o mesmo estoque não permitida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível processar transferência já concluída</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_NAME" xml:space="preserve">
+    <value>Transferência já concluída</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar pagamento em fatura já paga</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_NAME" xml:space="preserve">
+    <value>Fatura já paga</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível pagar fatura com valor menor que o saldo devedor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_NAME" xml:space="preserve">
+    <value>Valor menor que o saldo devedor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve">
+    <value>A fatura causaria o usuário a exceder o limite de crédito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
+    <value>Limite de crédito atingido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível criar fatura para usuário com crédito desativado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_NAME" xml:space="preserve">
+    <value>Usuário sem crédito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar pagamento de fatura com valor zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Valor do pagamento zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar pagamento quando o saldo devedor é menor que o valor do pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME" xml:space="preserve">
+    <value>Saldo devedor menor que o pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar pagamento quando o saldo devedor é zero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME" xml:space="preserve">
+    <value>Saldo devedor zero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado ao executar pagamento de fatura</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado no pagamento de fatura</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação em uma fatura cancelada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
+    <value>Fatura cancelada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve">
+    <value>Sem estoque associado à caixa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o pedido já foi aceito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_NAME" xml:space="preserve">
+    <value>Pedido já aceito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o pedido já foi cancelado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_NAME" xml:space="preserve">
+    <value>Pedido já cancelado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o pedido já foi concluído</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_NAME" xml:space="preserve">
+    <value>Pedido já concluído</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o pedido já foi faturado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_NAME" xml:space="preserve">
+    <value>Pedido já faturado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o pedido não foi aceito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_NAME" xml:space="preserve">
+    <value>Pedido não aceito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado ao executar a ação</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado no status do pedido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_DESCRIPTION" xml:space="preserve">
+    <value>O valor recebido é menor que o valor real do pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_NAME" xml:space="preserve">
+    <value>Valor recebido menor que o esperado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar pagamento com valor zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME" xml:space="preserve">
+    <value>Valor do pagamento zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>O usuário não tem saldo para executar o pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Saldo insuficiente para pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar pagamento porque o método de pagamento é inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_NAME" xml:space="preserve">
+    <value>Método de pagamento inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado ao executar solicitação de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_NAME" xml:space="preserve">
+    <value>Erro não especificado na solicitação de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>A estação externa é obrigatória</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_NAME" xml:space="preserve">
+    <value>Estação externa obrigatória</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_DESCRIPTION" xml:space="preserve">
+    <value>A estação externa especificada é inválida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_NAME" xml:space="preserve">
+    <value>Estação externa inválida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível criar solicitação de pagamento porque o método não tem provedor associado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_NAME" xml:space="preserve">
+    <value>Sem provedor de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível criar solicitação porque o provedor não foi encontrado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_NAME" xml:space="preserve">
+    <value>Provedor de pagamento não encontrado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível criar solicitação devido a erro no provedor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
+    <value>Erro no provedor de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado ao executar pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado no pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar transação de pontos com valor zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Valor de pontos zero ou menor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>O usuário não tem pontos suficientes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Pontos insuficientes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>O tipo de transação de pontos não é suportado para este usuário</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Tipo de transação de pontos não suportado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado na transação de pontos</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado em pontos</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação no tipo de produto especificado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Tipo de produto inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>O código de promoção especificado é inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Código de promoção inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_DESCRIPTION" xml:space="preserve">
+    <value>A promoção está inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_NAME" xml:space="preserve">
+    <value>Promoção inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o tipo fornecido é inválido ou não pode ser carregado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Tipo de provedor inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o provedor não foi encontrado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_NAME" xml:space="preserve">
+    <value>Provedor não encontrado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_DESCRIPTION" xml:space="preserve">
+    <value>O provedor não possui tipo de opção associado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_NAME" xml:space="preserve">
+    <value>Provedor sem opções</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado no controle remoto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_NAME" xml:space="preserve">
+    <value>Erro não especificado no controle remoto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>A estação especificada não está conectada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Estação de controle remoto não conectada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_DESCRIPTION" xml:space="preserve">
+    <value>O id da estação especificado é inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve">
+    <value>Id de estação de controle remoto inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível iniciar sessão de controle remoto a partir de loopback ou localhost</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Controle remoto não suportado para loopback</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>A estação especificada não suporta controle remoto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Controle remoto não suportado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível iniciar sessão de controle remoto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_NAME" xml:space="preserve">
+    <value>Erro ao iniciar sessão de controle remoto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a estação ou o usuário já foi adicionado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_NAME" xml:space="preserve">
+    <value>Entrada de reservação já adicionada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a reservação já foi finalizada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_NAME" xml:space="preserve">
+    <value>Reservação finalizada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a reservação tem data inválida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_NAME" xml:space="preserve">
+    <value>Data de reservação inválida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a reservação tem duração inválida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_NAME" xml:space="preserve">
+    <value>Duração de reservação inválida</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_DESCRIPTION" xml:space="preserve">
+    <value>Os parâmetros são inválidos</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_NAME" xml:space="preserve">
+    <value>Parâmetros inválidos</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>A reservação é permitida apenas para uma estação</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Múltiplas estações não permitidas</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a estação ou o usuário não está presente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_NAME" xml:space="preserve">
+    <value>Entrada de reservação não presente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a reservação se sobrepõe a outra</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_NAME" xml:space="preserve">
+    <value>Sobreposição de reservação</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a reservação está inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_NAME" xml:space="preserve">
+    <value>Reservação inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o turno já está ativo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_NAME" xml:space="preserve">
+    <value>Turno já ativo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o turno já terminou</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_NAME" xml:space="preserve">
+    <value>Turno já encerrado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque há outro turno</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve">
+    <value>Outro turno</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a caixa foi excluída</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_NAME" xml:space="preserve">
+    <value>Caixa excluída</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o id do turno é inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_NAME" xml:space="preserve">
+    <value>Id de turno inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque não há turno ativo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_NAME" xml:space="preserve">
+    <value>Nenhum turno ativo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque não há operador</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_NAME" xml:space="preserve">
+    <value>Nenhum operador</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque não há caixa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_NAME" xml:space="preserve">
+    <value>Nenhuma caixa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK" xml:space="preserve">
+    <value>Sem estoque associado à caixa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque não há estoque associado à caixa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_NAME" xml:space="preserve">
+    <value>Sem estoque associado à caixa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o turno está desativado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_NAME" xml:space="preserve">
+    <value>Turno desativado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o turno está encerrando</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_NAME" xml:space="preserve">
+    <value>Turno encerrando</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o turno não está encerrando</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_NAME" xml:space="preserve">
+    <value>Turno não está encerrando</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>A configuração do produto não permite o tipo de transação de estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Tipo inválido de transação de estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o produto é o alvo de estoque de outro produto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve">
+    <value>Produto é alvo de estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>O produto está sem estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve">
+    <value>Sem estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o produto está em estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve">
+    <value>Produto em estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível modificar o nível de estoque de um produto com estoque desativado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_NAME" xml:space="preserve">
+    <value>Estoque desativado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_DESCRIPTION" xml:space="preserve">
+    <value>A opção de produto diferente está configurada no produto mas o produto alvo não foi definido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_NAME" xml:space="preserve">
+    <value>Produto alvo de estoque não definido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado na transação de estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado no estoque</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível criar transação de estoque com valor zero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_NAME" xml:space="preserve">
+    <value>Transação de estoque com valor zero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação no tipo de grupo de usuários especificado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Tipo de grupo de usuários inválido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação devido a restrição de idade</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrição de idade no login</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>O usuário já está na fila</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Já está na fila</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o usuário já está logado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_NAME" xml:space="preserve">
+    <value>Usuário já logado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>O grupo de estações especificado não é permitido para este usuário</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_NAME" xml:space="preserve">
+    <value>Grupo de estações não permitido na fila</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a fila não está ativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_NAME" xml:space="preserve">
+    <value>Fila não está ativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>O usuário não está na fila</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Não está na fila</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a equipamentos</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSET_NAME" xml:space="preserve">
+    <value>Erro de equipamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a solicitação de assistência</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_NAME" xml:space="preserve">
+    <value>Erro de solicitação de assistência</value>
+  </data>
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a perfil de faturamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_NAME" xml:space="preserve">
+    <value>Erro de perfil de faturamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_COMPANION_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado ao dispositivo auxiliar</value>
+  </data>
+  <data name="EXCEPTION_TYPE_COMPANION_NAME" xml:space="preserve">
+    <value>Erro de dispositivo auxiliar</value>
+  </data>
+  <data name="EXCEPTION_TYPE_DEPOSIT_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a depósito</value>
+  </data>
+  <data name="EXCEPTION_TYPE_DEPOSIT_NAME" xml:space="preserve">
+    <value>Erro de depósito</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a entidade em uso</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_NAME" xml:space="preserve">
+    <value>Erro de entidade em uso</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a entidade não referenciada</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_NAME" xml:space="preserve">
+    <value>Erro de entidade não referenciada</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a referência de entidade</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_NAME" xml:space="preserve">
+    <value>Erro de referência de entidade</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a reservação de estação</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_NAME" xml:space="preserve">
+    <value>Erro de reservação de estação</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a resposta HTTP</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_NAME" xml:space="preserve">
+    <value>Erro de resposta HTTP</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a propriedade inválida</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_NAME" xml:space="preserve">
+    <value>Erro de propriedade inválida</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a inventário</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVENTORY_NAME" xml:space="preserve">
+    <value>Erro de inventário</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a fatura</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_NAME" xml:space="preserve">
+    <value>Erro de fatura</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a pagamento de fatura</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_NAME" xml:space="preserve">
+    <value>Erro de pagamento de fatura</value>
+  </data>
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a reservação de licença</value>
+  </data>
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_NAME" xml:space="preserve">
+    <value>Erro de reservação de licença</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a status de pedido</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_NAME" xml:space="preserve">
+    <value>Erro de status de pedido</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a pagamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_NAME" xml:space="preserve">
+    <value>Erro de pagamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a solicitação de pagamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_NAME" xml:space="preserve">
+    <value>Erro de solicitação de pagamento</value>
+  </data>
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a transação de pontos</value>
+  </data>
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_NAME" xml:space="preserve">
+    <value>Erro de transação de pontos</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PRODUCT_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a produto</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PRODUCT_NAME" xml:space="preserve">
+    <value>Erro de produto</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PROVIDER_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a provedor</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PROVIDER_NAME" xml:space="preserve">
+    <value>Erro de provedor</value>
+  </data>
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a controle remoto</value>
+  </data>
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_NAME" xml:space="preserve">
+    <value>Erro de controle remoto</value>
+  </data>
+  <data name="EXCEPTION_TYPE_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a turno</value>
+  </data>
+  <data name="EXCEPTION_TYPE_SHIFT_NAME" xml:space="preserve">
+    <value>Erro de turno</value>
+  </data>
+  <data name="EXCEPTION_TYPE_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a estoque</value>
+  </data>
+  <data name="EXCEPTION_TYPE_STOCK_NAME" xml:space="preserve">
+    <value>Erro de estoque</value>
+  </data>
+  <data name="EXCEPTION_TYPE_USER_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a grupo de usuários</value>
+  </data>
+  <data name="EXCEPTION_TYPE_USER_GROUP_NAME" xml:space="preserve">
+    <value>Erro de grupo de usuários</value>
+  </data>
+  <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado a fila de espera</value>
+  </data>
+  <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Erro de fila de espera</value>
+  </data>
 </root>

@@ -932,4 +932,70 @@
    
    
    
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Kullanıcı hesabı yasaklanmış</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
+    <value>Kullanıcı devre dışı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Bu şube için promosyon mevcut değil</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve">
+    <value>Promosyon şubede kısıtlı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Promosyon günlük kullanım limiti aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promosyon günlük limit aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Bu saatte promosyon mevcut değil</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_NAME" xml:space="preserve">
+    <value>Promosyon dönem kısıtlaması</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Promosyon kullanıcı başına kullanım limiti aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promosyon kullanıcı başına limit aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Promosyon toplam kullanım limiti aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promosyon toplam limit aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Promosyon haftalık kullanım limiti aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Promosyon haftalık limit aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Vardiya aktif olduğu için işlem yapılamıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve">
+    <value>Vardiya aktif</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve">
+    <value>Stokta ürün bulunduğu için işlem yapılamıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
+    <value>Stokta ürün var</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
+    <value>Ürün başka bir ürünün stok hedefi olarak ayarlandığı için işlem yapılamıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve">
+    <value>Ürün stok hedefi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Ürün şu anda stokta olduğu için işlem yapılamıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve">
+    <value>Ürün stokta</value>
+  </data>
 </root>
