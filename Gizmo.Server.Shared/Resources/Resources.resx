@@ -220,7 +220,7 @@
     <value>Companion not connected</value>
   </data>
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the due to fiscal printer error</value>
+    <value>Cannot perform the action due to fiscal printer error</value>
   </data>
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_NAME" xml:space="preserve">
     <value>Fiscal printer error</value>
@@ -336,14 +336,14 @@
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Cannot execute payment with amount zero or less</value>
   </data>
-  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
     <value>Payment amount zero or less</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
     <value>The user has no funds to execute the payment</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
-    <value>Payment insufficent funds</value>
+    <value>Payment insufficient funds</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION" xml:space="preserve">
     <value>Cannot execute payment because the payment method is invalid</value>
@@ -355,7 +355,7 @@
     <value>Unspecified error while executing payment request</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_NAME" xml:space="preserve">
-    <value>Payment requeset unspecified error</value>
+    <value>Payment request unspecified error</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_DESCRIPTION" xml:space="preserve">
     <value>The external host is required</value>
@@ -385,7 +385,7 @@
     <value>Cannot create payment request due to provider error</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
-    <value>Payment requeset provider error</value>
+    <value>Payment request provider error</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
     <value>Unspecified error while executing payment</value>
@@ -403,7 +403,7 @@
     <value>The user has no funds to execute the point transaction</value>
   </data>
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
-    <value>Point transaction insufficent funds</value>
+    <value>Point transaction insufficient funds</value>
   </data>
   <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
     <value>The specified point transaction type is not supported for the specified user</value>
@@ -867,10 +867,10 @@
   <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve">
     <value>Cannot make transfer to same stock</value>
   </data>
-  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_NAME" xml:space="preserve">
     <value>Promotion inactive</value>
   </data>
-  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_DESCRIPTION" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_DESCRIPTION" xml:space="preserve">
     <value>The promotion is inactive</value>
   </data>
   <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve">
@@ -994,13 +994,13 @@
     <value>Payment terminal error</value>
   </data>
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the due to qr display error</value>
+    <value>Cannot perform the action due to QR display error</value>
   </data>
   <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve">
     <value>QR display error</value>
   </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the due to missing companion configuration</value>
+    <value>Cannot perform the action due to missing companion configuration</value>
   </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Companion required</value>

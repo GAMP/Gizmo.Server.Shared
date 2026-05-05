@@ -376,7 +376,7 @@
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>No se puede ejecutar el pago con monto cero o menor</value>
   </data>
-  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
     <value>Monto de pago cero o menor</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
@@ -481,10 +481,10 @@
   <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
     <value>Límite diario de la promoción excedido</value>
   </data>
-  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_DESCRIPTION" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_DESCRIPTION" xml:space="preserve">
     <value>La promoción está inactiva</value>
   </data>
-  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_NAME" xml:space="preserve">
     <value>Promoción inactiva</value>
   </data>
   <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve">

@@ -706,7 +706,7 @@
   <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Não é possível executar pagamento com valor zero ou menor</value>
   </data>
-  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LES_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
     <value>Valor do pagamento zero ou menor</value>
   </data>
   <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
@@ -799,10 +799,10 @@
   <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve">
     <value>Código de promoção inválido</value>
   </data>
-  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_DESCRIPTION" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_DESCRIPTION" xml:space="preserve">
     <value>A promoção está inativa</value>
   </data>
-  <data name="EXCEPTION_ERROR_PROMOTION_INACITVE_NAME" xml:space="preserve">
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_NAME" xml:space="preserve">
     <value>Promoção inativa</value>
   </data>
   <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
