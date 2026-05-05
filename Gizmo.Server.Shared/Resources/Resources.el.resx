@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
-  Loco xml export: ResX - .NET resources
-  Project: Gizmo.Server.Shared
-  Locale: el-GR, Greek (Greece)
-  Exported by: Oleg Savelos
-  Exported at: Wed, 29 Apr 2026 16:00:00 +0300
-  -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -65,12 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="locoLocaleCode">
-    <value>el-GR</value>
-  </metadata>
-  <metadata name="locoLocaleName" xml:space="preserve">
-    <value>Greek (Greece)</value>
-  </metadata>
   <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION" xml:space="preserve">
     <value>Ο εξοπλισμός έχει ήδη επιστραφεί</value>
   </data>
