@@ -1,0 +1,979 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION" xml:space="preserve">
+    <value>Laite on jo kirjattu sisään</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_NAME" xml:space="preserve">
+    <value>Laite jo kirjattu sisään</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Laite on poistettu käytöstä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_DISABLED_NAME" xml:space="preserve">
+    <value>Laite on poistettu käytöstä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_DESCRIPTION" xml:space="preserve">
+    <value>Laitetta ei ole kirjattu sisään</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME" xml:space="preserve">
+    <value>Laitetta ei kirjattu sisään</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Toinen avunpyyntö on jo vireillä tai käsiteltävänä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_NAME" xml:space="preserve">
+    <value>Avunpyyntö jo vireillä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_DESCRIPTION" xml:space="preserve">
+    <value>Avunpyynnön tilaa ei voida vaihtaa määritettyyn tilaan</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_NAME" xml:space="preserve">
+    <value>Avunpyynnön tila ei voi muuttua</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_DESCRIPTION" xml:space="preserve">
+    <value>Avunpyyntöä ei voida luoda ilman asemaa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_NAME" xml:space="preserve">
+    <value>Avunpyyntö ilman asemaa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Käyttäjällä ei ole vireillä olevia avunpyyntöjä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_NAME" xml:space="preserve">
+    <value>Ei vireillä olevaa avunpyyntöä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_DESCRIPTION" xml:space="preserve">
+    <value>Avunpyyntötoiminto aikakatkaistiin</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_NAME" xml:space="preserve">
+    <value>Avunpyynnön aikakatkaisu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_DESCRIPTION" xml:space="preserve">
+    <value>Tarintrin kan ikke oprettes på grund af ugyldigt minut</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_NAME" xml:space="preserve">
+    <value>Tarif ugyldigt minut</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_DESCRIPTION" xml:space="preserve">
+    <value>Tarintrin kan ikke oprettes på grund af flere løkker</value>
+  </data>
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve">
+    <value>Tarif flere løkker</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve">
+    <value>Depositummet er allerede annulleret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
+    <value>Depositum allerede annulleret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Depositumstransaktion kan ikke udføres med beløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Depositumstransaktionsbeløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_DESCRIPTION" xml:space="preserve">
+    <value>Brugerens depositummer tilbageholdes for ubetalte sessionstider</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_NAME" xml:space="preserve">
+    <value>Depositummer tilbageholdt for ubetalte sessioner</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>Brugeren har ikke midler til at udføre depositumstransaktionen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Depositumstransaktion utilstrækkelige midler</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Depositumstransaktionen vil medføre negativ saldo for brugeren</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Depositumstransaktion negativ saldo ikke tilladt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af depositumstransaktion</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Depositumstransaktion uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi Companion ikke er tilsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Companion ikke tilsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres på grund af fejl i fiskalprinter</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_NAME" xml:space="preserve">
+    <value>Fiskalprinterfejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi enhedens vagt er lukket</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_NAME" xml:space="preserve">
+    <value>Enhedsvagt lukket</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi enhedens vagt er udløbet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
+    <value>Enhedsvagt udløbet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve">
+    <value>Betaling kan ikke udføres på en faktura, der allerede er betalt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_NAME" xml:space="preserve">
+    <value>Faktura allerede betalt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_DESCRIPTION" xml:space="preserve">
+    <value>En faktura kan ikke tilbagebetales med et beløb, der er lavere end det udestående beløb</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_NAME" xml:space="preserve">
+    <value>Beløb er lavere end udestående</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve">
+    <value>Fakturaen vil medføre at brugeren overskrider kreditgrænsen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
+    <value>Brugerens kreditgrænse nået</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
+    <value>En faktura kan ikke oprettes for en bruger med deaktiveret kredit</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_NAME" xml:space="preserve">
+    <value>Bruger uden kredit</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Fakturabetaling kan ikke udføres med beløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Fakturabetalingsbeløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Fakturabetaling kan ikke udføres når udestående beløb er lavere end betalingsbeløbet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME" xml:space="preserve">
+    <value>Fakturabetaling udestående beløb lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION" xml:space="preserve">
+    <value>Fakturabetaling kan ikke udføres når udestående beløb er nul</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME" xml:space="preserve">
+    <value>Fakturabetaling udestående beløb nul</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af fakturabetaling</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Fakturabetaling uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres på en annulleret faktura</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
+    <value>Annulleret faktura</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi ordren allerede er accepteret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_NAME" xml:space="preserve">
+    <value>Ordre allerede accepteret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi ordren allerede er annulleret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_NAME" xml:space="preserve">
+    <value>Ordre allerede annulleret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi ordren allerede er afsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_NAME" xml:space="preserve">
+    <value>Ordre allerede afsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi ordren allerede er faktureret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_NAME" xml:space="preserve">
+    <value>Ordre allerede faktureret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi ordren ikke er accepteret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_NAME" xml:space="preserve">
+    <value>Ordre ikke accepteret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af handlingen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Ordrestatus uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Det modtagne beløb er lavere end det faktiske betalingsbeløb</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_NAME" xml:space="preserve">
+    <value>Modtaget betalingsbeløb er lavere end betalingsbeløbet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Betaling kan ikke udføres med beløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Betalingsbeløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>Brugeren har ikke midler til at udføre betalingen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Betaling utilstrækkelige midler</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION" xml:space="preserve">
+    <value>Betaling kan ikke udføres fordi betalingsmetoden er ugyldig</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_NAME" xml:space="preserve">
+    <value>Ugyldig betalingsmetode</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af betalingsanmodning</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_NAME" xml:space="preserve">
+    <value>Betalingsanmodning uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>Den eksterne station er påkrævet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_NAME" xml:space="preserve">
+    <value>Ekstern station påkrævet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_DESCRIPTION" xml:space="preserve">
+    <value>Den angivne eksterne station er ugyldig</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_NAME" xml:space="preserve">
+    <value>Ugyldig ekstern station</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_DESCRIPTION" xml:space="preserve">
+    <value>Betalingsanmodning kan ikke oprettes fordi den angivne betalingsmetode ikke har en tilknyttet betalingsudbyder</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_NAME" xml:space="preserve">
+    <value>Betalingsanmodning ingen betalingsudbyder</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve">
+    <value>Betalingsanmodning kan ikke oprettes fordi betalingsudbyderen ikke blev fundet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_NAME" xml:space="preserve">
+    <value>Betalingsudbyder ikke fundet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Betalingsanmodning kan ikke oprettes på grund af udbydererfejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
+    <value>Betalingsanmodning udbydererfejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af betaling</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Betaling uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
+    <value>Pointtransaktion kan ikke udføres med beløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve">
+    <value>Pointtransaktionsbeløb nul eller lavere</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve">
+    <value>Brugeren har ikke midler til at udføre pointtransaktionen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
+    <value>Pointtransaktion utilstrækkelige midler</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Den angivne pointtransaktionstype understøttes ikke for den angivne bruger</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Pointtransaktionstype ikke understøttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af pointtransaktion</value>
+  </data>
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Pointtransaktion uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres på den angivne produkttype</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Produkt ugyldig type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi den angivne type er ugyldig eller ikke kan indlæses</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Udbyder ugyldig type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi udbyderen ikke blev fundet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_NAME" xml:space="preserve">
+    <value>Udbyder ikke fundet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_DESCRIPTION" xml:space="preserve">
+    <value>Udbyderen har ingen tilknyttet optionstype</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_NAME" xml:space="preserve">
+    <value>Udbyder uden indstillinger</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl ved udførelse af fjernstyring</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_NAME" xml:space="preserve">
+    <value>Fjernstyring uspecificeret fejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_DESCRIPTION" xml:space="preserve">
+    <value>Den angivne station er ikke tilsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_NAME" xml:space="preserve">
+    <value>Fjernstyring station ikke tilsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_DESCRIPTION" xml:space="preserve">
+    <value>Den angivne stations-id er ugyldig</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve">
+    <value>Fjernstyring ugyldig stations-id</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Fjernstyringssession kan ikke startes fra loopback eller localhost</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Fjernstyring understøttes ikke for loopback eller localhost</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Den angivne station understøtter ikke fjernstyring</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Fjernstyring ikke understøttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Fjernstyringssession kan ikke initieres</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_NAME" xml:space="preserve">
+    <value>Fjernstyringssession initialiseringsfejl</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi stationen eller brugeren allerede er tilføjet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_NAME" xml:space="preserve">
+    <value>Reservationspost allerede tilføjet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi reservationen har en ugyldig dato</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_NAME" xml:space="preserve">
+    <value>Ugyldig reservationsdato</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi reservationen har en ugyldig varighed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_NAME" xml:space="preserve">
+    <value>Ugyldig reservationsvarighed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi stationen eller brugeren ikke er til stede</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_NAME" xml:space="preserve">
+    <value>Reservationspost ikke til stede</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi reservationen overlapper en anden reservation</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_NAME" xml:space="preserve">
+    <value>Reservation overlapper</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi reservationen er inaktiv</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_NAME" xml:space="preserve">
+    <value>Reservation er inaktiv</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi vagten allerede er aktiv</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_NAME" xml:space="preserve">
+    <value>Vagt allerede aktiv</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi vagten allerede er afsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_NAME" xml:space="preserve">
+    <value>Vagt allerede afsluttet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi der er en anden vagt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve">
+    <value>En anden vagt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi kassen er slettet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_NAME" xml:space="preserve">
+    <value>Slettet kasse</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi vagt-id'et er ugyldigt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_NAME" xml:space="preserve">
+    <value>Ugyldigt vagt-id</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi der ikke er nogen aktiv vagt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_NAME" xml:space="preserve">
+    <value>Ingen aktiv vagt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi der ikke er nogen operatør</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_NAME" xml:space="preserve">
+    <value>Ingen operatør</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi der ikke er nogen kasse</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_NAME" xml:space="preserve">
+    <value>Ingen kasse</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi vagten er deaktiveret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_NAME" xml:space="preserve">
+    <value>Vagt er deaktiveret</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi vagten afsluttes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_NAME" xml:space="preserve">
+    <value>Vagt afsluttes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi vagten ikke afsluttes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_NAME" xml:space="preserve">
+    <value>Vagt afsluttes ikke</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Produktkonfigurationen tillader ikke den specifikke lagertransaktion</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Lagertransaktion ugyldig type</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Produktet er ikke på lager</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve">
+    <value>Ikke på lager</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
+    <value>Lager har produkter</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres fordi lageret har produkter</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve">
+    <value>Tuote on varastossa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska tuote on tällä hetkellä varastossa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve">
+    <value>Tuote on varastokohde</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska tuote on asetettu toisen tuotteen varastokohteeksi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Tuotteen varastomäärää ei voida muuttaa, kun varasto on poistettu käytöstä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_NAME" xml:space="preserve">
+    <value>Varasto poistettu käytöstä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_DESCRIPTION" xml:space="preserve">
+    <value>Tuotteella on asetettu vaihtoehto eri kohdetuotteelle, mutta kohdetuotetta ei ole määritetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_NAME" xml:space="preserve">
+    <value>Varastokohdetuotetta ei asetettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Määrittelemätön virhe varastotapahtumaa suoritettaessa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Varastotapahtuma määrittelemätön virhe</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_DESCRIPTION" xml:space="preserve">
+    <value>Nollasummalla varustettua varastotapahtumaa ei voida luoda</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_NAME" xml:space="preserve">
+    <value>Varastotapahtuma nollasumma</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa määritetyllä käyttäjäryhmätyypillä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_NAME" xml:space="preserve">
+    <value>Käyttäjäryhmän tyyppi virheellinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>Käyttäjä on jo jonossa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Jo jonossa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska käyttäjä on jo kirjautunut sisään</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_NAME" xml:space="preserve">
+    <value>Käyttäjä on jo kirjautunut sisään</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Määritetty asemaryhmä ei ole sallittu määritetylle käyttäjälle</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_NAME" xml:space="preserve">
+    <value>Jono ei salli asemaryhmää</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska jono ei ole aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_NAME" xml:space="preserve">
+    <value>Jono ei ole aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>Käyttäjä ei ole jonossa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Ei jonossa</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve">
+    <value>Laiteeseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSET_NAME" xml:space="preserve">
+    <value>Laitevirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Avunpyyntöön liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_NAME" xml:space="preserve">
+    <value>Avunpyyntövirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_DESCRIPTION" xml:space="preserve">
+    <value>Laskutusprofiiliin liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_NAME" xml:space="preserve">
+    <value>Laskutusprofiilivirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_DEPOSIT_DESCRIPTION" xml:space="preserve">
+    <value>Talletukseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_DEPOSIT_NAME" xml:space="preserve">
+    <value>Talletusvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_DESCRIPTION" xml:space="preserve">
+    <value>Käytössä oleva entiteetti -virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_NAME" xml:space="preserve">
+    <value>Entiteetti käytössä -virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_DESCRIPTION" xml:space="preserve">
+    <value>Viittaamaton entiteetti -virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_NAME" xml:space="preserve">
+    <value>Entiteetti ei viitattu -virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Entiteettiviittaukseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_NAME" xml:space="preserve">
+    <value>Entiteettiviittausvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_COMPANION_DESCRIPTION" xml:space="preserve">
+    <value>Companioniin liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_COMPANION_NAME" xml:space="preserve">
+    <value>Companion-virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION" xml:space="preserve">
+    <value>Asemavaraukseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_NAME" xml:space="preserve">
+    <value>Asemavaratusvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION" xml:space="preserve">
+    <value>HTTP-vastaukseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_NAME" xml:space="preserve">
+    <value>HTTP-vastausvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_DESCRIPTION" xml:space="preserve">
+    <value>Virheelliseen ominaisuuteen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_NAME" xml:space="preserve">
+    <value>Virheellinen ominaisuus -virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_DESCRIPTION" xml:space="preserve">
+    <value>Laskuun liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_NAME" xml:space="preserve">
+    <value>Laskuvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Laskumaksuun liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_NAME" xml:space="preserve">
+    <value>Laskumaksuvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_DESCRIPTION" xml:space="preserve">
+    <value>Lisenssivaraukseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_NAME" xml:space="preserve">
+    <value>Lisenssivarausvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_DESCRIPTION" xml:space="preserve">
+    <value>Tilauksen tilaan liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_NAME" xml:space="preserve">
+    <value>Tilauksen tilavirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Maksuun liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_NAME" xml:space="preserve">
+    <value>Maksuvirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_DESCRIPTION" xml:space="preserve">
+    <value>Maksupyyntöön liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_NAME" xml:space="preserve">
+    <value>Maksupyyntövirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_DESCRIPTION" xml:space="preserve">
+    <value>Pistetapahtumaan liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_NAME" xml:space="preserve">
+    <value>Pistetapahtumavirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PRODUCT_DESCRIPTION" xml:space="preserve">
+    <value>Tuotteeseen liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PRODUCT_NAME" xml:space="preserve">
+    <value>Tuotevirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PROVIDER_DESCRIPTION" xml:space="preserve">
+    <value>Palveluntarjoajaan liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_PROVIDER_NAME" xml:space="preserve">
+    <value>Palveluntarjoajavirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_DESCRIPTION" xml:space="preserve">
+    <value>Etähallintaan liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_NAME" xml:space="preserve">
+    <value>Etähallintavirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_SHIFT_DESCRIPTION" xml:space="preserve">
+    <value>Työvuoroon liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_SHIFT_NAME" xml:space="preserve">
+    <value>Työvuorovirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Varastoon liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_STOCK_NAME" xml:space="preserve">
+    <value>Varastovirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_USER_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Käyttäjäryhmään liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_USER_GROUP_NAME" xml:space="preserve">
+    <value>Käyttäjäryhmävirhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve">
+    <value>Jonoon liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve">
+    <value>Jonovirhe</value>
+  </data>
+  <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve">
+    <value>Kassaan ei ole liitetty varastoa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK" xml:space="preserve">
+    <value>Kassaan ei ole liitetty varastoa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_NAME" xml:space="preserve">
+    <value>Kassaan ei ole liitetty varastoa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska kassaan ei ole liitetty varastoa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Kirjautuminen ikärajoitettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa ikärajoituksen vuoksi</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve">
+    <value>Inventaarioon liittyvä virhe</value>
+  </data>
+  <data name="EXCEPTION_TYPE_INVENTORY_NAME" xml:space="preserve">
+    <value>Inventaariovirhe</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_NAME" xml:space="preserve">
+    <value>Siirto jo valmis</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve">
+    <value>Jo valmistunutta siirtoa ei voida käsitellä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska varaus on jo päättynyt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_NAME" xml:space="preserve">
+    <value>Varaus päättynyt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_NAME" xml:space="preserve">
+    <value>Virheelliset parametrit</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_DESCRIPTION" xml:space="preserve">
+    <value>Parametrit ovat virheelliset</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_NAME" xml:space="preserve">
+    <value>Siirto samaan varastoon ei sallittu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve">
+    <value>Siirtoa samaan varastoon ei voida tehdä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_NAME" xml:space="preserve">
+    <value>Kampanja ei aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Kampanja ei ole aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Kampanjakoodi virheellinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Määritetty kampanjakoodi on virheellinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve">
+    <value>Kampanja toimipistekohtainen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Kampanja ei ole saatavilla tässä toimipisteessä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_NAME" xml:space="preserve">
+    <value>Kampanja ajankohtarajoitettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Kampanja ei ole saatavilla tällä hetkellä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Kampanjan kokonaiskäyttöraja ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Kampanjan kokonaiskäyttöraja on ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Kampanjan käyttäjäkohtainen raja ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Kampanjan käyttäjäkohtainen käyttöraja on ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Kampanjan päiväraja ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Kampanjan päivittäinen käyttöraja on ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_NAME" xml:space="preserve">
+    <value>Kampanjan viikkoraja ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve">
+    <value>Kampanjan viikoittainen käyttöraja on ylitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve">
+    <value>Virheellinen ostoskori</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_DESCRIPTION" xml:space="preserve">
+    <value>Ostoskori on virheellinen tai vanhentunut</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Ei tuettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Ostoskorin toiminto ei ole tuettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ostosta rajoittaa toimipiste</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_NAME" xml:space="preserve">
+    <value>Toimipistekohtainen rajoitus</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_DESCRIPTION" xml:space="preserve">
+    <value>Määritetty ostoskorin kohteen tunnus on virheellinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_NAME" xml:space="preserve">
+    <value>Virheellinen ostoskorin kohteen tunnus</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ostosta rajoittaa aika tai päivämäärä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_NAME" xml:space="preserve">
+    <value>Aikarajoitus</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ostosta rajoittaa käyttäjäryhmä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Käyttäjäryhmärajoitus</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ostosta rajoittaa ikä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Ikärajoitus</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Varaus on sallittu vain yhdelle asemalle</value>
+  </data>
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Useat asemat eivät sallittuja</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve">
+    <value>Tuote on loppunut varastosta</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_NAME" xml:space="preserve">
+    <value>Loppunut varastosta</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_DESCRIPTION" xml:space="preserve">
+    <value>Maksusumma ylittää vaaditun kokonaissumman</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_NAME" xml:space="preserve">
+    <value>Maksu ylittää kokonaissumman</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve">
+    <value>Tuotteen ostaminen vaatii merkinnän</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
+    <value>Vaatii merkinnän</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
+    <value>Käyttäjätili on estetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
+    <value>Käyttäjä poistettu käytöstä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa maksupäätteen virheen vuoksi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_NAME" xml:space="preserve">
+    <value>Maksupäätteen virhe</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa QR-näytön virheen vuoksi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve">
+    <value>QR-näytön virhe</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa puuttuvan Companion-konfiguraation vuoksi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
+    <value>Companion vaaditaan</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_NAME" xml:space="preserve">
+    <value>Maksut ylittävät avoimen saldon</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_DESCRIPTION" xml:space="preserve">
+    <value>Maksua ei voida suorittaa, koska se ylittää avoimen saldon</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_NAME" xml:space="preserve">
+    <value>Ei toimipistettä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska toimipistettä ei ole</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve">
+    <value>Työvuoro on aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska työvuoro on aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
+    <value>Jo laskettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_DESCRIPTION" xml:space="preserve">
+    <value>Toimintoa ei voida suorittaa, koska varasto on jo laskettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_NAME" xml:space="preserve">
+    <value>Ei vierasryhmää</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Vieraskäyttäjäryhmää ei ole olemassa</value>
+  </data>
+</root>
