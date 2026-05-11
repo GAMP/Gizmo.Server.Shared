@@ -1,0 +1,979 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_DESCRIPTION" xml:space="preserve"> 
+    <value>المعدات مُعادة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSET_ALREADY_CHECKED_IN_NAME" xml:space="preserve"> 
+    <value>المعدات مُعادة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSET_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>المعدات معطّلة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSET_DISABLED_NAME" xml:space="preserve"> 
+    <value>المعدات معطّلة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_DESCRIPTION" xml:space="preserve"> 
+    <value>المعدات غير مُعادة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSET_NOT_CHECKED_IN_NAME" xml:space="preserve"> 
+    <value>المعدات غير مُعادة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
+    <value>يوجد طلب مساعدة معلّق أو قيد المعالجة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_ANOTHER_PENDING_REQUEST_NAME" xml:space="preserve"> 
+    <value>طلب مساعدة معلّق بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تغيير حالة طلب المساعدة إلى الحالة المحددة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_CANNOT_CHANGE_STATE_NAME" xml:space="preserve"> 
+    <value>تعذّر تغيير حالة طلب المساعدة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء طلب مساعدة بدون محطة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_HOST_NAME" xml:space="preserve"> 
+    <value>لا توجد محطة لطلب المساعدة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_DESCRIPTION" xml:space="preserve"> 
+    <value>لا يوجد لدى المستخدم أي طلبات مساعدة معلّقة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_NO_PENDING_REQUEST_NAME" xml:space="preserve"> 
+    <value>لا يوجد طلب مساعدة معلّق</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_DESCRIPTION" xml:space="preserve"> 
+    <value>انتهت مهلة عملية طلب المساعدة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ASSISTANCE_REQUEST_TIMED_OUT_NAME" xml:space="preserve"> 
+    <value>انتهت مهلة طلب المساعدة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء خطوة التسعير بسبب دقيقة غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_INVALID_MINUTE_NAME" xml:space="preserve"> 
+    <value>دقيقة غير صالحة في التعرفة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء خطوة التسعير بسبب حلقات متعددة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
+    <value>حلقات متعددة في التعرفة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
+    <value>الإيداع ملغى بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve"> 
+    <value>الإيداع ملغى بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ معاملة الإيداع بمبلغ صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
+    <value>مبلغ الإيداع صفر أو أقل</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_DESCRIPTION" xml:space="preserve"> 
+    <value>إيداعات المستخدم محجوزة لوقت جلسة غير مدفوع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_DEPOSITS_WITHELD_FOR_UNPAID_SESSIONS_NAME" xml:space="preserve"> 
+    <value>الإيداعات محجوزة لجلسات غير مدفوعة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve"> 
+    <value>ليس لدى المستخدم رصيد كافٍ لتنفيذ معاملة الإيداع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
+    <value>رصيد غير كافٍ للإيداع</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
+    <value>ستؤدي معاملة الإيداع إلى رصيد سالب للمستخدم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_NAME" xml:space="preserve"> 
+    <value>الرصيد السالب غير مسموح به</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ معاملة الإيداع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_UNSPECIFIED_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في الإيداع</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن Companion غير متصل</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_NOT_CONNECTED_NAME" xml:space="preserve"> 
+    <value>Companion غير متصل</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء بسبب خطأ في الطابعة المالية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ في الطابعة المالية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن وردية الجهاز المالي مغلقة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_CLOSED_NAME" xml:space="preserve"> 
+    <value>وردية الجهاز مغلقة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن وردية الجهاز منتهية الصلاحية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve"> 
+    <value>وردية الجهاز منتهية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الدفع على فاتورة مدفوعة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_NAME" xml:space="preserve"> 
+    <value>الفاتورة مدفوعة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر سداد الفاتورة بمبلغ أقل من المبلغ المستحق</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_AMOUNT_LESS_THAN_OUTSTANDING_NAME" xml:space="preserve"> 
+    <value>المبلغ أقل من المستحق</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve"> 
+    <value>ستؤدي الفاتورة إلى تجاوز المستخدم لحد الائتمان</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve"> 
+    <value>تم بلوغ حد الائتمان</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء فاتورة لمستخدم معطّل الائتمان</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_NAME" xml:space="preserve"> 
+    <value>المستخدم بدون ائتمان</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ دفع الفاتورة بمبلغ صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
+    <value>مبلغ دفع الفاتورة صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ دفع الفاتورة لأن المبلغ المستحق أقل من مبلغ الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_LESS_NAME" xml:space="preserve"> 
+    <value>المبلغ المستحق أقل من مبلغ الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ دفع الفاتورة لأن المبلغ المستحق صفر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_OUTSTANDING_AMOUNT_ZERO_NAME" xml:space="preserve"> 
+    <value>المبلغ المستحق صفر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ دفع الفاتورة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في دفع الفاتورة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء على فاتورة ملغاة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve"> 
+    <value>فاتورة ملغاة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الطلب مقبول بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_NAME" xml:space="preserve"> 
+    <value>الطلب مقبول بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الطلب ملغى بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_CANCELED_NAME" xml:space="preserve"> 
+    <value>الطلب ملغى بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الطلب مكتمل بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_COMPLETED_NAME" xml:space="preserve"> 
+    <value>الطلب مكتمل بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الطلب مفوتر بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_INVOICED_NAME" xml:space="preserve"> 
+    <value>الطلب مفوتر بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الطلب غير مقبول</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_NOT_ACCEPTED_NAME" xml:space="preserve"> 
+    <value>الطلب غير مقبول</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ الإجراء</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_ORDER_STATUS_UNSPECIFIED_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في حالة الطلب</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_DESCRIPTION" xml:space="preserve"> 
+    <value>المبلغ المستلم أقل من مبلغ الدفع الفعلي</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_RECEIVED_LESS_NAME" xml:space="preserve"> 
+    <value>المبلغ المستلم أقل من مبلغ الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الدفع بمبلغ صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
+    <value>مبلغ الدفع صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve"> 
+    <value>ليس لدى المستخدم رصيد كافٍ لتنفيذ الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
+    <value>رصيد غير كافٍ للدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الدفع لأن طريقة الدفع غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_INVALID_PAYMENT_METHOD_NAME" xml:space="preserve"> 
+    <value>طريقة دفع غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ طلب الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في طلب الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_DESCRIPTION" xml:space="preserve"> 
+    <value>المحطة الخارجية مطلوبة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_EXTERNAL_HOST_REQUIRED_NAME" xml:space="preserve"> 
+    <value>المحطة الخارجية مطلوبة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_DESCRIPTION" xml:space="preserve"> 
+    <value>المحطة الخارجية المحددة غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_INVALID_EXTERNAL_HOST_NAME" xml:space="preserve"> 
+    <value>محطة خارجية غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء طلب الدفع لأن طريقة الدفع لا تملك مزود دفع مرتبط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_NO_PAYMENT_PROVIDER_NAME" xml:space="preserve"> 
+    <value>لا يوجد مزود دفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء طلب الدفع لأن مزود الدفع غير موجود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PAYMENT_PROVIDER_NOT_FOUND_NAME" xml:space="preserve"> 
+    <value>مزود الدفع غير موجود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء طلب الدفع بسبب خطأ في المزود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ في مزود الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ معاملة النقاط بمبلغ صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 
+    <value>مبلغ معاملة النقاط صفر أو أقل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_DESCRIPTION" xml:space="preserve"> 
+    <value>ليس لدى المستخدم نقاط كافية لتنفيذ المعاملة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
+    <value>رصيد نقاط غير كافٍ</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
+    <value>نوع معاملة النقاط المحدد غير مدعوم للمستخدم المحدد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_TRANSACTION_TYPE_NOT_SUPPORTED_NAME" xml:space="preserve"> 
+    <value>نوع معاملة النقاط غير مدعوم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ معاملة النقاط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_POINT_TRANSACTION_UNSPECIFIED_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في معاملة النقاط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء على نوع المنتج المحدد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PRODUCT_INVALID_TYPE_NAME" xml:space="preserve"> 
+    <value>نوع منتج غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن النوع المقدم غير صالح أو تعذّر تحميله</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROVIDER_INVALID_TYPE_NAME" xml:space="preserve"> 
+    <value>نوع مزود غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المزود غير موجود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROVIDER_NOT_FOUND_NAME" xml:space="preserve"> 
+    <value>المزود غير موجود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_DESCRIPTION" xml:space="preserve"> 
+    <value>لا يوجد نوع خيارات مرتبط بالمزود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROVIDER_NO_OPTIONS_NAME" xml:space="preserve"> 
+    <value>المزود بدون خيارات</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ التحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في التحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_DESCRIPTION" xml:space="preserve"> 
+    <value>المحطة المحددة غير متصلة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_HOST_NOT_CONNECTED_NAME" xml:space="preserve"> 
+    <value>المحطة غير متصلة</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_DESCRIPTION" xml:space="preserve"> 
+    <value>معرّف المحطة المحدد غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_INVALID_HOST_ID_NAME" xml:space="preserve"> 
+    <value>معرّف المحطة غير صالح</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر بدء جلسة التحكم عن بُعد من loopback أو localhost</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_LOOPBACK_NOT_SUPPORTED_NAME" xml:space="preserve"> 
+    <value>التحكم عن بُعد غير مدعوم للاتصال المحلي</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
+    <value>المحطة المحددة لا تدعم التحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_NOT_SUPPORTED_NAME" xml:space="preserve"> 
+    <value>التحكم عن بُعد غير مدعوم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر بدء جلسة التحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_REMOTE_CONTROL_SESSION_INITIATION_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ في بدء جلسة التحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المحطة أو المستخدم مضاف بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_ALREADY_ADDED_NAME" xml:space="preserve"> 
+    <value>إدخال الحجز موجود بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الحجز يحتوي على تاريخ غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DATE_NAME" xml:space="preserve"> 
+    <value>تاريخ حجز غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الحجز يحتوي على مدة غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_DURATION_NAME" xml:space="preserve"> 
+    <value>مدة حجز غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المحطة أو المستخدم غير موجود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_NOT_PRESENT_NAME" xml:space="preserve"> 
+    <value>إدخال الحجز غير موجود</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الحجز يتداخل مع حجز آخر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_OVERLAP_NAME" xml:space="preserve"> 
+    <value>تداخل الحجوزات</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الحجز غير نشط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_RESERVATION_INACTIVE_NAME" xml:space="preserve"> 
+    <value>الحجز غير نشط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الوردية نشطة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ACTIVE_NAME" xml:space="preserve"> 
+    <value>الوردية نشطة بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الوردية منتهية بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_ALREADY_ENDED_NAME" xml:space="preserve"> 
+    <value>الوردية منتهية بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لوجود وردية أخرى</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_ANOTHER_SHIFT_NAME" xml:space="preserve"> 
+    <value>وردية أخرى موجودة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الكاشير محذوف</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_DELETED_REGISTER_NAME" xml:space="preserve"> 
+    <value>الكاشير محذوف</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن معرّف الوردية غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_INVALID_SHIFT_ID_NAME" xml:space="preserve"> 
+    <value>معرّف الوردية غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأنه لا توجد وردية نشطة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_ACTIVE_SHIFT_NAME" xml:space="preserve"> 
+    <value>لا توجد وردية نشطة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأنه لا يوجد مشغّل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_OPERATOR_NAME" xml:space="preserve"> 
+    <value>لا يوجد مشغّل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأنه لا يوجد كاشير</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_REGISTER_NAME" xml:space="preserve"> 
+    <value>لا يوجد كاشير</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الوردية معطّلة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_DISABLED_NAME" xml:space="preserve"> 
+    <value>الوردية معطّلة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الوردية في طور الإنهاء</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_ENDING_NAME" xml:space="preserve"> 
+    <value>الوردية في طور الإنهاء</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الوردية ليست في طور الإنهاء</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_NOT_ENDING_NAME" xml:space="preserve"> 
+    <value>الوردية ليست في طور الإنهاء</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
+    <value>إعداد المنتج لا يسمح بمعاملة المخزون المحددة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_INVALID_TYPE_NAME" xml:space="preserve"> 
+    <value>نوع معاملة مخزون غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve"> 
+    <value>المنتج نفد من المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_OUT_OF_STOCK_NAME" xml:space="preserve"> 
+    <value>نفد المخزون</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تعديل مستوى مخزون منتج معطّل المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_NAME" xml:space="preserve"> 
+    <value>المخزون معطّل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_DESCRIPTION" xml:space="preserve"> 
+    <value>خيار المنتج البديل مُفعَّل على المنتج لكن المنتج الهدف غير محدد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_TARGET_PRODUCT_NOT_SET_NAME" xml:space="preserve"> 
+    <value>المنتج الهدف للمخزون غير محدد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ غير محدد أثناء تنفيذ معاملة المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_UNSPECIFIED_NAME" xml:space="preserve"> 
+    <value>خطأ غير محدد في معاملة المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إنشاء معاملة مخزون بمبلغ صفر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_ZERO_AMOUNT_NAME" xml:space="preserve"> 
+    <value>معاملة مخزون بمبلغ صفر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء على نوع مجموعة المستخدمين المحدد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_INVALID_TYPE_NAME" xml:space="preserve"> 
+    <value>نوع مجموعة مستخدمين غير صالح</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
+    <value>المستخدم في قائمة الانتظار بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_IN_WAITING_LINE_NAME" xml:space="preserve"> 
+    <value>المستخدم في قائمة الانتظار بالفعل</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المستخدم مسجّل الدخول بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_ALREADY_LOGGED_IN_NAME" xml:space="preserve"> 
+    <value>المستخدم مسجّل الدخول بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_DESCRIPTION" xml:space="preserve"> 
+    <value>مجموعة المحطات المحددة غير مسموح بها للمستخدم المحدد</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_DISALLOWED_HOST_GROUP_NAME" xml:space="preserve"> 
+    <value>مجموعة المحطات غير مسموح بها</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن قائمة الانتظار غير نشطة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_ACTIVE_NAME" xml:space="preserve"> 
+    <value>قائمة الانتظار غير نشطة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
+    <value>المستخدم ليس في قائمة الانتظار</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_NOT_IN_WAITING_LINE_NAME" xml:space="preserve"> 
+    <value>المستخدم ليس في قائمة الانتظار</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ASSET_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالمعدات</value>
+  </data> 
+  <data name="EXCEPTION_TYPE_ASSET_NAME" xml:space="preserve"> 
+    <value>خطأ في المعدات</value>
+  </data> 
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بطلب المساعدة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ASSISTANCE_REQUEST_NAME" xml:space="preserve"> 
+    <value>خطأ في طلب المساعدة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالتعرفة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_BILLING_PROFILE_NAME" xml:space="preserve"> 
+    <value>خطأ في التعرفة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_DEPOSIT_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالإيداع</value>
+  </data> 
+  <data name="EXCEPTION_TYPE_DEPOSIT_NAME" xml:space="preserve"> 
+    <value>خطأ في الإيداع</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بكيان قيد الاستخدام</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ENTITY_IN_USE_NAME" xml:space="preserve"> 
+    <value>الكيان قيد الاستخدام</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بكيان غير مُشار إليه</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ENTITY_NOT_REFERENCED_NAME" xml:space="preserve"> 
+    <value>الكيان غير مُشار إليه</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بمرجع الكيان</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ENTITY_REFERENCE_NAME" xml:space="preserve"> 
+    <value>مرجع الكيان</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_COMPANION_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بـ Companion</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_COMPANION_NAME" xml:space="preserve"> 
+    <value>خطأ في Companion</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بحجز المحطة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_HOST_RESERVATION_NAME" xml:space="preserve"> 
+    <value>خطأ في حجز المحطة</value>
+  </data> 
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق باستجابة HTTP</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_HTTP_RESPONSE_NAME" xml:space="preserve"> 
+    <value>خطأ في استجابة HTTP</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بخاصية غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVALID_PROPERTY_NAME" xml:space="preserve"> 
+    <value>خاصية غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVOICE_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالفاتورة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVOICE_NAME" xml:space="preserve"> 
+    <value>خطأ في الفاتورة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بدفع الفاتورة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVOICE_PAYMENT_NAME" xml:space="preserve"> 
+    <value>خطأ في دفع الفاتورة</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بحجز الترخيص</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_LICENSE_RESERVATION_NAME" xml:space="preserve"> 
+    <value>خطأ في حجز الترخيص</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بحالة الطلب</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_ORDER_STATUS_NAME" xml:space="preserve"> 
+    <value>خطأ في حالة الطلب</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PAYMENT_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالدفع</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PAYMENT_NAME" xml:space="preserve"> 
+    <value>خطأ في الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بطلب الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PAYMENT_REQUEST_NAME" xml:space="preserve"> 
+    <value>خطأ في طلب الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بمعاملة النقاط</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_POINT_TRANSACTION_NAME" xml:space="preserve"> 
+    <value>خطأ في معاملة النقاط</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PRODUCT_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالمنتج</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PRODUCT_NAME" xml:space="preserve"> 
+    <value>خطأ في المنتج</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PROVIDER_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالمزود</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_PROVIDER_NAME" xml:space="preserve"> 
+    <value>خطأ في المزود</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالتحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_REMOTE_CONTROL_NAME" xml:space="preserve"> 
+    <value>خطأ في التحكم عن بُعد</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_SHIFT_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالوردية</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_SHIFT_NAME" xml:space="preserve"> 
+    <value>خطأ في الوردية</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_STOCK_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالمخزون</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_STOCK_NAME" xml:space="preserve"> 
+    <value>خطأ في المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_USER_GROUP_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بمجموعة المستخدمين</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_USER_GROUP_NAME" xml:space="preserve"> 
+    <value>خطأ في مجموعة المستخدمين</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بقائمة الانتظار</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_WAITING_LINE_NAME" xml:space="preserve"> 
+    <value>خطأ في قائمة الانتظار</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve"> 
+    <value>لا يوجد مخزون مرتبط بالكاشير</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK" xml:space="preserve"> 
+    <value>لا يوجد مخزون مرتبط بالكاشير</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_NAME" xml:space="preserve"> 
+    <value>لا يوجد مخزون مرتبط بالكاشير</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_STOCK_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأنه لا يوجد مخزون مرتبط بالكاشير</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>تسجيل الدخول مقيّد بالعمر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء بسبب قيد عمري</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVENTORY_DESCRIPTION" xml:space="preserve"> 
+    <value>خطأ متعلق بالمخزون</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_INVENTORY_NAME" xml:space="preserve"> 
+    <value>خطأ في المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_NAME" xml:space="preserve"> 
+    <value>التحويل مكتمل بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVENTORY_TRANSFER_ALREADY_COMPLETED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر معالجة تحويل مكتمل بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الحجز منتهٍ بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_FINALIZED_NAME" xml:space="preserve"> 
+    <value>الحجز منتهٍ</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_NAME" xml:space="preserve"> 
+    <value>معاملات غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_INVALID_PARAMETERS_DESCRIPTION" xml:space="preserve"> 
+    <value>المعاملات غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_NAME" xml:space="preserve"> 
+    <value>التحويل إلى نفس المخزون غير مسموح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_INVENTORY_SAME_STOCK_TRANSFER_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر إجراء التحويل إلى نفس المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_NAME" xml:space="preserve"> 
+    <value>العرض غير نشط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_INACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>العرض غير نشط</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_NAME" xml:space="preserve"> 
+    <value>رمز العرض غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_CODE_INVALID_DESCRIPTION" xml:space="preserve"> 
+    <value>رمز العرض المحدد غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve"> 
+    <value>سلة تسوق غير صالحة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_DESCRIPTION" xml:space="preserve"> 
+    <value>سلة التسوق غير صالحة أو منتهية الصلاحية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_NAME" xml:space="preserve"> 
+    <value>غير مدعوم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve"> 
+    <value>إجراء سلة التسوق غير مدعوم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>الشراء مقيّد حسب الفرع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>مقيّد بالفرع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_DESCRIPTION" xml:space="preserve"> 
+    <value>معرّف إدخال سلة التسوق المحدد غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_INVALID_CART_ENTRY_ID_NAME" xml:space="preserve"> 
+    <value>معرّف إدخال سلة التسوق غير صالح</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>الشراء مقيّد حسب الوقت أو التاريخ</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>مقيّد بالوقت</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>الشراء مقيّد حسب مجموعة المستخدمين</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>مقيّد بمجموعة المستخدمين</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>الشراء مقيّد حسب العمر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_AGE_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>مقيّد بالعمر</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
+    <value>الحجز مسموح به لمحطة واحدة فقط</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_RESERVATION_MULTI_HOST_NOT_ALLOWED_NAME" xml:space="preserve"> 
+    <value>محطات متعددة غير مسموح بها</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_DESCRIPTION" xml:space="preserve"> 
+    <value>المنتج نفد من المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_OUT_OF_STOCK_NAME" xml:space="preserve"> 
+    <value>نفد المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_DESCRIPTION" xml:space="preserve"> 
+    <value>مبلغ الدفع يتجاوز الإجمالي المطلوب</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_PAYMENT_EXCEED_TOTAL_NAME" xml:space="preserve"> 
+    <value>الدفع يتجاوز الإجمالي</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve"> 
+    <value>شراء المنتج يتطلب تمييزاً</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve"> 
+    <value>يتطلب تمييزاً</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء بسبب خطأ في طرفية الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ في طرفية الدفع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء بسبب خطأ في عرض رمز QR</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_QR_DISPLAY_ERROR_NAME" xml:space="preserve"> 
+    <value>خطأ في عرض QR</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء بسبب غياب إعداد Companion</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve"> 
+    <value>Companion مطلوب</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_NAME" xml:space="preserve"> 
+    <value>المدفوعات تتجاوز المبلغ المستحق</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_PAYMENTS_EXCEED_OUTSTANDING_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الدفع لأنه يتجاوز المبلغ المستحق</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_NAME" xml:space="preserve"> 
+    <value>لا يوجد فرع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_NO_BRANCH_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأنه لا يوجد فرع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve"> 
+    <value>تم العدّ بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المخزون تم عدّه بالفعل</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_NAME" xml:space="preserve"> 
+    <value>لا توجد مجموعة ضيوف</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
+    <value>لا توجد مجموعة مستخدمين للضيوف</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>العرض مقيّد بالفرع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>العرض غير متاح لهذا الفرع</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_NAME" xml:space="preserve"> 
+    <value>العرض مقيّد بالفترة الزمنية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PERIOD_RESTRICTED_DESCRIPTION" xml:space="preserve"> 
+    <value>العرض غير متاح في هذا الوقت</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>تجاوز الحد الإجمالي للعرض</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_TOTAL_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>تم تجاوز الحد الإجمالي لاستخدام العرض</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>تجاوز الحد لكل مستخدم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_PER_USER_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>تم تجاوز حد استخدام العرض لكل مستخدم</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>تجاوز الحد اليومي للعرض</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_DAILY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>تم تجاوز الحد اليومي لاستخدام العرض</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_NAME" xml:space="preserve"> 
+    <value>تجاوز الحد الأسبوعي للعرض</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_PROMOTION_WEEKLY_LIMIT_EXCEEDED_DESCRIPTION" xml:space="preserve"> 
+    <value>تم تجاوز الحد الأسبوعي لاستخدام العرض</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve"> 
+    <value>حساب المستخدم محظور</value>
+  </data> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve"> 
+    <value>المستخدم محظور</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve"> 
+    <value>المخزون يحتوي على منتجات</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المخزون يحتوي على منتجات</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve"> 
+    <value>الوردية نشطة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن الوردية نشطة</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve"> 
+    <value>المنتج في المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المنتج موجود حالياً في المخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve"> 
+    <value>المنتج هدف مخزون</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve"> 
+    <value>تعذّر تنفيذ الإجراء لأن المنتج مُعيَّن كهدف مخزون لمنتج آخر</value> 
+  </data> 
+</root>
