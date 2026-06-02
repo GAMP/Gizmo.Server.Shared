@@ -922,6 +922,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Vaatii merkinnän</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>Merkintä on jo määritetty toiselle tuotteelle</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>Merkintä on jo käytössä</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
     <value>Käyttäjätili on estetty</value>
   </data>

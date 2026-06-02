@@ -508,6 +508,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Requer marcação</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>A marcação já está atribuída a outro produto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>Marcação já utilizada</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>A compra é restrita por horário ou data</value>
   </data>

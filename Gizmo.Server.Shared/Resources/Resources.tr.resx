@@ -865,9 +865,15 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve"> 
     <value>Ürün satın alımı işaretleme gerektiriyor</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve"> 
-    <value>İşaretleme gerekli</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
+    <value>İşaretleme gerekli</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>İşaret zaten başka bir ürüne atanmış</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>İşaret zaten kullanılıyor</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve"> 
     <value>Ödeme terminali hatası nedeniyle işlem yapılamıyor</value> 
   </data> 

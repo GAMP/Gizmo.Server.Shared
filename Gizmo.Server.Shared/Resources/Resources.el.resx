@@ -166,6 +166,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Απαιτείται σήμανση</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>Η σήμανση έχει ήδη αντιστοιχιστεί σε άλλο προϊόν</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>Η σήμανση χρησιμοποιείται ήδη</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_TIME_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>Η αγορά είναι περιορισμένη ανά ώρα ή ημερομηνία</value>
   </data>

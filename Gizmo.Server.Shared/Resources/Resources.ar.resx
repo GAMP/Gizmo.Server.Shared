@@ -865,9 +865,15 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve"> 
     <value>شراء المنتج يتطلب تمييزاً</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve"> 
-    <value>يتطلب تمييزاً</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
+    <value>يتطلب تمييزاً</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>التمييز مخصص بالفعل لمنتج آخر</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>التمييز مستخدم بالفعل</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الإجراء بسبب خطأ في طرفية الدفع</value> 
   </data> 

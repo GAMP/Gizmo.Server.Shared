@@ -865,9 +865,15 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_DESCRIPTION" xml:space="preserve"> 
     <value>Покупка товара требует маркировки</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve"> 
-    <value>Требуется отметка</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
+    <value>Требуется отметка</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>Метка уже присвоена другому товару</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>Метка уже использована</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить действие из-за ошибки платежного терминала</value> 
   </data> 

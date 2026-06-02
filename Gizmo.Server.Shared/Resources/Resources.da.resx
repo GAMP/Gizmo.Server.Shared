@@ -922,6 +922,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Kræver mærkning</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>Mærkningen er allerede tildelt et andet produkt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>Mærkning allerede i brug</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
     <value>Brugerkontoen er spærret</value>
   </data>

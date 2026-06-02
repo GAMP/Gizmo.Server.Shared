@@ -981,6 +981,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Requires mark</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
+    <value>The mark is already assigned to another product</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_NAME" xml:space="preserve">
+    <value>Mark already used</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve">
     <value>The user account is banned</value>
   </data>
