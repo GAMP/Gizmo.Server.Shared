@@ -934,6 +934,18 @@
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
     <value>Käyttäjä poistettu käytöstä</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Tuotteen myynti on rajoitettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Myynti rajoitettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Tuotetta ei voi tilata asiakkaalta</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
+    <value>Asiakastilaus rajoitettu</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Toimintoa ei voida suorittaa maksupäätteen virheen vuoksi</value>
   </data>

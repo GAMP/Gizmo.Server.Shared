@@ -184,6 +184,18 @@
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
     <value>Απενεργοποιημένος χρήστης</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Η πώληση του προϊόντος είναι περιορισμένη</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Περιορισμένη πώληση</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η παραγγελία του προϊόντος από τον πελάτη</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
+    <value>Περιορισμένη παραγγελία πελάτη</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>Η αγορά είναι περιορισμένη ανά ομάδα χρηστών</value>
   </data>

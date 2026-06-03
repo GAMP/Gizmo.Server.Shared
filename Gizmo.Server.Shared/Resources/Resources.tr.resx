@@ -944,6 +944,18 @@
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
     <value>Kullanıcı devre dışı</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ürünün satışı kısıtlı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Satış kısıtlı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ürün istemciden sipariş edilemez</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
+    <value>İstemci siparişi kısıtlı</value>
+  </data>
   <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>Bu şube için promosyon mevcut değil</value>
   </data>

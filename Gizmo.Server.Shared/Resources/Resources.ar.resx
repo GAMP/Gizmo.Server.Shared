@@ -955,10 +955,22 @@
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_DESCRIPTION" xml:space="preserve"> 
     <value>حساب المستخدم محظور</value>
   </data> 
-  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve"> 
-    <value>المستخدم محظور</value> 
-  </data> 
-  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve"> 
+  <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
+    <value>المستخدم محظور</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>بيع المنتج مقيد</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_NAME" xml:space="preserve">
+    <value>مقيد البيع</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>لا يمكن طلب المنتج من العميل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
+    <value>طلب العميل مقيد</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
     <value>المخزون يحتوي على منتجات</value> 
   </data> 
   <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_DESCRIPTION" xml:space="preserve"> 

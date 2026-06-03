@@ -993,6 +993,18 @@
   <data name="EXCEPTION_ERROR_CART_USER_DISABLED_NAME" xml:space="preserve">
     <value>User disabled</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The product sale is restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_SALE_RESTRICTED_NAME" xml:space="preserve">
+    <value>Sale restricted</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The product cannot be ordered from the client</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
+    <value>Client order restricted</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action due to payment terminal error</value>
   </data>
