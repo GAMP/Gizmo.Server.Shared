@@ -994,4 +994,28 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve">
     <value>Vieraskäyttäjäryhmää ei ole olemassa</value>
   </data>
+  <data name="EXCEPTION_ERROR_REFUND_AMOUNT_EXCEEDS_MAX_NAME" xml:space="preserve">
+    <value>Refund amount exceeds max</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_AMOUNT_EXCEEDS_MAX_DESCRIPTION" xml:space="preserve">
+    <value>The refund amount exceeds the maximum allowed for this invoice</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_METHOD_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Refund method not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_METHOD_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>The specified refund method is not allowed for this invoice</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_PAYMENT_REMAINING_NAME" xml:space="preserve">
+    <value>Refund exceeds payment remaining</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
+    <value>The refund amount exceeds the original payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_NAME" xml:space="preserve">
+    <value>Refund exceeds invoice payment remaining</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
+    <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
 </root>
