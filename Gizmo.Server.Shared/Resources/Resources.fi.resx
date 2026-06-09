@@ -328,6 +328,36 @@
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
     <value>Betalingsanmodning udbydererfejl</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_DESCRIPTION" xml:space="preserve">
+    <value>Maksua, joka on jo hyvitetty tai peruutettu, ei voi peruuttaa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_NAME" xml:space="preserve">
+    <value>Maksu on jo peruutettu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Maksua ei voi peruuttaa, koska alkuperäisen tapahtuman viite puuttuu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_NAME" xml:space="preserve">
+    <value>Maksun peruutusviite puuttuu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Maksua, jota ei tehty maksupalveluntarjoajan kautta, ei voi peruuttaa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_NAME" xml:space="preserve">
+    <value>Maksu ei ole sähköinen maksu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Maksua ei voi peruuttaa, koska maksupalveluntarjoajaa ei tueta</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Maksupalveluntarjoajaa ei tueta</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Määrittelemätön virhe maksua peruutettaessa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Määrittelemätön maksun peruutusvirhe</value>
+  </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
     <value>Uspecificeret fejl ved udførelse af betaling</value>
   </data>

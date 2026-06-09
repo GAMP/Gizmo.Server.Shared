@@ -328,6 +328,36 @@
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve"> 
     <value>خطأ في مزود الدفع</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر عكس دفعة تم استردادها أو عكسها بالفعل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_NAME" xml:space="preserve">
+    <value>تم عكس الدفعة بالفعل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر عكس الدفعة لعدم وجود مرجع المعاملة الأصلية</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_NAME" xml:space="preserve">
+    <value>مرجع عكس الدفعة مفقود</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر عكس دفعة لم تتم عبر مزود دفع</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_NAME" xml:space="preserve">
+    <value>الدفعة ليست دفعة إلكترونية</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر عكس الدفعة لأن مزود الدفع غير مدعوم</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>مزود الدفع غير مدعوم</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>خطأ غير محدد أثناء عكس الدفعة</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>خطأ غير محدد في عكس الدفعة</value>
+  </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
     <value>خطأ غير محدد أثناء تنفيذ الدفع</value> 
   </data> 

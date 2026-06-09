@@ -328,6 +328,36 @@
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
     <value>Betalingsanmodning udbydererfejl</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_DESCRIPTION" xml:space="preserve">
+    <value>Kan ikke tilbageføre en betaling, der allerede er refunderet eller tilbageført</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_NAME" xml:space="preserve">
+    <value>Betaling allerede tilbageført</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Kan ikke tilbageføre betalingen, fordi den oprindelige transaktionsreference mangler</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_NAME" xml:space="preserve">
+    <value>Manglende reference til tilbageførsel af betaling</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Kan ikke tilbageføre en betaling, der ikke blev foretaget via en betalingsudbyder</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_NAME" xml:space="preserve">
+    <value>Betalingen er ikke en elektronisk betaling</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Kan ikke tilbageføre betalingen, fordi betalingsudbyderen ikke understøttes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Betalingsudbyder understøttes ikke</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Uspecificeret fejl under tilbageførsel af betaling</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Uspecificeret fejl ved tilbageførsel af betaling</value>
+  </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
     <value>Uspecificeret fejl ved udførelse af betaling</value>
   </data>

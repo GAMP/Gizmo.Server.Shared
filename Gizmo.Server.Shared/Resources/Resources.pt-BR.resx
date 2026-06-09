@@ -775,6 +775,36 @@
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
     <value>Erro no provedor de pagamento</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível estornar um pagamento que já foi reembolsado ou estornado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_NAME" xml:space="preserve">
+    <value>Pagamento já estornado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível estornar o pagamento porque a referência da transação original está ausente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_NAME" xml:space="preserve">
+    <value>Referência de estorno de pagamento ausente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível estornar um pagamento que não foi feito por meio de um provedor de pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_NAME" xml:space="preserve">
+    <value>O pagamento não é um pagamento eletrônico</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível estornar o pagamento porque o provedor de pagamento não é compatível</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Provedor de pagamento não compatível</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Erro não especificado ao estornar o pagamento</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Erro não especificado de estorno de pagamento</value>
+  </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
     <value>Erro não especificado ao executar pagamento</value>
   </data>

@@ -328,6 +328,36 @@
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve"> 
     <value>Ошибка поставщика платежного request</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно отменить платёж, который уже был возвращён или отменён</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_NAME" xml:space="preserve">
+    <value>Платёж уже отменён</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно отменить платёж, так как отсутствует ссылка на исходную транзакцию</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_NAME" xml:space="preserve">
+    <value>Отсутствует ссылка для отмены платежа</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно отменить платёж, который не был выполнен через платёжного провайдера</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_NAME" xml:space="preserve">
+    <value>Платёж не является электронным</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно отменить платёж, так как платёжный провайдер не поддерживается</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Платёжный провайдер не поддерживается</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Неопределённая ошибка при отмене платежа</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Неопределённая ошибка отмены платежа</value>
+  </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve"> 
     <value>Неуточнённая ошибка при выполнении платежа</value> 
   </data> 

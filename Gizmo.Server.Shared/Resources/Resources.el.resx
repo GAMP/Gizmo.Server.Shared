@@ -451,6 +451,36 @@
   <data name="EXCEPTION_ERROR_PAYMENT_REQUEST_PROVIDER_ERROR_NAME" xml:space="preserve">
     <value>Σφάλμα παρόχου αιτήματος πληρωμής</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αντιστροφή πληρωμής που έχει ήδη επιστραφεί ή αντιστραφεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_ALREADY_REVERSED_NAME" xml:space="preserve">
+    <value>Η πληρωμή έχει ήδη αντιστραφεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αντιστροφή της πληρωμής επειδή λείπει η αναφορά της αρχικής συναλλαγής</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_MISSING_REVERSAL_REFERENCE_NAME" xml:space="preserve">
+    <value>Λείπει η αναφορά αντιστροφής πληρωμής</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αντιστροφή πληρωμής που δεν έγινε μέσω παρόχου πληρωμών</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_NOT_ELECTRONIC_PAYMENT_NAME" xml:space="preserve">
+    <value>Η πληρωμή δεν είναι ηλεκτρονική πληρωμή</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αντιστροφή της πληρωμής επειδή ο πάροχος πληρωμών δεν υποστηρίζεται</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_PROVIDER_NOT_SUPPORTED_NAME" xml:space="preserve">
+    <value>Ο πάροχος πληρωμών δεν υποστηρίζεται</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
+    <value>Απροσδιόριστο σφάλμα κατά την αντιστροφή πληρωμής</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_REVERSAL_UNSPECIFIED_NAME" xml:space="preserve">
+    <value>Απροσδιόριστο σφάλμα αντιστροφής πληρωμής</value>
+  </data>
   <data name="EXCEPTION_ERROR_PAYMENT_UNSPECIFIED_DESCRIPTION" xml:space="preserve">
     <value>Μη καθορισμένο σφάλμα κατά την εκτέλεση πληρωμής</value>
   </data>
