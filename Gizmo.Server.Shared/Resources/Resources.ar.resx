@@ -121,10 +121,16 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
     <value>الإيداع ملغى بالفعل</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve"> 
-    <value>الإيداع ملغى بالفعل</value> 
-  </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve"> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
+    <value>الإيداع ملغى بالفعل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر إلغاء الإيداع لأن الإيصال الضريبي الأصلي اللازم لطباعة إيصال الاسترداد مفقود</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
+    <value>الإيصال الضريبي للإيداع مفقود</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>تعذّر تنفيذ معاملة الإيداع بمبلغ صفر أو أقل</value> 
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_NAME" xml:space="preserve"> 

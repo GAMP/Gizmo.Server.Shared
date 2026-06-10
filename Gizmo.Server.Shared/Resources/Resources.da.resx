@@ -124,6 +124,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
     <value>Depositum allerede annulleret</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>Kan ikke annullere depositummet, fordi den oprindelige fiskale kvittering, der kræves for at udskrive returkvitteringen, mangler</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
+    <value>Manglende fiskal kvittering for depositum</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Depositumstransaktion kan ikke udføres med beløb nul eller lavere</value>
   </data>

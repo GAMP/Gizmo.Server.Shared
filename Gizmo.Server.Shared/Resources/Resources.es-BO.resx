@@ -250,6 +250,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
     <value>Depósito ya anulado</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>No se puede anular el depósito porque falta el recibo fiscal original necesario para imprimir el recibo de devolución</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
+    <value>Falta el recibo fiscal del depósito</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>No se puede ejecutar la transacción de depósito con monto cero o menor</value>
   </data>

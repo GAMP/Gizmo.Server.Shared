@@ -121,9 +121,15 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
     <value>O depósito já foi cancelado</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve"> 
-    <value>Depósito já cancelado</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
+    <value>Depósito já cancelado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível cancelar o depósito porque o cupom fiscal original necessário para imprimir o cupom de devolução está ausente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
+    <value>Cupom fiscal do depósito ausente</value>
+  </data>
    
    
    

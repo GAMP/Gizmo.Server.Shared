@@ -250,6 +250,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
     <value>Η κατάθεση έχει ήδη ακυρωθεί</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η ακύρωση της κατάθεσης επειδή λείπει η αρχική φορολογική απόδειξη που απαιτείται για την εκτύπωση της απόδειξης επιστροφής</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
+    <value>Λείπει η φορολογική απόδειξη κατάθεσης</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση συναλλαγής κατάθεσης με ποσό μηδέν ή μικρότερο</value>
   </data>

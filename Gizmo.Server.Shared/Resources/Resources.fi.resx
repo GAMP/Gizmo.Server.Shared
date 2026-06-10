@@ -124,6 +124,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
     <value>Depositum allerede annulleret</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
+    <value>Talletusta ei voi mitätöidä, koska palautuskuitin tulostamiseen tarvittava alkuperäinen fiskaalikuitti puuttuu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
+    <value>Talletuksen fiskaalikuitti puuttuu</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Depositumstransaktion kan ikke udføres med beløb nul eller lavere</value>
   </data>
