@@ -118,18 +118,6 @@
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve">
     <value>Tarif flere løkker</value>
   </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve">
-    <value>Depositummet er allerede annulleret</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Depositum allerede annulleret</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>Talletusta ei voi mitätöidä, koska palautuskuitin tulostamiseen tarvittava alkuperäinen fiskaalikuitti puuttuu</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Talletuksen fiskaalikuitti puuttuu</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Depositumstransaktion kan ikke udføres med beløb nul eller lavere</value>
   </data>
@@ -202,6 +190,18 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
     <value>Brugerens kreditgrænse nået</value>
   </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>Laskua ei voi hyvittää, kun myyntikuittia vielä tulostetaan; yritä uudelleen, kun tulostus on valmis</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>Myyntikuittia tulostetaan vielä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Hyvitys ei onnistu, koska myyntikuitti on epäjohdonmukaisessa tilassa eikä sitä voi peruuttaa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Myyntikuitti virheellinen</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
     <value>En faktura kan ikke oprettes for en bruger med deaktiveret kredit</value>
   </data>
@@ -233,10 +233,10 @@
     <value>Fakturabetaling uspecificeret fejl</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
-    <value>Handlingen kan ikke udføres på en annulleret faktura</value>
+    <value>Toimintoa ei voi suorittaa, koska tapahtuma on jo mitätöity</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
-    <value>Annulleret faktura</value>
+    <value>Mitätöity tapahtuma</value>
   </data>
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve">
     <value>Handlingen kan ikke udføres fordi ordren allerede er accepteret</value>
@@ -1053,5 +1053,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Jo hyvitetty</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>Hyvitys ei onnistu, koska se on jo hyvitetty</value>
   </data>
 </root>

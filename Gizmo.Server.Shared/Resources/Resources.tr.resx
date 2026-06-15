@@ -118,18 +118,6 @@
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
     <value>Faturalama profili birden fazla döngü</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Depozito zaten iptal edilmiş</value> 
-  </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Depozito zaten iptal edilmiş</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>İade fişini yazdırmak için gereken orijinal mali fiş bulunmadığından depozito iptal edilemiyor</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Depozito mali fişi eksik</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Sıfır veya daha düşük tutarla depozito işlemi yapılamaz</value> 
   </data> 
@@ -199,9 +187,21 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve"> 
     <value>Fatura kullanıcının kredi limitini aşmasına neden olur</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve"> 
-    <value>Kullanıcı kredi limiti aşıldı</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
+    <value>Kullanıcı kredi limiti aşıldı</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>Satış mali fişi hâlâ yazdırılırken fatura iadesi yapılamaz; yazdırma tamamlandıktan sonra yeniden deneyin</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>Satış fişi hâlâ yazdırılıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Satış mali fişi tutarsız bir durumda olduğu ve geri alınamadığı için iade yapılamıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Satış fişi geçersiz</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve"> 
     <value>Kredisi devre dışı olan kullanıcı için fatura oluşturulamaz</value> 
   </data> 
@@ -233,10 +233,10 @@
     <value>Fatura ödemesi belirsiz hata</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve"> 
-    <value>İptal edilmiş fatura üzerinde işlem yapılamaz</value> 
+    <value>İşlem zaten iptal edildiği için işlem yapılamaz</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve"> 
-    <value>İptal edilmiş fatura</value> 
+    <value>İptal edilmiş işlem</value> 
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
     <value>Sipariş zaten kabul edildiği için işlem yapılamıyor</value> 
@@ -1075,5 +1075,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Zaten iade edildi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>Zaten iade edildiği için iade yapılamıyor</value>
   </data>
 </root>

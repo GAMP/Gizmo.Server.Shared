@@ -244,18 +244,6 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Απαιτείται Companion</value>
   </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve">
-    <value>Η κατάθεση έχει ήδη ακυρωθεί</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Η κατάθεση έχει ήδη ακυρωθεί</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>Δεν είναι δυνατή η ακύρωση της κατάθεσης επειδή λείπει η αρχική φορολογική απόδειξη που απαιτείται για την εκτύπωση της απόδειξης επιστροφής</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Λείπει η φορολογική απόδειξη κατάθεσης</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση συναλλαγής κατάθεσης με ποσό μηδέν ή μικρότερο</value>
   </data>
@@ -316,6 +304,18 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
     <value>Επιτεύχθηκε το όριο πίστωσης του χρήστη</value>
   </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η επιστροφή χρημάτων του τιμολογίου όσο εκτυπώνεται ακόμη η φορολογική απόδειξη πώλησης· δοκιμάστε ξανά μόλις ολοκληρωθεί η εκτύπωση</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>Η απόδειξη πώλησης εκτυπώνεται ακόμη</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η επιστροφή χρημάτων επειδή η φορολογική απόδειξη πώλησης βρίσκεται σε ασυνεπή κατάσταση και δεν μπορεί να αντιστραφεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Μη έγκυρη απόδειξη πώλησης</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η δημιουργία τιμολογίου για χρήστη με απενεργοποιημένη πίστωση</value>
   </data>
@@ -347,10 +347,10 @@
     <value>Μη καθορισμένο σφάλμα πληρωμής τιμολογίου</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
-    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας σε ακυρωμένο τιμολόγιο</value>
+    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η συναλλαγή έχει ήδη ακυρωθεί</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
-    <value>Ακυρωμένο τιμολόγιο</value>
+    <value>Ακυρωμένη συναλλαγή</value>
   </data>
   <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve">
     <value>Δεν υπάρχει συσχετισμένο απόθεμα με το ταμείο</value>
@@ -1053,5 +1053,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Έχει ήδη επιστραφεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η επιστροφή χρημάτων επειδή έχει ήδη επιστραφεί</value>
   </data>
 </root>

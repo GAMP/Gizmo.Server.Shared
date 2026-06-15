@@ -118,18 +118,6 @@
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
     <value>Perfil de tarifa com múltiplos ciclos</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
-    <value>O depósito já foi cancelado</value> 
-  </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Depósito já cancelado</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>Não é possível cancelar o depósito porque o cupom fiscal original necessário para imprimir o cupom de devolução está ausente</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Cupom fiscal do depósito ausente</value>
-  </data>
    
    
    
@@ -646,6 +634,18 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
     <value>Limite de crédito atingido</value>
   </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível reembolsar a fatura enquanto o recibo fiscal de venda ainda está sendo impresso; tente novamente após a conclusão da impressão</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>O recibo de venda ainda está sendo impresso</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível reembolsar porque o cupom fiscal de venda está em um estado inconsistente e não pode ser estornado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Cupom de venda inválido</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
     <value>Não é possível criar fatura para usuário com crédito desativado</value>
   </data>
@@ -677,10 +677,10 @@
     <value>Erro não especificado no pagamento de fatura</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
-    <value>Não é possível executar a ação em uma fatura cancelada</value>
+    <value>Não é possível executar a ação porque a transação já foi cancelada</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
-    <value>Fatura cancelada</value>
+    <value>Transação cancelada</value>
   </data>
   <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve">
     <value>Sem estoque associado à caixa</value>
@@ -1311,5 +1311,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Já reembolsado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível reembolsar porque já foi reembolsado</value>
   </data>
 </root>

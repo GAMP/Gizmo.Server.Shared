@@ -244,18 +244,6 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Dispositivo auxiliar requerido</value>
   </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve">
-    <value>El depósito ya fue anulado</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Depósito ya anulado</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>No se puede anular el depósito porque falta el recibo fiscal original necesario para imprimir el recibo de devolución</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Falta el recibo fiscal del depósito</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>No se puede ejecutar la transacción de depósito con monto cero o menor</value>
   </data>
@@ -316,6 +304,18 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
     <value>Límite de crédito alcanzado</value>
   </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>No se puede reembolsar la factura mientras se imprime el recibo fiscal de venta; vuelva a intentarlo cuando finalice la impresión</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>El recibo de venta aún se está imprimiendo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>No se puede reembolsar porque el recibo fiscal de venta se encuentra en un estado inconsistente y no se puede revertir</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Recibo de venta no válido</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
     <value>No se puede crear una factura para un usuario con crédito desactivado</value>
   </data>
@@ -347,10 +347,10 @@
     <value>Error no especificado en pago de factura</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
-    <value>No se puede realizar la acción en una factura anulada</value>
+    <value>No se puede realizar la acción porque la transacción ya fue anulada</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
-    <value>Factura anulada</value>
+    <value>Transacción anulada</value>
   </data>
   <data name="EXCEPTION_ERROR_NO_STOCK" xml:space="preserve">
     <value>Sin inventario asociado a la caja</value>
@@ -1053,5 +1053,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Ya reembolsado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>No se puede reembolsar porque ya ha sido reembolsado</value>
   </data>
 </root>

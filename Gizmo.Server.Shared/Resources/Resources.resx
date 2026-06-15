@@ -177,18 +177,6 @@
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve">
     <value>Billing profile multiple loops</value>
   </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve">
-    <value>The deposit is already voided</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Deposit already voided</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>Cannot void the deposit because the original fiscal receipt required to print the return receipt is missing</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Missing deposit fiscal receipt</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Cannot execute deposit transaction with amount zero or less</value>
   </data>
@@ -261,6 +249,18 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
     <value>User credit limit reached</value>
   </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>Cannot refund the invoice while its sale fiscal receipt is still printing; retry once printing completes</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>Sale receipt still printing</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Cannot refund because the sale fiscal receipt is in an inconsistent state and cannot be reversed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Sale receipt invalid</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve">
     <value>Cannot create an invoice for a user with disabled credit</value>
   </data>
@@ -292,10 +292,10 @@
     <value>Invoice payment unspecified error</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve">
-    <value>Cannot perform the action on a void invoice</value>
+    <value>Cannot perform the action because the transaction is already voided</value>
   </data>
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve">
-    <value>Void invoice</value>
+    <value>Voided transaction</value>
   </data>
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action because order is already accepted</value>
@@ -974,6 +974,12 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Already refunded</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot refund because it has already been refunded</value>
   </data>
   <data name="EXCEPTION_ERROR_CART_INVALID_CART_ID_NAME" xml:space="preserve">
     <value>Invalid cart</value>

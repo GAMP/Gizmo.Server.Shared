@@ -118,18 +118,6 @@
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
     <value>Несколько циклов платежного профиля</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
-    <value>Депозит уже аннулирован</value> 
-  </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>Депозит уже аннулирован</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>Невозможно аннулировать депозит: отсутствует исходный фискальный чек, необходимый для печати чека возврата</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>Отсутствует фискальный чек депозита</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>Невозможно выполнить операцию пополнения с нулевой или отрицательной суммой</value> 
   </data> 
@@ -199,9 +187,21 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve"> 
     <value>Счёт приведёт к тому, что пользователь превысит кредитный лимит</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve"> 
-    <value>Достигнут лимит пользовательского кредита</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
+    <value>Достигнут лимит пользовательского кредита</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно вернуть средства по счёту, пока печатается фискальный чек продажи; повторите попытку после завершения печати</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>Чек продажи ещё печатается</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно вернуть средства, так как фискальный чек продажи находится в несогласованном состоянии и не может быть аннулирован</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>Недействительный чек продажи</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно создать счёт для пользователя с отключённым кредитом</value> 
   </data> 
@@ -233,10 +233,10 @@
     <value>Неуточнённая ошибка оплаты счета</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve"> 
-    <value>Нельзя выполнить действие по аннулированному счету</value> 
+    <value>Нельзя выполнить действие, так как транзакция уже аннулирована</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve"> 
-    <value>Аннулированный счёт</value>
+    <value>Аннулированная транзакция</value>
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить действие, потому что приказ уже принят</value> 
@@ -1053,5 +1053,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>Возврат уже выполнен</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно выполнить возврат, так как он уже был выполнен</value>
   </data>
 </root>

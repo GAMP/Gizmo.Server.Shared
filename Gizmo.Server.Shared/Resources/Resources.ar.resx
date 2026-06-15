@@ -118,18 +118,6 @@
   <data name="EXCEPTION_ERROR_BILLING_PROFILE_MULTIPLE_LOOPS_NAME" xml:space="preserve"> 
     <value>حلقات متعددة في التعرفة</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_DESCRIPTION" xml:space="preserve"> 
-    <value>الإيداع ملغى بالفعل</value> 
-  </data> 
-  <data name="EXCEPTION_ERROR_DEPOSIT_ALREADY_VOIDED_NAME" xml:space="preserve">
-    <value>الإيداع ملغى بالفعل</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_DESCRIPTION" xml:space="preserve">
-    <value>تعذّر إلغاء الإيداع لأن الإيصال الضريبي الأصلي اللازم لطباعة إيصال الاسترداد مفقود</value>
-  </data>
-  <data name="EXCEPTION_ERROR_DEPOSIT_MISSING_FISCAL_RECEIPT_NAME" xml:space="preserve">
-    <value>الإيصال الضريبي للإيداع مفقود</value>
-  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_AMOUNT_ZERO_OR_LESS_DESCRIPTION" xml:space="preserve">
     <value>تعذّر تنفيذ معاملة الإيداع بمبلغ صفر أو أقل</value> 
   </data> 
@@ -199,9 +187,21 @@
   <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_DESCRIPTION" xml:space="preserve"> 
     <value>ستؤدي الفاتورة إلى تجاوز المستخدم لحد الائتمان</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve"> 
-    <value>تم بلوغ حد الائتمان</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_INVOICE_CREDIT_LIMIT_REACHED_NAME" xml:space="preserve">
+    <value>تم بلوغ حد الائتمان</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_DESCRIPTION" xml:space="preserve">
+    <value>لا يمكن استرداد قيمة الفاتورة أثناء طباعة إيصال البيع الضريبي؛ أعد المحاولة بعد اكتمال الطباعة</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_PENDING_NAME" xml:space="preserve">
+    <value>لا يزال إيصال البيع قيد الطباعة</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر الاسترداد لأن إيصال البيع الضريبي في حالة غير متّسقة ولا يمكن عكسه</value>
+  </data>
+  <data name="EXCEPTION_ERROR_INVOICE_RECEIPT_INVALID_NAME" xml:space="preserve">
+    <value>إيصال البيع غير صالح</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_NO_CREDIT_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر إنشاء فاتورة لمستخدم معطّل الائتمان</value> 
   </data> 
@@ -233,10 +233,10 @@
     <value>خطأ غير محدد في دفع الفاتورة</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_DESCRIPTION" xml:space="preserve"> 
-    <value>تعذّر تنفيذ الإجراء على فاتورة ملغاة</value> 
+    <value>تعذّر تنفيذ الإجراء لأن المعاملة ملغاة بالفعل</value> 
   </data> 
   <data name="EXCEPTION_ERROR_INVOICE_VOID_NAME" xml:space="preserve"> 
-    <value>فاتورة ملغاة</value>
+    <value>معاملة ملغاة</value>
   </data> 
   <data name="EXCEPTION_ERROR_ORDER_STATUS_ALREADY_ACCEPTED_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الإجراء لأن الطلب مقبول بالفعل</value> 
@@ -1053,5 +1053,11 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_EXCEEDS_INVOICE_PAYMENT_REMAINING_DESCRIPTION" xml:space="preserve">
     <value>The refund amount exceeds the invoice payment remaining refundable amount</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_NAME" xml:space="preserve">
+    <value>تم استرداد المبلغ مسبقًا</value>
+  </data>
+  <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
+    <value>لا يمكن استرداد المبلغ لأنه تم استرداده مسبقًا</value>
   </data>
 </root>
