@@ -262,6 +262,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
     <value>Ανεπαρκή κεφάλαια για συναλλαγή κατάθεσης</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Αυτή η συναλλαγή δεν επιτρέπεται για λογαριασμό συνδεδεμένου (μη παρακολουθούμενου) επισκέπτη</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Δεν επιτρέπεται συναλλαγή για συνδεδεμένο επισκέπτη</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Η συναλλαγή κατάθεσης θα οδηγούσε τον χρήστη σε αρνητικό υπόλοιπο</value>
   </data>

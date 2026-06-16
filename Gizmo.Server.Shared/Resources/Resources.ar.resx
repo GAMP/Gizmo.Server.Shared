@@ -135,6 +135,12 @@
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve"> 
     <value>رصيد غير كافٍ للإيداع</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>هذه المعاملة غير مسموح بها لحساب ضيف منضم (غير متتبع)</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>معاملة الضيف المنضم غير مسموح بها</value>
   </data> 
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve"> 
     <value>ستؤدي معاملة الإيداع إلى رصيد سالب للمستخدم</value> 

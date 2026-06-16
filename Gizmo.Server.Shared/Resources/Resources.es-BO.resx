@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?> 
+<?xml version="1.0" encoding="utf-8"?> 
 <root> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -261,6 +261,12 @@
   </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
     <value>Saldo insuficiente para depósito</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Esta transacción no está permitida para una cuenta de invitado unido (no rastreado)</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Transacción de invitado unido no permitida</value>
   </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>La transacción de depósito causaría saldo negativo al usuario</value>

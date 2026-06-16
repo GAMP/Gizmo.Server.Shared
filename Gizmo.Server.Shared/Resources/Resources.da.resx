@@ -136,6 +136,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
     <value>Depositumstransaktion utilstrækkelige midler</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Denne transaktion er ikke tilladt for en tilsluttet (usporet) gæstekonto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Transaktion for tilsluttet gæst ikke tilladt</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Depositumstransaktionen vil medføre negativ saldo for brugeren</value>
   </data>

@@ -195,6 +195,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
     <value>Deposit transaction insufficient funds</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>This transaction is not allowed for a joined (untracked) guest account</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Joined guest transaction not allowed</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>The deposit transaction would cause user into negative balance</value>
   </data>

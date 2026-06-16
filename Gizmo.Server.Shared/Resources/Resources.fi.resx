@@ -136,6 +136,12 @@
   <data name="EXCEPTION_ERROR_DEPOSIT_INSUFFICIENT_FUNDS_NAME" xml:space="preserve">
     <value>Depositumstransaktion utilstrækkelige midler</value>
   </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Tätä tapahtumaa ei sallita liittyneelle (seuraamattomalle) vierastilille</value>
+  </data>
+  <data name="EXCEPTION_ERROR_DEPOSIT_JOINED_GUEST_TRANSACTION_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Liittyneen vieraan tapahtumaa ei sallita</value>
+  </data>
   <data name="EXCEPTION_ERROR_DEPOSIT_NEGATIVE_BALANCE_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Depositumstransaktionen vil medføre negativ saldo for brugeren</value>
   </data>
