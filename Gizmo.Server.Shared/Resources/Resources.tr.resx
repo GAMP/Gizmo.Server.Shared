@@ -175,9 +175,15 @@
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve"> 
     <value>Cihaz vardiyası süresi dolduğu için işlem yapılamıyor</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve"> 
-    <value>Cihaz vardiyası süresi dolmuş</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
+    <value>Cihaz vardiyası süresi dolmuş</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_DESCRIPTION" xml:space="preserve">
+    <value>Cihaz vardiyası zaten açık olduğu için vardiya açılamıyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_NAME" xml:space="preserve">
+    <value>Cihaz vardiyası açık</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve"> 
     <value>Zaten ödenmiş fatura için ödeme yapılamaz</value> 
   </data> 

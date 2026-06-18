@@ -237,6 +237,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
     <value>Device shift expired</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_DESCRIPTION" xml:space="preserve">
+    <value>Cannot open the shift because the device shift is already open</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_NAME" xml:space="preserve">
+    <value>Device shift open</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve">
     <value>Cannot execute payment on invoice that is already paid</value>
   </data>

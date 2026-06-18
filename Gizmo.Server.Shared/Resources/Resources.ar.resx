@@ -175,9 +175,15 @@
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الإجراء لأن وردية الجهاز منتهية الصلاحية</value> 
   </data> 
-  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve"> 
-    <value>وردية الجهاز منتهية</value> 
-  </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
+    <value>وردية الجهاز منتهية</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر فتح الوردية لأن وردية الجهاز مفتوحة بالفعل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_NAME" xml:space="preserve">
+    <value>وردية الجهاز مفتوحة</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الدفع على فاتورة مدفوعة بالفعل</value> 
   </data> 

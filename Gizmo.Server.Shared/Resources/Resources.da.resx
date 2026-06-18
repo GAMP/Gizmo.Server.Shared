@@ -178,6 +178,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
     <value>Enhedsvagt udløbet</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_DESCRIPTION" xml:space="preserve">
+    <value>Kan ikke åbne vagten fordi enhedens vagt allerede er åben</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_NAME" xml:space="preserve">
+    <value>Enhedsvagt åben</value>
+  </data>
   <data name="EXCEPTION_ERROR_INVOICE_ALREADY_PAID_DESCRIPTION" xml:space="preserve">
     <value>Betaling kan ikke udføres på en faktura, der allerede er betalt</value>
   </data>

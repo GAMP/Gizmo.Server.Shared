@@ -214,6 +214,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
     <value>Η βάρδια συσκευής έχει λήξει</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατό το άνοιγμα της βάρδιας επειδή η βάρδια συσκευής είναι ήδη ανοιχτή</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_NAME" xml:space="preserve">
+    <value>Η βάρδια συσκευής είναι ανοιχτή</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση λόγω σφάλματος φορολογικού εκτυπωτή</value>
   </data>

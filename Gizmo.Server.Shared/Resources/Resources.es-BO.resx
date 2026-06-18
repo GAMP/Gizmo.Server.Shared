@@ -214,6 +214,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_EXPIRED_NAME" xml:space="preserve">
     <value>Turno del dispositivo expirado</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_DESCRIPTION" xml:space="preserve">
+    <value>No se puede abrir el turno porque el turno del dispositivo ya está abierto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_DEVICE_SHIFT_OPEN_NAME" xml:space="preserve">
+    <value>Turno del dispositivo abierto</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_FISCAL_PRINTER_ERROR_DESCRIPTION" xml:space="preserve">
     <value>No se puede realizar la acción debido a un error en la impresora fiscal</value>
   </data>
