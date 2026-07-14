@@ -36,5 +36,15 @@
         /// The sender and reply-to address will be supplied automatically based on current business configuration.
         /// </remarks>
         Task SendMailAsync(string html, string recipient, string recipientName, string subject, List<MailAttachement> attachments, CancellationToken cancellationToken = default);
+
+        /// <summary>
+        /// Sends a mail described by the specified context.
+        /// </summary>
+        /// <param name="context">The context containing recipient and message information.</param>
+        /// <param name="cancellationToken">CancellationToken</param>
+        /// <remarks>
+        /// The sender and reply-to address will be supplied automatically based on current business configuration.
+        /// </remarks>
+        Task SendMailAsync(Gizmo.Server.Extensibility.SendEmailContext context, CancellationToken cancellationToken = default);
     }
 }

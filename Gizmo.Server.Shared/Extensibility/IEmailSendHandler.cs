@@ -1,0 +1,28 @@
+using Gizmo.Extensibility.Abstractions;
+
+namespace Gizmo.Server.Extensibility
+{
+    /// <summary>
+    /// Defines the contract for sending email messages composed by the system.
+    /// </summary>
+    /// <remarks>
+    /// Integration capability <see cref="Gizmo.Extensibility.IntegrationCapabilities.EmailSend"/> —
+    /// a pure email transport. The system owns message composition (subject, body, templates);
+    /// implementations only deliver the finished message.
+    /// </remarks>
+    [IntegrationCapability("4A7C1E92-5B8D-4F36-A1C4-9E2B6D5F8A17")]
+    public interface IEmailSendHandler
+    {
+        /// <summary>
+        /// Gets if the handler can currently send messages.
+        /// </summary>
+        bool CanSend { get; }
+
+        /// <summary>
+        /// Sends an email message.
+        /// </summary>
+        /// <param name="context">The context containing recipient and message information.</param>
+        /// <param name="cancellationToken">Cancellation token.</param>
+        Task SendEmailAsync(SendEmailContext context, CancellationToken cancellationToken = default);
+    }
+}
