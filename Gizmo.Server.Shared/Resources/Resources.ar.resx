@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
   <xs:schema id="root">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -1071,5 +1071,29 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
     <value>لا يمكن استرداد المبلغ لأنه تم استرداده مسبقًا</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_DESCRIPTION" xml:space="preserve">
+    <value>يرسل رمز التأكيد إلى قناة المستخدم المرتبطة.</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_NAME" xml:space="preserve">
+    <value>إرسال الرمز</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_DESCRIPTION" xml:space="preserve">
+    <value>يرسل رمز التأكيد عبر البريد الإلكتروني.</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_NAME" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_DESCRIPTION" xml:space="preserve">
+    <value>يتابع المستخدم عملية التحقق في تطبيق خارجي.</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_NAME" xml:space="preserve">
+    <value>المتابعة في التطبيق</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_DESCRIPTION" xml:space="preserve">
+    <value>يتصل المستخدم برقم هاتف محدد لتأكيد امتلاك الهاتف.</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
+    <value>انتظار المكالمة</value>
   </data>
 </root>

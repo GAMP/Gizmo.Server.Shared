@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -1071,5 +1071,29 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
     <value>Kan ikke refundere, da beløbet allerede er blevet refunderet</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_DESCRIPTION" xml:space="preserve">
+    <value>Leverer en bekræftelseskode til brugerens tilknyttede kanal.</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_NAME" xml:space="preserve">
+    <value>Send kode</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_DESCRIPTION" xml:space="preserve">
+    <value>Leverer en bekræftelseskode via e-mail.</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_NAME" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_DESCRIPTION" xml:space="preserve">
+    <value>Brugeren fortsætter verifikationen i en ekstern applikation.</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_NAME" xml:space="preserve">
+    <value>Fortsæt i appen</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_DESCRIPTION" xml:space="preserve">
+    <value>Brugeren ringer til et angivet telefonnummer for at bekræfte besiddelse af telefonen.</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
+    <value>Ventende opkald</value>
   </data>
 </root>

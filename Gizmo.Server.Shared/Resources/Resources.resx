@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1130,5 +1130,29 @@
   </data>
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve">
     <value>There is no guest user group</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_DESCRIPTION" xml:space="preserve">
+    <value>Delivers a confirmation code to the user's linked channel.</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_NAME" xml:space="preserve">
+    <value>Send code</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_DESCRIPTION" xml:space="preserve">
+    <value>Delivers a confirmation code by email.</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_NAME" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_DESCRIPTION" xml:space="preserve">
+    <value>The user continues verification in an external application.</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_NAME" xml:space="preserve">
+    <value>Continue in app</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_DESCRIPTION" xml:space="preserve">
+    <value>The user calls a provided phone number to confirm phone possession.</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
+    <value>Wait call</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+﻿<?xml version="1.0" encoding="utf-8"?> 
 <root> 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -1071,5 +1071,29 @@
   </data>
   <data name="EXCEPTION_ERROR_REFUND_ALREADY_REFUNDED_DESCRIPTION" xml:space="preserve">
     <value>No se puede reembolsar porque ya ha sido reembolsado</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_DESCRIPTION" xml:space="preserve">
+    <value>Entrega un código de confirmación al canal vinculado del usuario.</value>
+  </data>
+  <data name="CAPABILITY_CODE_DISPATCH_NAME" xml:space="preserve">
+    <value>Enviar código</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_DESCRIPTION" xml:space="preserve">
+    <value>Entrega un código de confirmación por correo electrónico.</value>
+  </data>
+  <data name="CAPABILITY_EMAIL_SEND_NAME" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_DESCRIPTION" xml:space="preserve">
+    <value>El usuario continúa la verificación en una aplicación externa.</value>
+  </data>
+  <data name="CAPABILITY_REDIRECT_NAME" xml:space="preserve">
+    <value>Continuar en la aplicación</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_DESCRIPTION" xml:space="preserve">
+    <value>El usuario llama a un número de teléfono proporcionado para confirmar la posesión del teléfono.</value>
+  </data>
+  <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
+    <value>Llamada de espera</value>
   </data>
 </root>
