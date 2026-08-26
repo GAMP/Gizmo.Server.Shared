@@ -247,6 +247,18 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
     <value>No se puede realizar la acción por falta de configuración del dispositivo auxiliar</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_DESCRIPTION" xml:space="preserve">
+    <value>No se puede realizar la acción porque no se puede asignar un cajero al recibo fiscal</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_NAME" xml:space="preserve">
+    <value>Sin cajero</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_DESCRIPTION" xml:space="preserve">
+    <value>No se puede realizar la acción porque la configuración de impuestos requerida para el recibo fiscal está incompleta</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
+    <value>Configuración de impuestos incompleta</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Dispositivo auxiliar requerido</value>
   </data>

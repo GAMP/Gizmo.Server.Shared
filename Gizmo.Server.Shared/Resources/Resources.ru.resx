@@ -937,6 +937,18 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить из-за отсутствия настроек компаньона</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно выполнить операцию, так как для фискального чека не удаётся определить кассира</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_NAME" xml:space="preserve">
+    <value>Нет кассира</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно выполнить операцию, так как налоговые настройки, необходимые для фискального чека, заданы не полностью</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
+    <value>Неполные налоговые настройки</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve"> 
     <value>Требуется компаньон</value> 
   </data> 

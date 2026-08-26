@@ -1009,6 +1009,18 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Handlingen kan ikke udføres på grund af manglende Companion-konfiguration</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres, fordi der ikke kan knyttes en kasserer til den fiskale kvittering</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_NAME" xml:space="preserve">
+    <value>Ingen kasserer</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_DESCRIPTION" xml:space="preserve">
+    <value>Handlingen kan ikke udføres, fordi den skattekonfiguration, der kræves til den fiskale kvittering, er ufuldstændig</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
+    <value>Ufuldstændig skattekonfiguration</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Companion påkrævet</value>
   </data>

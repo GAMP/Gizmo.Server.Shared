@@ -937,6 +937,18 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الإجراء بسبب غياب إعداد Companion</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر تنفيذ الإجراء لأنه لا يمكن نسب أمين صندوق إلى الإيصال المالي</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_NAME" xml:space="preserve">
+    <value>لا يوجد أمين صندوق</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر تنفيذ الإجراء لأن إعدادات الضرائب المطلوبة للإيصال المالي غير مكتملة</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
+    <value>إعدادات الضرائب غير مكتملة</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve"> 
     <value>Companion مطلوب</value> 
   </data> 

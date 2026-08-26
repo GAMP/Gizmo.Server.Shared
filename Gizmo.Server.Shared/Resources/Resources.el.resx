@@ -247,6 +247,18 @@
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση λόγω έλλειψης διαμόρφωσης Companion</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εκτέλεση επειδή δεν μπορεί να αποδοθεί ταμίας στη φορολογική απόδειξη</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_NO_CASHIER_NAME" xml:space="preserve">
+    <value>Δεν υπάρχει ταμίας</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εκτέλεση επειδή η φορολογική διαμόρφωση που απαιτείται για τη φορολογική απόδειξη είναι ελλιπής</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
+    <value>Ελλιπής φορολογική διαμόρφωση</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Απαιτείται Companion</value>
   </data>
