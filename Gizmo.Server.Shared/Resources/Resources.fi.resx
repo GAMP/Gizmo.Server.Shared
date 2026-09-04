@@ -1132,4 +1132,22 @@
   <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
     <value>Toimintoa ei voi suorittaa, koska palkintotyypillä ei ole luovutustapaa</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_NAME" xml:space="preserve">
+    <value>Maksun summa alle vähimmäismäärän</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Maksua ei voi suorittaa, koska summa on määritettyä vähimmäismäärää pienempi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_NAME" xml:space="preserve">
+    <value>Maksun summa yli enimmäismäärän</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Maksua ei voi suorittaa, koska summa on määritettyä enimmäismäärää suurempi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Mukautettu maksusumma ei ole sallittu</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Maksua ei voi suorittaa, koska vain esimääritetyt summat ovat sallittuja</value>
+  </data>
 </root>

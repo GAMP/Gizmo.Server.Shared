@@ -1191,4 +1191,22 @@
   <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action because the reward kind has no delivery mechanism</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_NAME" xml:space="preserve">
+    <value>Payment amount below minimum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment because the amount is below the configured minimum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_NAME" xml:space="preserve">
+    <value>Payment amount above maximum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment because the amount is above the configured maximum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Custom payment amount not allowed</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Cannot execute payment because only the preset amounts are allowed</value>
+  </data>
 </root>

@@ -1154,4 +1154,22 @@
   <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
     <value>Ödül türünün bir teslim mekanizması olmadığı için işlem gerçekleştirilemiyor</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_NAME" xml:space="preserve">
+    <value>Ödeme tutarı minimumun altında</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Tutar yapılandırılan minimumun altında olduğu için ödeme gerçekleştirilemiyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_NAME" xml:space="preserve">
+    <value>Ödeme tutarı maksimumun üstünde</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Tutar yapılandırılan maksimumun üstünde olduğu için ödeme gerçekleştirilemiyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Özel ödeme tutarına izin verilmiyor</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Yalnızca önceden tanımlı tutarlara izin verildiği için ödeme gerçekleştirilemiyor</value>
+  </data>
 </root>

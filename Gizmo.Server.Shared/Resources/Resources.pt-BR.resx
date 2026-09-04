@@ -1390,4 +1390,22 @@
   <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
     <value>Não é possível executar a ação porque o tipo de recompensa não possui mecanismo de entrega</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_NAME" xml:space="preserve">
+    <value>Valor do pagamento abaixo do mínimo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar o pagamento porque o valor está abaixo do mínimo configurado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_NAME" xml:space="preserve">
+    <value>Valor do pagamento acima do máximo</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar o pagamento porque o valor está acima do máximo configurado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Valor de pagamento personalizado não permitido</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar o pagamento porque somente os valores predefinidos são permitidos</value>
+  </data>
 </root>

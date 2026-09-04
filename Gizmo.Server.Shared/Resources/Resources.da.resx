@@ -1132,4 +1132,22 @@
   <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
     <value>Handlingen kan ikke udføres, fordi belønningstypen ikke har en udleveringsmetode</value>
   </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_NAME" xml:space="preserve">
+    <value>Betalingsbeløb under minimum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_BELOW_MINIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Betalingen kan ikke udføres, fordi beløbet er under det konfigurerede minimum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_NAME" xml:space="preserve">
+    <value>Betalingsbeløb over maksimum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_AMOUNT_ABOVE_MAXIMUM_DESCRIPTION" xml:space="preserve">
+    <value>Betalingen kan ikke udføres, fordi beløbet er over det konfigurerede maksimum</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_NAME" xml:space="preserve">
+    <value>Brugerdefineret betalingsbeløb er ikke tilladt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
+    <value>Betalingen kan ikke udføres, fordi kun de foruddefinerede beløb er tilladt</value>
+  </data>
 </root>
