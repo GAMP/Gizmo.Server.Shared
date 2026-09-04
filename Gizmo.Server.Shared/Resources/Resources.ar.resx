@@ -1108,4 +1108,28 @@
   <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
     <value>انتظار المكالمة</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_NAME" xml:space="preserve">
+    <value>خطأ في مكافأة الإنجاز</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_DESCRIPTION" xml:space="preserve">
+    <value>خطأ متعلق بمكافأة الإنجاز</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_NAME" xml:space="preserve">
+    <value>تمت معالجة المكافأة بالفعل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_DESCRIPTION" xml:space="preserve">
+    <value>لا يمكن تنفيذ الإجراء لأن المكافأة تمت معالجتها بالفعل</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_NAME" xml:space="preserve">
+    <value>لم يتم رفض المكافأة</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_DESCRIPTION" xml:space="preserve">
+    <value>يمكن إعادة عرض المكافأة المرفوضة فقط</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_NAME" xml:space="preserve">
+    <value>لا يمكن تسليم المكافأة</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
+    <value>لا يمكن تنفيذ الإجراء لأن نوع المكافأة لا يملك آلية تسليم</value>
+  </data>
 </root>

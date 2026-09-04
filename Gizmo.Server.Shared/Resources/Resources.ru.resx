@@ -1108,4 +1108,28 @@
   <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
     <value>Ожидание звонка</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_NAME" xml:space="preserve">
+    <value>Ошибка награды за достижение</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_DESCRIPTION" xml:space="preserve">
+    <value>Ошибка, связанная с наградой за достижение</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_NAME" xml:space="preserve">
+    <value>Награда уже обработана</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно выполнить действие, так как награда уже обработана</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_NAME" xml:space="preserve">
+    <value>Награда не отклонена</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_DESCRIPTION" xml:space="preserve">
+    <value>Повторно предложить можно только отклонённую награду</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_NAME" xml:space="preserve">
+    <value>Награда не может быть выдана</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно выполнить действие, так как для этого типа награды нет механизма выдачи</value>
+  </data>
 </root>

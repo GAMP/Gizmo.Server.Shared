@@ -1366,4 +1366,28 @@
   <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
     <value>Aguardar chamada</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_NAME" xml:space="preserve">
+    <value>Erro de recompensa de conquista</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado à recompensa de conquista</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_NAME" xml:space="preserve">
+    <value>Recompensa já processada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque a recompensa já foi processada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_NAME" xml:space="preserve">
+    <value>Recompensa não recusada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_DESCRIPTION" xml:space="preserve">
+    <value>Somente uma recompensa recusada pode ser oferecida novamente</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_NAME" xml:space="preserve">
+    <value>Recompensa não entregável</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível executar a ação porque o tipo de recompensa não possui mecanismo de entrega</value>
+  </data>
 </root>

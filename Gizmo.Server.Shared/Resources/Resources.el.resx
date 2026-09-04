@@ -1108,4 +1108,28 @@
   <data name="CAPABILITY_WAIT_CALL_NAME" xml:space="preserve">
     <value>Κλήση αναμονής</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_NAME" xml:space="preserve">
+    <value>Σφάλμα ανταμοιβής επιτεύγματος</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_REWARD_DESCRIPTION" xml:space="preserve">
+    <value>Σφάλμα σχετικό με την ανταμοιβή επιτεύγματος</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_NAME" xml:space="preserve">
+    <value>Η ανταμοιβή έχει ήδη διεκπεραιωθεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_ALREADY_PROCESSED_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η ανταμοιβή έχει ήδη διεκπεραιωθεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_NAME" xml:space="preserve">
+    <value>Η ανταμοιβή δεν έχει απορριφθεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DECLINED_DESCRIPTION" xml:space="preserve">
+    <value>Μόνο μια απορριφθείσα ανταμοιβή μπορεί να προσφερθεί ξανά</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_NAME" xml:space="preserve">
+    <value>Η ανταμοιβή δεν μπορεί να αποδοθεί</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REWARD_NOT_DELIVERABLE_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή ο τύπος ανταμοιβής δεν διαθέτει μηχανισμό απόδοσης</value>
+  </data>
 </root>
