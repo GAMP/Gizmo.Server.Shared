@@ -1156,4 +1156,22 @@
   <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>No se puede ejecutar el pago porque solo se permiten los importes predefinidos</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_NAME" xml:space="preserve">
+    <value>Error de logro</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_DESCRIPTION" xml:space="preserve">
+    <value>Error relacionado con el logro</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_NAME" xml:space="preserve">
+    <value>Logro referenciado por la escalera</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_DESCRIPTION" xml:space="preserve">
+    <value>No se puede eliminar el logro porque la escalera lo referencia</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_NAME" xml:space="preserve">
+    <value>Logro referenciado por un desafío</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_DESCRIPTION" xml:space="preserve">
+    <value>No se puede eliminar el logro porque un desafío lo referencia</value>
+  </data>
 </root>

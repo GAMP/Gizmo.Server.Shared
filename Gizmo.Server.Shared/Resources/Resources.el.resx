@@ -1156,4 +1156,22 @@
   <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση της πληρωμής επειδή επιτρέπονται μόνο τα προκαθορισμένα ποσά</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_NAME" xml:space="preserve">
+    <value>Σφάλμα επιτεύγματος</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_DESCRIPTION" xml:space="preserve">
+    <value>Σφάλμα σχετικό με το επίτευγμα</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_NAME" xml:space="preserve">
+    <value>Το επίτευγμα χρησιμοποιείται από την κατάταξη</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η διαγραφή του επιτεύγματος επειδή η κατάταξη αναφέρεται σε αυτό</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_NAME" xml:space="preserve">
+    <value>Το επίτευγμα χρησιμοποιείται από πρόκληση</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η διαγραφή του επιτεύγματος επειδή μια πρόκληση αναφέρεται σε αυτό</value>
+  </data>
 </root>

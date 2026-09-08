@@ -1156,4 +1156,22 @@
   <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Невозможно выполнить платеж, так как разрешены только предустановленные суммы</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_NAME" xml:space="preserve">
+    <value>Ошибка достижения</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_DESCRIPTION" xml:space="preserve">
+    <value>Ошибка, связанная с достижением</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_NAME" xml:space="preserve">
+    <value>Достижение используется лестницей</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно удалить достижение, так как на него ссылается лестница</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_NAME" xml:space="preserve">
+    <value>Достижение используется испытанием</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_DESCRIPTION" xml:space="preserve">
+    <value>Невозможно удалить достижение, так как на него ссылается испытание</value>
+  </data>
 </root>

@@ -1156,4 +1156,22 @@
   <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Betalingen kan ikke udføres, fordi kun de foruddefinerede beløb er tilladt</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_NAME" xml:space="preserve">
+    <value>Præstationsfejl</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_DESCRIPTION" xml:space="preserve">
+    <value>Fejl relateret til præstation</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_NAME" xml:space="preserve">
+    <value>Præstationen refereres af rangstigen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_DESCRIPTION" xml:space="preserve">
+    <value>Præstationen kan ikke slettes, fordi rangstigen refererer til den</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_NAME" xml:space="preserve">
+    <value>Præstationen refereres af en udfordring</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_DESCRIPTION" xml:space="preserve">
+    <value>Præstationen kan ikke slettes, fordi en udfordring refererer til den</value>
+  </data>
 </root>

@@ -1414,4 +1414,22 @@
   <data name="EXCEPTION_ERROR_PAYMENT_CUSTOM_AMOUNT_NOT_ALLOWED_DESCRIPTION" xml:space="preserve">
     <value>Não é possível executar o pagamento porque somente os valores predefinidos são permitidos</value>
   </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_NAME" xml:space="preserve">
+    <value>Erro de conquista</value>
+  </data>
+  <data name="EXCEPTION_TYPE_ACHIEVEMENT_DESCRIPTION" xml:space="preserve">
+    <value>Erro relacionado à conquista</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_NAME" xml:space="preserve">
+    <value>Conquista referenciada pela escada</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_LADDER_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível excluir a conquista porque a escada faz referência a ela</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_NAME" xml:space="preserve">
+    <value>Conquista referenciada por um desafio</value>
+  </data>
+  <data name="EXCEPTION_ERROR_ACHIEVEMENT_REFERENCED_BY_CHALLENGE_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível excluir a conquista porque um desafio faz referência a ela</value>
+  </data>
 </root>
