@@ -916,6 +916,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Требуется отметка</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_NAME" xml:space="preserve">
+    <value>Требуется фискальный способ оплаты</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>Продажа маркированного товара требует фискального способа оплаты</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
     <value>Метка уже присвоена другому товару</value>
   </data>

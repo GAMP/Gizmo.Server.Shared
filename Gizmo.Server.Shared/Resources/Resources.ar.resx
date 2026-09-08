@@ -916,6 +916,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>يتطلب تمييزاً</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_NAME" xml:space="preserve">
+    <value>يلزم استخدام طريقة دفع ضريبية</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>بيع المنتج المميز يتطلب طريقة دفع ضريبية</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
     <value>التمييز مخصص بالفعل لمنتج آخر</value>
   </data>

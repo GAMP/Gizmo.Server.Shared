@@ -514,6 +514,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Requer marcação</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_NAME" xml:space="preserve">
+    <value>Método de pagamento fiscal obrigatório</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>A venda de um produto marcado requer um método de pagamento fiscal</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
     <value>A marcação já está atribuída a outro produto</value>
   </data>

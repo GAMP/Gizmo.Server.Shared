@@ -970,6 +970,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Kræver mærkning</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_NAME" xml:space="preserve">
+    <value>Fiskal betalingsmetode påkrævet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>Salg af et mærket produkt kræver en fiskal betalingsmetode</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
     <value>Mærkningen er allerede tildelt et andet produkt</value>
   </data>

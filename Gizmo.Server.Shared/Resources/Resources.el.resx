@@ -166,6 +166,12 @@
   <data name="EXCEPTION_ERROR_CART_REQUIRES_MARK_NAME" xml:space="preserve">
     <value>Απαιτείται σήμανση</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_NAME" xml:space="preserve">
+    <value>Απαιτείται φορολογικός τρόπος πληρωμής</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_FISCAL_PAYMENT_METHOD_REQUIRED_DESCRIPTION" xml:space="preserve">
+    <value>Η πώληση προϊόντος με σήμανση απαιτεί φορολογικό τρόπο πληρωμής</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_MARK_ALREADY_USED_DESCRIPTION" xml:space="preserve">
     <value>Η σήμανση έχει ήδη αντιστοιχιστεί σε άλλο προϊόν</value>
   </data>
