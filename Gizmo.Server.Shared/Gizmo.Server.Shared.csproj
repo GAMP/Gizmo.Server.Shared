@@ -20,7 +20,7 @@
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<PackageIcon>package_icon.png</PackageIcon>
-		<Version>1.0.10.0</Version>
+		<Version>1.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -30,20 +30,9 @@
 		</None>
 	</ItemGroup>
 
-	<ItemGroup Condition="Exists('..\..\Gizmo.Shared\Gizmo.Shared.csproj')">
-	  <ProjectReference Include="..\..\Gizmo.Shared\Gizmo.Shared.csproj" />
-	</ItemGroup>
-
-	<ItemGroup Condition="!Exists('..\..\Gizmo.Shared\Gizmo.Shared.csproj')">
-	  <PackageReference Include="Gizmo.Shared" Version="1.0.14" />
-	</ItemGroup>
-
-	<ItemGroup Condition="Exists('..\..\Gizmo.Web.Api.Models\Gizmo.Web.Api.Models.csproj')">
-	  <ProjectReference Include="..\..\Gizmo.Web.Api.Models\Gizmo.Web.Api.Models.csproj" />
-	</ItemGroup>
-
-	<ItemGroup Condition="!Exists('..\..\Gizmo.Web.Api.Models\Gizmo.Web.Api.Models.csproj')">
-	  <PackageReference Include="Gizmo.Web.Api.Models" Version="1.0.17" />
+	<ItemGroup>
+		<PackageReference Include="Gizmo.Shared" Version="1.0.17" />
+		<PackageReference Include="Gizmo.Web.Api.Models" Version="1.0.17" />
 	</ItemGroup>
 
 	<ItemGroup>
