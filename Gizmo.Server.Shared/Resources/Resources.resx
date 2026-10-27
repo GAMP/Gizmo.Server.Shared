@@ -1137,6 +1137,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action because the shift is active</value>
   </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve">
+    <value>Last register</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Cannot delete the last register of the branch because there are operators with a mandatory shift</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
     <value>Already counted</value>
   </data>

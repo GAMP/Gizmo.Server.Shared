@@ -1048,6 +1048,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Toimintoa ei voida suorittaa, koska työvuoro on aktiivinen</value>
   </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve">
+    <value>Viimeinen kassa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Toimipisteen viimeistä kassaa ei voida poistaa, koska siellä on operaattoreita, joilla on pakollinen työvuoro</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
     <value>Jo laskettu</value>
   </data>

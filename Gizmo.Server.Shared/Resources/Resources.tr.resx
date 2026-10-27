@@ -1061,6 +1061,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Vardiya aktif olduğu için işlem yapılamıyor</value>
   </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve">
+    <value>Son kasa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Zorunlu vardiyası olan operatörler bulunduğu için şubenin son kasası silinemez</value>
+  </data>
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve">
     <value>Vardiya aktif</value>
   </data>

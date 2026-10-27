@@ -787,6 +787,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η βάρδια είναι ενεργή</value>
   </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve">
+    <value>Τελευταίο ταμείο</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η διαγραφή του τελευταίου ταμείου του υποκαταστήματος επειδή υπάρχουν χειριστές με υποχρεωτική βάρδια</value>
+  </data>
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve">
     <value>Η βάρδια είναι ενεργή</value>
   </data>

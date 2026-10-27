@@ -462,6 +462,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
     <value>Não é possivel executar essa ação porque o turno está ativo</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve"> 
+    <value>Último caixa</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possível excluir o último caixa da filial porque há operadores com turno obrigatório</value> 
+  </data> 
    
    
    
