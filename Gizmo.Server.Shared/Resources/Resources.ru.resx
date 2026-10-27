@@ -784,6 +784,12 @@
   <data name="EXCEPTION_TYPE_USER_GROUP_NAME" xml:space="preserve"> 
     <value>Ошибка группы пользователей</value> 
   </data> 
+  <data name="EXCEPTION_TYPE_USER_LOGIN_DESCRIPTION" xml:space="preserve"> 
+    <value>Ошибка, связанная со входом пользователя</value> 
+  </data> 
+  <data name="EXCEPTION_TYPE_USER_LOGIN_NAME" xml:space="preserve"> 
+    <value>Ошибка входа пользователя</value> 
+  </data> 
   <data name="EXCEPTION_TYPE_WAITING_LINE_DESCRIPTION" xml:space="preserve"> 
     <value>Ошибка, связанная с очередью</value> 
   </data> 
