@@ -1000,6 +1000,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Klientbestilling begrænset</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Produktet er ikke beregnet til salg i den værtsgruppe, brugeren er logget ind i</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Begrænset af værtsgruppe</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Handlingen kan ikke udføres på grund af fejl i betalingsterminal</value>
   </data>
