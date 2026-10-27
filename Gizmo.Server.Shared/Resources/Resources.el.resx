@@ -265,6 +265,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
     <value>Ελλιπής φορολογική διαμόρφωση</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Ο κωδικός σήμανσης δεν πέρασε την επικύρωση στο σύστημα σήμανσης</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Αποτυχία επικύρωσης κωδικού σήμανσης</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Απαιτείται Companion</value>
   </data>

@@ -1027,6 +1027,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
     <value>Ufuldstændig skattekonfiguration</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Mærkningskoden bestod ikke valideringen i mærkningssystemet</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Validering af mærkningskode mislykkedes</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Companion påkrævet</value>
   </data>

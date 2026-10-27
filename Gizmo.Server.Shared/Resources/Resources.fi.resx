@@ -1027,6 +1027,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
     <value>Verokonfiguraatio on puutteellinen</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>Merkintäkoodi ei läpäissyt tarkistusta merkintäjärjestelmässä</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Merkintäkoodin tarkistus epäonnistui</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Companion vaaditaan</value>
   </data>

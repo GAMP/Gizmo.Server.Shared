@@ -955,6 +955,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
     <value>Vergi yapılandırması eksik</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>İşaretleme kodu, işaretleme sisteminde doğrulamayı geçemedi</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_NAME" xml:space="preserve">
+    <value>İşaretleme kodu doğrulanamadı</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve"> 
     <value>Yardımcı cihaz gerekli</value> 
   </data> 

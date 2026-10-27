@@ -595,6 +595,12 @@
   <data name="EXCEPTION_ERROR_COMPANION_TAX_CONFIGURATION_INCOMPLETE_NAME" xml:space="preserve">
     <value>Configuração de impostos incompleta</value>
   </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_DESCRIPTION" xml:space="preserve">
+    <value>O código de marcação não passou na validação no sistema de marcação</value>
+  </data>
+  <data name="EXCEPTION_ERROR_COMPANION_MARKING_CODE_INVALID_NAME" xml:space="preserve">
+    <value>Falha na validação do código de marcação</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_REQUIRED_ERROR_NAME" xml:space="preserve">
     <value>Dispositivo auxiliar obrigatório</value>
   </data>
