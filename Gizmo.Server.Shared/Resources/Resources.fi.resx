@@ -598,6 +598,12 @@
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
     <value>Toimintoa ei voida suorittaa, koska tuote on asetettu toisen tuotteen varastokohteeksi</value>
   </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Passiivinen toimipiste</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Varastoa ei voi liittää poistettuun tai pois käytöstä olevaan toimipisteeseen</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve">
     <value>Tuotteen varastomäärää ei voida muuttaa, kun varasto on poistettu käytöstä</value>
   </data>
@@ -1047,6 +1053,12 @@
   </data>
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Toimintoa ei voida suorittaa, koska työvuoro on aktiivinen</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Passiivinen toimipiste</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Kassaa ei voi liittää poistettuun tai pois käytöstä olevaan toimipisteeseen</value>
   </data>
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
     <value>Jo laskettu</value>

@@ -787,6 +787,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή η βάρδια είναι ενεργή</value>
   </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Ανενεργό υποκατάστημα</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η σύνδεση του ταμείου με απενεργοποιημένο ή διαγραμμένο υποκατάστημα</value>
+  </data>
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_NAME" xml:space="preserve">
     <value>Η βάρδια είναι ενεργή</value>
   </data>
@@ -816,6 +822,12 @@
   </data>
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
     <value>Δεν είναι δυνατή η εκτέλεση της ενέργειας επειδή το προϊόν έχει οριστεί ως στόχος αποθέματος άλλου προϊόντος</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Ανενεργό υποκατάστημα</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Δεν είναι δυνατή η σύνδεση του αποθέματος με απενεργοποιημένο ή διαγραμμένο υποκατάστημα</value>
   </data>
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve">
     <value>Το προϊόν είναι στόχος αποθέματος</value>
