@@ -450,6 +450,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Pedido do cliente restrito</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>O produto não se destina à venda no grupo de hosts em que o usuário está conectado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrito por grupo de hosts</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
     <value>O estoque tem produtos</value> 
   </data> 
@@ -462,6 +468,18 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
     <value>Não é possivel executar essa ação porque o turno está ativo</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve"> 
+    <value>Último caixa</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve"> 
+    <value>Não é possível excluir o último caixa da filial porque há operadores com turno obrigatório</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Filial inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível vincular a caixa a uma filial desativada ou excluída</value>
+  </data>
    
    
    
@@ -1080,6 +1098,12 @@
   </data>
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
     <value>Não é possível executar a ação porque o produto é o alvo de estoque de outro produto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Filial inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível vincular o estoque a uma filial desativada ou excluída</value>
   </data>
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve">
     <value>Produto é alvo de estoque</value>
