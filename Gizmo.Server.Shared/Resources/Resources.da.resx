@@ -1054,6 +1054,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve">
     <value>Handlingen kan ikke udføres fordi vagten er aktiv</value>
   </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve">
+    <value>Sidste kasse</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve">
+    <value>Den sidste kasse i filialen kan ikke slettes, fordi der er operatører med obligatorisk vagt</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
     <value>Allerede optalt</value>
   </data>
