@@ -598,6 +598,12 @@
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
     <value>Handlingen kan ikke udføres fordi produktet er angivet som lagermål for et andet produkt</value>
   </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Inaktiv filial</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Lageret kan ikke knyttes til en deaktiveret eller slettet filial</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_STOCK_DISABLED_DESCRIPTION" xml:space="preserve">
     <value>Lagerniveauet for et produkt med deaktiveret lager kan ikke ændres</value>
   </data>
@@ -1059,6 +1065,12 @@
   </data>
   <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve">
     <value>Den sidste kasse i filialen kan ikke slettes, fordi der er operatører med obligatorisk vagt</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Inaktiv filial</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Kassen kan ikke knyttes til en deaktiveret eller slettet filial</value>
   </data>
   <data name="EXCEPTION_ERROR_STOCK_COUNT_ALREADY_COUNTED_NAME" xml:space="preserve">
     <value>Allerede optalt</value>

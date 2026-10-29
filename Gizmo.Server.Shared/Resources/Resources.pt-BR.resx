@@ -474,6 +474,12 @@
   <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve"> 
     <value>Não é possível excluir o último caixa da filial porque há operadores com turno obrigatório</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Filial inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível vincular a caixa a uma filial desativada ou excluída</value>
+  </data>
    
    
    
@@ -1092,6 +1098,12 @@
   </data>
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve">
     <value>Não é possível executar a ação porque o produto é o alvo de estoque de outro produto</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Filial inativa</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Não é possível vincular o estoque a uma filial desativada ou excluída</value>
   </data>
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_NAME" xml:space="preserve">
     <value>Produto é alvo de estoque</value>
