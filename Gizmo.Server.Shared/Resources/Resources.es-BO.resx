@@ -202,6 +202,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Pedido del cliente restringido</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>El producto no está destinado a la venta en el grupo de equipos en el que el usuario ha iniciado sesión</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restringido por grupo de equipos</value>
+  </data>
   <data name="EXCEPTION_ERROR_CART_USER_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>La compra está restringida por grupo de usuarios</value>
   </data>

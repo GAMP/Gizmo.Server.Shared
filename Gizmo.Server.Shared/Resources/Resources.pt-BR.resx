@@ -450,6 +450,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Pedido do cliente restrito</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>O produto não se destina à venda no grupo de hosts em que o usuário está conectado</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Restrito por grupo de hosts</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
     <value>O estoque tem produtos</value> 
   </data> 

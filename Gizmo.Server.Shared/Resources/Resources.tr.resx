@@ -1022,6 +1022,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>İstemci siparişi kısıtlı</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Ürün, kullanıcının oturum açtığı ana bilgisayar grubunda satış için uygun değildir</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Ana bilgisayar grubu kısıtlı</value>
+  </data>
   <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>Bu şube için promosyon mevcut değil</value>
   </data>

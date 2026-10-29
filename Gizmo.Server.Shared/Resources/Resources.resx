@@ -1089,6 +1089,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Client order restricted</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>The product is not intended for sale in the host group the user is logged in</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Host group restricted</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Cannot perform the action due to payment terminal error</value>
   </data>

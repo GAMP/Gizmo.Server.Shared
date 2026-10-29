@@ -1000,6 +1000,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Asiakastilaus rajoitettu</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Tuotetta ei ole tarkoitettu myytäväksi isäntäryhmässä, johon käyttäjä on kirjautunut</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Isäntäryhmä rajoitettu</value>
+  </data>
   <data name="EXCEPTION_ERROR_COMPANION_PAYMENT_TERMINAL_ERROR_DESCRIPTION" xml:space="preserve">
     <value>Toimintoa ei voida suorittaa maksupäätteen virheen vuoksi</value>
   </data>

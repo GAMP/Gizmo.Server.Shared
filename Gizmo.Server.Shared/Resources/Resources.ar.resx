@@ -1036,6 +1036,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>طلب العميل مقيد</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>المنتج غير مخصص للبيع في مجموعة الأجهزة التي سجّل المستخدم الدخول عليها</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>مقيد حسب مجموعة الأجهزة</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
     <value>المخزون يحتوي على منتجات</value> 
   </data> 
