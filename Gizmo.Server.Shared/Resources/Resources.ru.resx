@@ -1036,6 +1036,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>Заказ с клиента ограничен</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>Данный продукт не предназначен для продажи в группе хостов, на которой авторизован пользователь</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>Ограничено группой хостов</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
     <value>На складе есть товары</value> 
   </data> 
@@ -1048,6 +1054,18 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
     <value>Невозможно выполнить действие, так как смена активна</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve"> 
+    <value>Последняя касса</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve"> 
+    <value>Невозможно удалить последнюю кассу филиала, так как в нём есть операторы с обязательной сменой</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Неактивный филиал</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Нельзя привязать кассу к неактивному или удалённому филиалу</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve"> 
     <value>Товар в наличии</value> 
   </data> 
@@ -1060,6 +1078,12 @@
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve"> 
     <value>Действие не может быть выполнено, поскольку данный товар указан в качестве целевого запаса для другого товара</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>Неактивный филиал</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>Нельзя привязать склад к неактивному или удалённому филиалу</value>
+  </data>
   <data name="EXCEPTION_ERROR_REFUND_AMOUNT_EXCEEDS_MAX_NAME" xml:space="preserve">
     <value>Refund amount exceeds max</value>
   </data>

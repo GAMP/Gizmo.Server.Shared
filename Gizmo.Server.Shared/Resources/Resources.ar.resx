@@ -1036,6 +1036,12 @@
   <data name="EXCEPTION_ERROR_CART_CLIENT_ORDER_RESTRICTED_NAME" xml:space="preserve">
     <value>طلب العميل مقيد</value>
   </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_DESCRIPTION" xml:space="preserve">
+    <value>المنتج غير مخصص للبيع في مجموعة الأجهزة التي سجّل المستخدم الدخول عليها</value>
+  </data>
+  <data name="EXCEPTION_ERROR_CART_HOST_GROUP_RESTRICTED_NAME" xml:space="preserve">
+    <value>مقيد حسب مجموعة الأجهزة</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_HAS_PRODUCT_NAME" xml:space="preserve">
     <value>المخزون يحتوي على منتجات</value> 
   </data> 
@@ -1048,6 +1054,18 @@
   <data name="EXCEPTION_ERROR_SHIFT_SHIFT_IS_ACTIVE_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الإجراء لأن الوردية نشطة</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_NAME" xml:space="preserve"> 
+    <value>آخر صندوق</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_LAST_REGISTER_DESCRIPTION" xml:space="preserve"> 
+    <value>لا يمكن حذف آخر صندوق في الفرع لوجود مشغلين بوردية إلزامية</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>فرع غير نشط</value>
+  </data>
+  <data name="EXCEPTION_ERROR_SHIFT_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر ربط الكاشير بفرع معطّل أو محذوف</value>
+  </data>
   <data name="EXCEPTION_ERROR_STOCK_PRODUCT_IN_STOCK_NAME" xml:space="preserve"> 
     <value>المنتج في المخزون</value> 
   </data> 
@@ -1060,6 +1078,12 @@
   <data name="EXCEPTION_ERROR_STOCK_IS_STOCK_TARGET_DESCRIPTION" xml:space="preserve"> 
     <value>تعذّر تنفيذ الإجراء لأن المنتج مُعيَّن كهدف مخزون لمنتج آخر</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_NAME" xml:space="preserve">
+    <value>فرع غير نشط</value>
+  </data>
+  <data name="EXCEPTION_ERROR_STOCK_INACTIVE_BRANCH_DESCRIPTION" xml:space="preserve">
+    <value>تعذّر ربط المخزون بفرع معطّل أو محذوف</value>
+  </data>
   <data name="EXCEPTION_ERROR_REFUND_AMOUNT_EXCEEDS_MAX_NAME" xml:space="preserve">
     <value>Refund amount exceeds max</value>
   </data>
