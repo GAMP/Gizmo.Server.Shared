@@ -1084,6 +1084,12 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve">
     <value>Der er ingen gæstebrugergruppe</value>
   </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_NAME" xml:space="preserve">
+    <value>Change the default group</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Change the default group to apply these settings</value>
+  </data>
   <data name="EXCEPTION_ERROR_REFUND_AMOUNT_EXCEEDS_MAX_NAME" xml:space="preserve">
     <value>Refund amount exceeds max</value>
   </data>

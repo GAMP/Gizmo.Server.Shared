@@ -982,6 +982,12 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>لا توجد مجموعة مستخدمين للضيوف</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_NAME" xml:space="preserve"> 
+    <value>Change the default group</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_DESCRIPTION" xml:space="preserve"> 
+    <value>Change the default group to apply these settings</value> 
+  </data> 
   <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
     <value>العرض مقيّد بالفرع</value> 
   </data> 

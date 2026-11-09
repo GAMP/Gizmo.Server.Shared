@@ -874,6 +874,12 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_NAME" xml:space="preserve">
     <value>Sin grupo de invitados</value>
   </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_NAME" xml:space="preserve">
+    <value>Change the default group</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Change the default group to apply these settings</value>
+  </data>
   <data name="EXCEPTION_ERROR_WAITING_LINE_AGE_RESTRICTED_DESCRIPTION" xml:space="preserve">
     <value>No se puede realizar la acción debido a una restricción de edad</value>
   </data>

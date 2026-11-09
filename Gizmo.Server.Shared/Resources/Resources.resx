@@ -1173,6 +1173,12 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve">
     <value>There is no guest user group</value>
   </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_NAME" xml:space="preserve">
+    <value>Change the default group</value>
+  </data>
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_DESCRIPTION" xml:space="preserve">
+    <value>Change the default group to apply these settings</value>
+  </data>
   <data name="CAPABILITY_CODE_DISPATCH_DESCRIPTION" xml:space="preserve">
     <value>Delivers a confirmation code to the user's linked channel.</value>
   </data>

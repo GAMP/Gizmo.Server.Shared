@@ -982,6 +982,12 @@
   <data name="EXCEPTION_ERROR_USER_GROUP_NO_GUEST_GROUP_DESCRIPTION" xml:space="preserve"> 
     <value>Группы гостей не существует</value> 
   </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_NAME" xml:space="preserve"> 
+    <value>Измените группу по умолчанию</value> 
+  </data> 
+  <data name="EXCEPTION_ERROR_USER_GROUP_CHANGE_DEFAULT_GROUP_DESCRIPTION" xml:space="preserve"> 
+    <value>Измените группу по умолчанию для применения настроек</value> 
+  </data> 
   <data name="EXCEPTION_ERROR_PROMOTION_BRANCH_RESTRICTED_NAME" xml:space="preserve"> 
     <value>Акция для филиала ограничена</value> 
   </data> 
