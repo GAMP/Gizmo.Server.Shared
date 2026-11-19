@@ -32,5 +32,13 @@ namespace Gizmo.Server.Exceptions
         public HttpResponseException(HttpStatusCode httpStatusCode, string message) : base(message, httpStatusCode)
         {
         }
+
+        /// <summary>
+        /// Gets the internal reason behind the response.
+        /// </summary>
+        /// <remarks>
+        /// Meant for the server logs only, it is never sent to the client. Used where the response message is deliberately generic.
+        /// </remarks>
+        public string? Reason { get; init; }
     }
 }
